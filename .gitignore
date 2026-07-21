@@ -1,0 +1,14 @@
+# Maven
+target/
+
+# Fichiers compilés
+*.class
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
