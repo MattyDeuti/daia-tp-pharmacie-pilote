@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<!--
+  ============================================================================
+  PharmaStock — écran de gestion des stocks
+  Cible web du projet fil rouge DAIA. Aucune dépendance : ce fichier s'ouvre
+  directement dans un navigateur (double-clic ou file://).
+
+  ⚠️ NOTE FORMATEUR — NE PAS DIFFUSER CE BLOC EN SALLE ⚠️
+  Cette page contient QUATRE défauts volontaires, dans le même esprit que le
+  code Java du projet. Ils sont là pour que la génération de tests ait quelque
+  chose à trouver.
+
+    1. RECHERCHE SENSIBLE À LA CASSE — « doliprane » ne trouve pas « Doliprane ».
+    2. STUPÉFIANT SANS ORDONNANCE — la case « stupéfiant » peut être cochée sans
+       renseigner le numéro d'ordonnance : la traçabilité réglementaire n'est pas
+       imposée. (C'est exactement la règle métier que l'analyste écrira dans
+       AGENTS.md au TP de la couche d'équipe.)
+    3. PÉRIMÉ AUJOURD'HUI = AFFICHÉ « VALIDE » — la comparaison exclut le jour
+       même : un lot qui périme aujourd'hui n'est pas signalé.
+    4. QUANTITÉ NÉGATIVE ACCEPTÉE — le champ n'a pas de borne basse.
+
+  Les dates du jeu d'essai sont calculées à l'ouverture de la page, donc la
+  démonstration reste juste quelle que soit la session.
+  ============================================================================
+-->
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PharmaStock — Gestion des stocks</title>
+<style>
+  :root {
+    --bleu: #10202c; --bleu-clair: #1d3d52; --orange: #f0a06a;
+    --gris: #f4f6f8; --bord: #d8e0e6; --texte: #1a2b36;
+    --vert: #16643f; --vert-fond: #d9efe5;
+    --ambre: #8a5a00; --ambre-fond: #fdf0d5;
+    --rouge: #9b2226; --rouge-fond: #fbe3e4;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 0 0 40px;
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    color: var(--texte); background: var(--gris); font-size: 15px;
+  }
+  header {
+    background: var(--bleu); color: #fff; padding: 18px 28px;
+    display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap;
+  }
+  header h1 { margin: 0; font-size: 20px; letter-spacing: .2px; }
+  header .sous { color: #a9bdc9; font-size: 13px; }
+  main { max-width: 1080px; margin: 0 auto; padding: 22px 20px; }
+  section {
+    background: #fff; border: 1px solid var(--bord); border-radius: 6px;
+    padding: 18px 20px; margin-bottom: 20px;
+  }
+  h2 { margin: 0 0 14px; font-size: 15px; color: var(--bleu-clair);
+       text-transform: uppercase; letter-spacing: .6px; }
+  .grille { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 14px; }
+  label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 5px; }
+  input[type=text], input[type=number], input[type=date] {
+    width: 100%; padding: 8px 10px; border: 1px solid var(--bord);
+    border-radius: 4px; font: inherit; font-size: 14px; background: #fff;
+  }
+  input:focus { outline: 2px solid var(--orange); outline-offset: 1px; }
+  .case { display: flex; align-items: center; gap: 8px; margin-top: 22px; }
+  .case label { margin: 0; font-weight: 600; }
+  button {
+    padding: 9px 18px; border: 0; border-radius: 4px; font: inherit;
+    font-weight: 600; cursor: pointer; background: var(--bleu-clair); color: #fff;
+  }
+  button:hover { background: var(--bleu); }
+  button.secondaire { background: #fff; color: var(--bleu-clair); border: 1px solid var(--bord); }
+  button.lien { background: none; color: var(--rouge); padding: 2px 6px; font-size: 13px; }
+  .actions { margin-top: 16px; display: flex; gap: 10px; align-items: center; }
+  .compteurs { display: flex; gap: 12px; flex-wrap: wrap; }
+  .tuile {
+    flex: 1 1 150px; background: #fff; border: 1px solid var(--bord);
+    border-radius: 6px; padding: 14px 16px;
+  }
+  .tuile .val { font-size: 26px; font-weight: 700; color: var(--bleu); line-height: 1.1; }
+  .tuile .lib { font-size: 12px; color: #667; text-transform: uppercase; letter-spacing: .5px; margin-top: 4px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { padding: 9px 10px; text-align: left; border-bottom: 1px solid var(--bord); }
+  th { background: var(--gris); font-size: 12px; text-transform: uppercase;
+       letter-spacing: .5px; color: var(--bleu-clair); }
+  tbody tr:hover { background: #fafcfd; }
+  .etat { display: inline-block; padding: 2px 9px; border-radius: 10px;
+          font-size: 12px; font-weight: 700; }
+  .etat.valide  { background: var(--vert-fond);  color: var(--vert); }
+  .etat.bientot { background: var(--ambre-fond); color: var(--ambre); }
+  .etat.perime  { background: var(--rouge-fond); color: var(--rouge); }
+  .badge-stup { background: var(--bleu); color: #fff; font-size: 11px;
+                padding: 1px 7px; border-radius: 3px; margin-left: 6px; }
+  .msg { margin-top: 12px; padding: 9px 12px; border-radius: 4px; font-size: 14px; display: none; }
+  .msg.ok { background: var(--vert-fond); color: var(--vert); display: block; }
+  .msg.ko { background: var(--rouge-fond); color: var(--rouge); display: block; }
+  .vide { padding: 22px; text-align: center; color: #889; font-style: italic; }
+  footer { max-width: 1080px; margin: 0 auto; padding: 0 20px; color: #889; font-size: 12px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>PharmaStock</h1>
+  <span class="sous">Gestion des stocks &middot; officine hospitalière</span>
+</header>
+
+<main>
+
+  <section aria-label="Indicateurs">
+    <div class="compteurs">
+      <div class="tuile"><div class="val" id="nb-references">0</div><div class="lib">Références</div></div>
+      <div class="tuile"><div class="val" id="nb-unites">0</div><div class="lib">Unités en stock</div></div>
+      <div class="tuile"><div class="val" id="nb-alertes">0</div><div class="lib">Lots à surveiller</div></div>
+      <div class="tuile"><div class="val" id="nb-stupefiants">0</div><div class="lib">Stupéfiants</div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Ajouter un médicament</h2>
+    <form id="formulaire-ajout" autocomplete="off">
+      <div class="grille">
+        <div>
+          <label for="champ-nom">Nom du médicament</label>
+          <input type="text" id="champ-nom" name="nom" placeholder="Doliprane 1000 mg" required>
+        </div>
+        <div>
+          <label for="champ-lot">Numéro de lot</label>
+          <input type="text" id="champ-lot" name="lot" placeholder="LOT-2026-114" required>
+        </div>
+        <div>
+          <label for="champ-quantite">Quantité</label>
+          <input type="number" id="champ-quantite" name="quantite" value="1">
+        </div>
+        <div>
+          <label for="champ-peremption">Date de péremption</label>
+          <input type="date" id="champ-peremption" name="peremption" required>
+        </div>
+        <div>
+          <label for="champ-ordonnance">N° d'ordonnance</label>
+          <input type="text" id="champ-ordonnance" name="ordonnance" placeholder="facultatif">
+        </div>
+        <div class="case">
+          <input type="checkbox" id="champ-stupefiant" name="stupefiant">
+          <label for="champ-stupefiant">Stupéfiant</label>
+        </div>
+      </div>
+      <div class="actions">
+        <button type="submit" id="bouton-ajouter">Ajouter au stock</button>
+        <button type="reset" class="secondaire" id="bouton-effacer">Effacer</button>
+      </div>
+      <div class="msg" id="message-ajout" role="status"></div>
+    </form>
+  </section>
+
+  <section>
+    <h2>Rechercher</h2>
+    <div class="grille" style="grid-template-columns: 3fr 1fr;">
+      <div>
+        <label for="champ-recherche">Nom du médicament</label>
+        <input type="text" id="champ-recherche" placeholder="Doliprane">
+      </div>
+      <div class="case" style="margin-top:24px">
+        <button type="button" id="bouton-rechercher">Rechercher</button>
+        <button type="button" class="secondaire" id="bouton-reinitialiser">Tout afficher</button>
+      </div>
+    </div>
+    <div class="msg" id="message-recherche" role="status"></div>
+  </section>
+
+  <section>
+    <h2>Stock actuel</h2>
+    <table id="table-stock">
+      <thead>
+        <tr>
+          <th>Médicament</th><th>Lot</th><th>Quantité</th>
+          <th>Péremption</th><th>État</th><th>Ordonnance</th><th></th>
+        </tr>
+      </thead>
+      <tbody id="corps-stock"></tbody>
+    </table>
+    <div class="vide" id="stock-vide" hidden>Aucun médicament ne correspond à cette recherche.</div>
+  </section>
+
+</main>
+
+<footer>
+  PharmaStock &middot; support de formation DAIA &middot; données fictives, aucun usage réel.
+</footer>
+
+<script>
+(function () {
+  "use strict";
+
+  var stock = [];
+  var filtre = null;
+  var prochainId = 1;
+
+  function dansNJours(n) {
+    var d = new Date();
+    d.setHours(0, 0, 0, 0);
+    d.setDate(d.getDate() + n);
+    return d.toISOString().slice(0, 10);
+  }
+
+  function aujourdhui() {
+    var d = new Date();
+    d.setHours(0, 0, 0, 0);
+    return d;
+  }
+
+  // --- Défaut volontaire n° 3 -------------------------------------------
+  // Le lot qui périme AUJOURD'HUI tombe dans « valide » : la comparaison
+  // stricte exclut le jour même.
+  function etatDuLot(datePeremption) {
+    var peremption = new Date(datePeremption + "T00:00:00");
+    var ecart = Math.round((peremption - aujourdhui()) / 86400000);
+    if (ecart < 0) return { code: "perime", libelle: "Périmé" };
+    if (ecart > 0 && ecart <= 30) return { code: "bientot", libelle: "Bientôt périmé" };
+    return { code: "valide", libelle: "Valide" };
+  }
+
+  // --- Défaut volontaire n° 1 -------------------------------------------
+  // Comparaison sensible à la casse : « doliprane » ne trouve pas « Doliprane ».
+  function correspond(medicament, terme) {
+    return medicament.nom.indexOf(terme) !== -1;
+  }
+
+  function formaterDate(iso) {
+    var p = iso.split("-");
+    return p[2] + "/" + p[1] + "/" + p[0];
+  }
+
+  function afficher() {
+    var corps = document.getElementById("corps-stock");
+    var visibles = filtre === null ? stock : stock.filter(function (m) { return correspond(m, filtre); });
+
+    corps.innerHTML = "";
+    visibles.forEach(function (m) {
+      var etat = etatDuLot(m.peremption);
+      var tr = document.createElement("tr");
+      tr.setAttribute("data-id", m.id);
+      tr.setAttribute("data-etat", etat.code);
+
+      var nom = document.createElement("td");
+      nom.textContent = m.nom;
+      if (m.stupefiant) {
+        var b = document.createElement("span");
+        b.className = "badge-stup";
+        b.textContent = "STUPÉFIANT";
+        nom.appendChild(b);
+      }
+      tr.appendChild(nom);
+
+      [m.lot, String(m.quantite), formaterDate(m.peremption)].forEach(function (v) {
+        var td = document.createElement("td");
+        td.textContent = v;
+        tr.appendChild(td);
+      });
+
+      var tdEtat = document.createElement("td");
+      var sp = document.createElement("span");
+      sp.className = "etat " + etat.code;
+      sp.textContent = etat.libelle;
+      tdEtat.appendChild(sp);
+      tr.appendChild(tdEtat);
+
+      var tdOrd = document.createElement("td");
+      tdOrd.textContent = m.ordonnance ? m.ordonnance : "—";
+      tr.appendChild(tdOrd);
+
+      var tdAct = document.createElement("td");
+      var btn = document.createElement("button");
+      btn.className = "lien";
+      btn.type = "button";
+      btn.textContent = "Retirer";
+      btn.setAttribute("data-retirer", m.id);
+      btn.addEventListener("click", function () { retirer(m.id); });
+      tdAct.appendChild(btn);
+      tr.appendChild(tdAct);
+
+      corps.appendChild(tr);
+    });
+
+    document.getElementById("stock-vide").hidden = visibles.length !== 0;
+
+    document.getElementById("nb-references").textContent = stock.length;
+    document.getElementById("nb-unites").textContent =
+      stock.reduce(function (t, m) { return t + m.quantite; }, 0);
+    document.getElementById("nb-alertes").textContent =
+      stock.filter(function (m) { return etatDuLot(m.peremption).code !== "valide"; }).length;
+    document.getElementById("nb-stupefiants").textContent =
+      stock.filter(function (m) { return m.stupefiant; }).length;
+  }
+
+  function message(id, texte, ok) {
+    var el = document.getElementById(id);
+    el.textContent = texte;
+    el.className = "msg " + (ok ? "ok" : "ko");
+    if (!texte) el.className = "msg";
+  }
+
+  function retirer(id) {
+    stock = stock.filter(function (m) { return m.id !== id; });
+    afficher();
+  }
+
+  document.getElementById("formulaire-ajout").addEventListener("submit", function (e) {
+    e.preventDefault();
+    var nom = document.getElementById("champ-nom").value.trim();
+    var lot = document.getElementById("champ-lot").value.trim();
+    var quantite = parseInt(document.getElementById("champ-quantite").value, 10);
+    var peremption = document.getElementById("champ-peremption").value;
+    var ordonnance = document.getElementById("champ-ordonnance").value.trim();
+    var stupefiant = document.getElementById("champ-stupefiant").checked;
+
+    if (!nom || !lot || !peremption) {
+      message("message-ajout", "Nom, lot et date de péremption sont obligatoires.", false);
+      return;
+    }
+    if (isNaN(quantite)) {
+      message("message-ajout", "La quantité doit être un nombre.", false);
+      return;
+    }
+
+    // --- Défauts volontaires n° 2 et n° 4 -------------------------------
+    // Aucun contrôle : ni « stupéfiant impose une ordonnance »,
+    // ni « quantité >= 0 ». L'ajout passe dans les deux cas.
+
+    stock.push({
+      id: prochainId++, nom: nom, lot: lot, quantite: quantite,
+      peremption: peremption, ordonnance: ordonnance, stupefiant: stupefiant
+    });
+
+    this.reset();
+    document.getElementById("champ-quantite").value = "1";
+    message("message-ajout", nom + " a été ajouté au stock.", true);
+    filtre = null;
+    document.getElementById("champ-recherche").value = "";
+    message("message-recherche", "", true);
+    afficher();
+  });
+
+  document.getElementById("bouton-rechercher").addEventListener("click", function () {
+    var terme = document.getElementById("champ-recherche").value.trim();
+    filtre = terme === "" ? null : terme;
+    afficher();
+    var n = document.querySelectorAll("#corps-stock tr").length;
+    message("message-recherche", n + " résultat(s) pour « " + terme + " ».", n > 0);
+  });
+
+  document.getElementById("bouton-reinitialiser").addEventListener("click", function () {
+    filtre = null;
+    document.getElementById("champ-recherche").value = "";
+    message("message-recherche", "", true);
+    afficher();
+  });
+
+  // Jeu d'essai : dates relatives, donc toujours cohérent quelle que soit la session.
+  [
+    { nom: "Doliprane 1000 mg", lot: "LOT-2026-114", quantite: 240, peremption: dansNJours(310),  ordonnance: "",           stupefiant: false },
+    { nom: "Amoxicilline 500 mg", lot: "LOT-2026-087", quantite: 60,  peremption: dansNJours(18),   ordonnance: "ORD-44821",  stupefiant: false },
+    { nom: "Morphine 10 mg/ml",  lot: "LOT-2026-201", quantite: 12,  peremption: dansNJours(95),   ordonnance: "ORD-44902",  stupefiant: true  },
+    { nom: "Ibuprofène 400 mg",  lot: "LOT-2025-993", quantite: 85,  peremption: dansNJours(-12),  ordonnance: "",           stupefiant: false },
+    { nom: "Fentanyl 100 µg",    lot: "LOT-2026-233", quantite: 4,   peremption: dansNJours(0),    ordonnance: "",           stupefiant: true  }
+  ].forEach(function (m) { m.id = prochainId++; stock.push(m); });
+
+  afficher();
+})();
+</script>
+
+</body>
+</html>
