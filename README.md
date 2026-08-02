@@ -31,6 +31,36 @@ Développeurs, testeurs, analystes : les TP se font en binôme, chacun y a sa pl
 | `consignes/` | Les énoncés des TP, dans l'ordre |
 | `src/test/java/` | Vide pour l'instant : **c'est vous** (et votre IA) qui le remplirez |
 
+## La couche : ce qui survit au prompt
+
+Un prompt meurt avec votre session. Tout ce que vous avez expliqué ce matin est perdu ce soir,
+perdu pour votre collègue, et perdu quand vous changez d'outil. **La couche, c'est ce qui
+survit** : des fichiers de texte, versionnés dans ce dépôt comme le code, que votre assistant
+charge tout seul.
+
+| Où | Quoi | Quand ça agit |
+|---|---|---|
+| `AGENTS.md` | **La charte** : les contraintes qui valent toujours | à chaque demande, automatiquement |
+| `.github/skills/` | **Les skills** : une procédure packagée, réutilisable | quand la tâche s'y prête, ou sur appel |
+| `.github/agents/` | **Les agents** : un rôle délégué, avec ses droits | quand vous le déléguez |
+| `.vscode/mcp.json` · `.kiro/settings/mcp.json` | **Les accès** : les prises qu'on branche à l'assistant | quand il a besoin de l'outil |
+
+`AGENTS.md` et le dossier des agents sont **volontairement à trous** : ce sont eux que vous
+remplirez pendant le TP « la couche de l'équipe ».
+
+## Brancher un accès (MCP)
+
+Le dossier contient déjà la configuration, désactivée. Pour l'activer :
+
+- **Dans VS Code / Copilot** : `.vscode/mcp.json` est prêt tel quel, le chemin du projet s'y
+  calcule tout seul.
+- **Dans Kiro** : ouvrez `.kiro/settings/mcp.json`, remplacez
+  `REMPLACER_PAR_LE_CHEMIN_COMPLET_DU_PROJET` par le chemin de ce dossier sur votre machine,
+  puis passez `"disabled"` à `false`. Le rechargement se fait à chaud.
+
+La preuve que ça marche n'est jamais ce que l'assistant vous répond. C'est **un outil qui
+s'exécute et qui vous demande son approbation**.
+
 ## Par où commencer ?
 
 1. Ouvrez ce dossier dans l'outil indiqué par le formateur (VS Code ou Kiro).

@@ -2,13 +2,7 @@
   "mcpServers": {
     "filesystem": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-filesystem", "CHEMIN_DU_PROJET_A_REMPLACER"],
-      "disabled": true,
-      "autoApprove": []
-    },
-    "playwright": {
-      "command": "npx",
-      "args": ["-y", "@playwright/mcp"],
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "REMPLACER_PAR_LE_CHEMIN_COMPLET_DU_PROJET"],
       "disabled": true,
       "autoApprove": []
     }
