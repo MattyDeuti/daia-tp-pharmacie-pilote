@@ -2,7 +2,13 @@
   "mcpServers": {
     "filesystem": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-filesystem", "REMPLACER_PAR_LE_CHEMIN_COMPLET_DU_PROJET"],
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "C:\\Work\\daia-tp-pharmacie"],
+      "disabled": false,
+      "autoApprove": []
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp"],
       "disabled": true,
       "autoApprove": []
     }
