@@ -1,8 +1,14 @@
 # Met le kit de TP a jour, ou le repare s'il a ete abime.
 # Appele par le raccourci « Mettre a jour le TP » pose sur le Bureau.
 #
-# Ne supprime JAMAIS le travail en cours : un dossier modifie est mis de cote,
-# horodate, et le chemin est affiche a l'ecran.
+# ORDRE VOULU : on essaie TOUJOURS la mise a jour d'abord. Git sait fusionner des
+# nouveautes avec du travail en cours tant que les deux ne touchent pas les memes
+# fichiers - et c'est le cas ici : le formateur pousse des consignes, la salle ecrit
+# des specifications, des agents et des procedures. La remise a neuf n'arrive donc
+# qu'en dernier recours, apres un echec reel et apres confirmation.
+#
+# Ne supprime JAMAIS le travail en cours : un dossier remis a neuf est deplace,
+# horodate, et son chemin est affiche a l'ecran.
 #
 # Installation sur la machine (une seule fois, avant le clonage de l'image) :
 #   Get-Content outils\maj-tp.ps1 -Encoding UTF8 | Set-Content C:\Work\_maj-tp.ps1 -Encoding UTF8
@@ -19,34 +25,46 @@ try {
     if (-not (Test-Path $cible)) {
         Write-Host "  Dossier absent. Récupération d'une version neuve..."
         git clone $url $cible
+        Write-Host ''
         Write-Host '  Kit installé.' -ForegroundColor Green
     }
     else {
         Push-Location $cible
-        $modifs = git status --porcelain
+        git pull
+        $code = $LASTEXITCODE
         Pop-Location
 
-        if ([string]::IsNullOrWhiteSpace(($modifs -join ''))) {
-            Push-Location $cible
-            git pull
-            Pop-Location
-            Write-Host '  Kit à jour.' -ForegroundColor Green
+        if ($code -eq 0) {
+            Write-Host ''
+            Write-Host '  Kit à jour. Votre travail en cours est intact.' -ForegroundColor Green
         }
         else {
-            Write-Host '  ATTENTION : votre dossier contient du travail en cours.' -ForegroundColor Yellow
-            Write-Host '  La remise à neuf va le mettre DE CÔTÉ. Rien ne sera supprimé.'
             Write-Host ''
-            $rep = Read-Host '  Continuer ? (o/n)'
+            Write-Host "  La mise à jour n'a pas pu se faire toute seule." -ForegroundColor Yellow
+            Write-Host '  Cela arrive quand une nouveauté touche un fichier que vous avez modifié.'
+            Write-Host ''
+            Write-Host '  Vous avez le choix :'
+            Write-Host "    n  ->  on ne touche à rien. Votre travail reste en place et vous"
+            Write-Host '           continuez avec la version que vous avez. Prévenez le formateur.'
+            Write-Host '    o  ->  on repart d''un kit neuf. Votre dossier actuel sera DÉPLACÉ,'
+            Write-Host '           jamais supprimé, et son chemin s''affichera.'
+            Write-Host ''
+            $rep = Read-Host "  Repartir d'un kit neuf ? (o/n)"
+
             if ($rep -ne 'o') {
-                Write-Host "  Annulé. Rien n'a changé."
+                Write-Host ''
+                Write-Host "  Rien n'a changé. Votre travail est intact." -ForegroundColor Green
             }
             else {
                 $archive = 'C:\Work\_ancien-tp-' + (Get-Date -Format 'yyyyMMdd-HHmm')
                 Move-Item $cible $archive
                 git clone $url $cible
                 Write-Host ''
-                Write-Host "  Votre ancien dossier est conservé ici : $archive" -ForegroundColor Yellow
                 Write-Host '  Kit remis à neuf.' -ForegroundColor Green
+                Write-Host ''
+                Write-Host '  TOUT votre travail précédent est conservé ici :' -ForegroundColor Yellow
+                Write-Host "     $archive" -ForegroundColor Yellow
+                Write-Host '  Rien n''a été perdu. Recopiez ce dont vous avez besoin.'
             }
         }
     }
@@ -54,7 +72,7 @@ try {
 catch {
     Write-Host ''
     Write-Host ('  Erreur : ' + $_.Exception.Message) -ForegroundColor Red
-    Write-Host "  Prévenez le formateur."
+    Write-Host "  Prévenez le formateur. Votre travail n'a pas été touché."
 }
 
 Write-Host ''
