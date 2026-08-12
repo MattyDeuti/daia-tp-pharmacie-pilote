@@ -3,8 +3,22 @@
 > **L'objectif et les étapes sont à l'écran.** Ce fichier ne porte que ce qui ne s'y projette
 > pas : le prompt de votre rôle, votre preuve, et quoi faire si ça coince.
 >
-> **Une brique chacun. Pas la même.** Si vous finissez tôt, vous ne prenez pas le rôle du
-> voisin : vous prouvez mieux la vôtre.
+> **Une brique chacun. Pas la même.** À la fin, elles atterrissent toutes dans le même dépôt.
+
+## Comment vous êtes organisés
+
+**Un binôme par rôle.** Prenez **le rôle de votre métier**, pas celui qui vous fait envie.
+
+Dans le binôme : **un pilote, un observe et note la preuve.** L'observateur n'est pas un
+spectateur — c'est lui qui pourra dire, à la fin, si la brique a agi.
+
+**Trois règles pour les quatre rôles :**
+
+1. **Donnez-lui un exemple** de ce que vous appelez un bon résultat. Sans exemple, il vous rendra
+   la convention générique d'Internet, pas la vôtre.
+2. **On ne corrige pas le code du projet.** Ce n'est pas l'exercice.
+3. **Une brique, pas deux.** Si vous finissez tôt, vous ne prenez pas le rôle du voisin : vous
+   passez au défi bonus, en bas de cette page.
 
 ---
 
@@ -20,9 +34,12 @@ une compétence.
 
 ### 🟦 Développeur — *voie 1* — un relecteur en lecture seule
 
-Vous fabriquez un agent dont le métier est de relire, et **rien d'autre**. Écrivez son fichier
-vous-même, ou demandez-le : dans les deux cas, il doit porter **deux choses**, et ce sont elles
-qu'on regardera.
+Vous fabriquez un agent dont le métier est de relire, et **rien d'autre**.
+
+> ⚠️ **Pour cet exercice, vous créez le fichier à la main**, dans le dossier des agents du dépôt.
+> N'utilisez pas l'assistant de création : ce n'est pas ce qu'on travaille aujourd'hui.
+
+Il doit porter **deux choses**, et ce sont elles qu'on regardera.
 
 1. **Le champ des droits, réglé en lecture seule.** Un relecteur qui peut corriger n'est pas un
    relecteur.
@@ -156,6 +173,10 @@ demande votre validation et il attend**, puis il pousse et propose la mise en co
 
 ## ④ Relire, puis fusionner
 
+**Tant que les quatre propositions ne sont pas parties, personne ne peut fusionner.** C'est la
+première fois de ces deux jours que vous dépendez les uns des autres — et c'est exactement à ça
+que sert un dépôt partagé.
+
 Vous relisez la proposition **d'un autre binôme**, pas la vôtre. Vous cherchez une seule chose :
 **sa preuve est-elle là ?** Ce n'est pas une revue de code, c'est une revue de preuve.
 
@@ -175,4 +196,17 @@ le sait encore**. C'est le dernier geste de la formation, et il se fait ensemble
 | **Vous n'obtenez pas votre preuve** | **Votre brique part quand même**, et on le dit à voix haute : elle existe, on ne sait pas encore si elle agit. C'est exactement la différence qu'on apprend depuis deux jours. On ne bloque jamais la mise en commun sur une preuve manquante. |
 | **Votre agent ou votre procédure n'apparaît nulle part** | Rechargez la fenêtre. Si ça persiste, levez la main : c'est presque toujours un champ réel mal réglé, pas une faute d'écriture. |
 | **La publication échoue** | Ne tapez pas de commande Git pour compenser. Levez la main : le problème est du côté des accès, pas du vôtre. |
-| **Vous finissez en avance** | Vous ne prenez pas le rôle du voisin. Vous renforcez votre preuve : refaites-la une seconde fois, et regardez si elle tient deux fois de suite. |
+| **Vous finissez en avance** | Vous ne prenez pas le rôle du voisin : vous passez au défi bonus ci-dessous. |
+
+---
+
+## Défi bonus
+
+**Retournez votre brique contre vous-même.**
+
+Lancez-la sur **vos propres modifications** — celles que vous venez de faire, pas celles du
+projet. L'agent de revue relit votre travail, la procédure de tests s'applique à ce que vous avez
+produit, la règle métier se confronte à ce que vous avez écrit.
+
+C'est aussi, accessoirement, la façon la plus rapide d'obtenir votre preuve si elle vous manque
+encore.

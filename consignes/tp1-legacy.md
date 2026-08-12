@@ -10,6 +10,22 @@
 
 # Premier temps — l'audit
 
+## Avant de commencer, trois choses
+
+**① Une conversation neuve.** Tapez `/clear`. Sans ça, votre audit hérite de tout ce que vous avez
+demandé ce matin, et vous ne saurez plus ce qui vient du code et ce qui vient d'avant.
+
+**② On audite, on ne fait pas réimplémenter.** Vous ne lui demandez aucune correction. Une demande
+de correction, c'est un chantier — et un chantier coûte cher à tout le monde.
+
+**③ Vous travaillez depuis votre rôle, et un seul.** Personne ne fait le travail d'un autre. *Si
+vous ne vous reconnaissez dans aucun des quatre, prenez celui dont vous validez les livrables au
+quotidien.*
+
+> **Vous n'avez pas besoin de lire les sept cents lignes du fichier. L'outil les lit.** Votre
+> travail commence quand la fiche arrive, et il n'est pas plus facile que celui de votre voisin
+> développeur : il est différent.
+
 ## ① Lancer l'audit
 
 Copiez ce prompt tel quel. Le `#` sert à **désigner le fichier** à l'agent : ne le retirez pas,
@@ -21,7 +37,10 @@ Audite ce fichier et produis une fiche en français : les défauts
 trouvés, leur gravité, et ce qu'il faudrait corriger en premier.
 ```
 
-Pendant qu'il travaille, ne relancez rien. Une deuxième demande coûte autant que la première.
+**Une demande, pas dix.** Vous lancez l'audit **une fois**, et ensuite vous **lisez**.
+
+> Si vous avez fini de lancer au bout de deux minutes, c'est normal. **Le travail commence quand
+> la fiche est là.**
 
 ## ② Puis la question de votre rôle — celle-là et pas une autre
 
@@ -103,6 +122,12 @@ seconde ne peut pas voir, et inversement ?
 
 # Second temps — les tests et le plan de reprise
 
+> **Deux demandes, dans cet ordre. La première produit de la matière, la seconde produit une
+> décision.** D'abord les tests, parce qu'on ne peut pas planifier une reprise sans savoir ce qui
+> est vérifiable. Ensuite le plan, parce que c'est lui qui se remonte.
+>
+> **On fait produire, on ne fait pas réimplémenter :** vous ne lui demandez pas d'appliquer le plan.
+
 ## ① Les deux demandes, dans cet ordre
 
 ```
@@ -144,10 +169,34 @@ n'en contient aucun sur un projet qu'il ne connaît qu'à moitié devrait vous i
 | **L'agent affirme que les tests passent sans les avoir lancés** | C'est la trouvaille du jour. Gardez la phrase exacte, on la lit ensemble. |
 | **Il part corriger le code tout seul** | Arrêtez-le. On ne lui a pas demandé ça, et ce qu'il fait EN PLUS est justement le sujet. |
 
-## Défi bonus
+## Les deux défis bonus
+
+Ils ne visent pas le même profil. Prenez celui qui vous parle, ou les deux.
+
+### ① Casser le code exprès — trente secondes
+
+C'est le geste le plus court de la journée.
+
+> **Modifiez une ligne** de la méthode que vos tests sont censés couvrir, puis **relancez les
+> tests.**
+
+**S'ils restent au vert, vous ne testez rien.** Vert ne veut pas dire couvert.
+
+*Ce défi n'existe que si la chaîne de construction répond chez vous. Si elle ne répond pas,
+passez au second sans vous acharner.*
+
+### ② La documentation qui ment
 
 ```
 Écris la documentation de ce projet à destination d'un nouvel
 arrivant : ce que fait l'application, comment elle accède aux
 données, et ce qu'un développeur doit savoir avant d'y toucher.
 ```
+
+**Puis vérifiez UNE SEULE affirmation dans le code.** Une seule suffit.
+
+Une documentation générée décrit le code **tel qu'il devrait être**, pas tel qu'il est. Regardez
+ce qu'elle raconte des accès aux données, et allez voir.
+
+> Une documentation fausse est pire qu'une documentation absente : personne ne va relire le code
+> pour la contredire.
