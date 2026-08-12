@@ -61,6 +61,16 @@ Vous avez fini quand vous savez répondre à ces deux questions :
 
 # Second temps — lui faire écrire une procédure, et prouver qu'elle a servi
 
+> **Vous avez deux choses, et elles ne se mélangent pas.**
+> **Votre rôle** décide *quelle* procédure vous fabriquez. **Votre groupe** — A, B ou C — décide
+> *comment* vous l'invoquez ensuite. On vous donnera les deux.
+
+**Deux règles communes, avant tout :**
+
+1. **Personne ne tape le fichier.** On le **demande**, en français. Celui qui ouvre un éditeur de
+   texte fait un autre exercice.
+2. **Le nom de la procédure est donné, pas inventé.** Il est dans votre prompt.
+
 ## ① Demander la procédure de votre rôle, en français, avec son marqueur
 
 Remplacez `<ton prénom>` par votre prénom. C'est ce qui rendra votre preuve reconnaissable
@@ -106,9 +116,17 @@ Pas de jargon technique, pas d'introduction, pas de conclusion.
 Fais-lui commencer chaque livrable par le marqueur CANARI-<ton prénom>.
 ```
 
-## ② Recharger, puis lancer une tâche
+## ② Puis la consigne de votre groupe — et elle n'est pas la même pour tous
 
-**Déposer une procédure ne suffit pas.** L'index ne se met pas à jour tout seul.
+**Appliquez la vôtre à la lettre, et seulement la vôtre.** Ne faites pas ce que fait votre voisin
+parce que ça vous semble plus logique : les trois consignes existent exprès, et le tableau qu'on
+remplira à la fin n'a de sens que si chacun a tenu la sienne.
+
+- **Groupe A** — rechargez la fenêtre, puis appelez votre procédure **par son nom**
+- **Groupe B** — **ne rechargez pas**, et demandez une **tâche banale**, sans nommer la procédure
+- **Groupe C** — comme A, mais **sur un autre modèle**
+
+Les gestes, pour référence — vous n'utilisez que ceux que votre groupe demande :
 
 ```
 ① Recharger la fenêtre   Ctrl + Shift + P → Developer: Reload Window
@@ -138,6 +156,7 @@ Levez la main : **ça a marché, ou pas.** On compte, et on regarde ensemble ce 
 
 | Ce que vous voyez | Ce que vous faites |
 |---|---|
-| **La procédure n'apparaît pas quand vous tapez `/`** | Vous avez sauté le rechargement de la fenêtre. Refaites le geste ①. |
-| **Le fichier sort correct, sans marqueur** | Ce n'est pas un échec : **c'est un résultat, et il compte.** Levez la main en le disant tel quel. |
-| **La tâche a l'air trop banale pour qu'il utilise la procédure** | Nommez-la explicitement dans votre demande. Dans le doute, un agent fait le travail lui-même. |
+| **Le fichier sort correct, sans marqueur** | Ce n'est **pas** un échec, et surtout ne recommencez pas : **c'est un résultat, et il compte.** Levez la main en le disant tel quel. |
+| **La procédure n'apparaît pas quand vous tapez `/`** — *groupes A et C uniquement* | Vous avez sauté le rechargement. Refaites le geste ①, puis réessayez. |
+| **Vous ne savez plus quelle est votre consigne** | Demandez-la, ne devinez pas. Appliquer celle du voisin fausse le comptage de toute la salle. |
+| **L'agent pose des questions au lieu de créer la procédure** | Répondez-lui brièvement et laissez-le finir. Le fichier compte, pas le chemin pour y arriver. |
