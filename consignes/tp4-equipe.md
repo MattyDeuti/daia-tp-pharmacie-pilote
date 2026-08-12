@@ -36,8 +36,11 @@ une compétence.
 
 Vous fabriquez un agent dont le métier est de relire, et **rien d'autre**.
 
-> ⚠️ **Pour cet exercice, vous créez le fichier à la main**, dans le dossier des agents du dépôt.
-> N'utilisez pas l'assistant de création : ce n'est pas ce qu'on travaille aujourd'hui.
+> **Écrivez son fichier vous-même, à la main**, dans le dossier des agents du dépôt. C'est le sens
+> de la voie 1 : vous voulez **voir les champs**, et on ne voit bien que ce qu'on a écrit soi-même.
+>
+> **Si vous calez, demandez-le à l'agent dans le chat** — mais essayez d'abord. Cinq minutes à
+> chercher un champ valent mieux qu'un fichier correct dont vous ne sauriez rien dire.
 
 Il doit porter **deux choses**, et ce sont elles qu'on regardera.
 
