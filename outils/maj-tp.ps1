@@ -1,4 +1,4 @@
-# Met le kit de TP a jour, ou le repare s'il a ete abime.
+﻿# Met le kit de TP a jour, ou le repare s'il a ete abime.
 # Appele par le raccourci « Mettre a jour le TP » pose sur le Bureau.
 #
 # ORDRE VOULU : on essaie TOUJOURS la mise a jour d'abord. Git sait fusionner des

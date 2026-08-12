@@ -1,4 +1,4 @@
-# Prepare le depot d'arrivee du cas pratique « equipe augmentee » (module 7).
+﻿# Prepare le depot d'arrivee du cas pratique « equipe augmentee » (module 7).
 #
 # POURQUOI CE SCRIPT EXISTE
 # L'exercice a besoin d'un depot commun ou les quatre briques atterrissent. La
@@ -31,7 +31,7 @@ $NOM_DISTANT = 'equipe'
 
 try {
     Write-Host ''
-    Write-Host "  === Dépôt d'équipe — module 7 ===" -ForegroundColor Cyan
+    Write-Host "  === Dépôt d'équipe - module 7 ===" -ForegroundColor Cyan
     Write-Host ''
 
     if (-not (Test-Path $Projet)) {
@@ -81,7 +81,7 @@ try {
 
     if ($estLocal) {
         Write-Host ''
-        Write-Host '  ATTENTION — mode local.' -ForegroundColor Yellow
+        Write-Host '  ATTENTION - mode local.' -ForegroundColor Yellow
         Write-Host '  Chacun publie sur SA machine. Les gestes sont réels, la convergence'
         Write-Host "  ne l'est pas : personne ne verra la brique d'un autre."
         Write-Host '  Les étapes de relecture croisée et de récupération se démontrent'
