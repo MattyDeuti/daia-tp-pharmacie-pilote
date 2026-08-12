@@ -102,8 +102,9 @@ try {
         RafraichirLeScript
     }
     elseif ($Neuf) {
-        Write-Host '  Votre dossier va être remplacé par la version officielle du dépôt.'
-        Write-Host '  Il sera DÉPLACÉ, jamais supprimé, et son chemin s''affichera.'
+        Write-Host '  Votre dossier va reprendre la version officielle du dépôt.'
+        Write-Host '  Votre travail actuel sera COPIÉ de côté avant, jamais supprimé,'
+        Write-Host '  et son chemin s''affichera à la fin.'
         Write-Host ''
         Write-Host '  À faire en début de session, ou quand un poste est à remettre d''aplomb.'
         Write-Host '  En cours de travaux pratiques, préférez « Mettre a jour le TP ».'
@@ -137,8 +138,8 @@ try {
             Write-Host '  Vous avez le choix :'
             Write-Host "    n  ->  on ne touche à rien. Votre travail reste en place et vous"
             Write-Host '           continuez avec la version que vous avez. Prévenez le formateur.'
-            Write-Host '    o  ->  on repart de la version officielle. Votre dossier actuel sera'
-            Write-Host '           DÉPLACÉ, jamais supprimé, et son chemin s''affichera.'
+            Write-Host '    o  ->  on repart de la version officielle. Votre travail actuel sera'
+            Write-Host '           COPIÉ de côté, jamais supprimé, et son chemin s''affichera.'
             Write-Host ''
             $rep = Read-Host '  Repartir de la version officielle ? (o/n)'
 
