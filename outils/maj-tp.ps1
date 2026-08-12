@@ -25,14 +25,45 @@ $cible = 'C:\Work\daia-tp-pharmacie'
 $url = 'https://github.com/MattyDeuti/daia-tp-pharmacie.git'
 $installe = 'C:\Work\_maj-tp.ps1'
 
+# On ne DEPLACE jamais le dossier : sur Windows, un dossier ouvert dans l'editeur ou
+# servant de repertoire courant a une console est verrouille, et Move-Item echoue avec
+# « le fichier est utilise par un autre processus ». C'est la situation NORMALE d'un
+# participant le jour J. Constate sur la VM le 12/08, sur ce geste precisement.
+#
+# On copie leur travail, puis on remet le dossier a l'etat du depot SUR PLACE. Git le
+# fait tres bien avec un editeur ouvert, et trois choses survivent au passage : le
+# raccordement « equipe » du module 7 (un reset ne touche pas aux depots distants), le
+# cache Maven de target/ (ignore par git), et la session VS Code.
 function RemettreANeuf {
     $archive = 'C:\Work\_ancien-tp-' + (Get-Date -Format 'yyyyMMdd-HHmm')
-    Move-Item $cible $archive
-    git clone $url $cible
+
+    New-Item -ItemType Directory -Path $archive -Force | Out-Null
+    Get-ChildItem $cible -Force |
+        Where-Object { $_.Name -ne '.git' } |
+        ForEach-Object { Copy-Item $_.FullName -Destination $archive -Recurse -Force }
+
+    Push-Location $cible
+    try {
+        git fetch origin
+        if ($LASTEXITCODE -ne 0) {
+            Write-Host ''
+            Write-Host "  (pas de réseau : on repart de la dernière version connue)" -ForegroundColor DarkGray
+        }
+        # -f : ils peuvent etre sur une branche a eux, avec des modifications en
+        # cours. On force le retour sur main avant de reecrire, sinon « repartir du
+        # projet officiel » les laisserait sur leur branche.
+        git checkout -f main
+        git reset --hard origin/main
+        git clean -fd
+    }
+    finally {
+        Pop-Location
+    }
+
     Write-Host ''
     Write-Host '  Kit remis à la version officielle.' -ForegroundColor Green
     Write-Host ''
-    Write-Host '  TOUT votre dossier précédent est conservé ici :' -ForegroundColor Yellow
+    Write-Host '  Votre travail précédent est conservé ici :' -ForegroundColor Yellow
     Write-Host "     $archive" -ForegroundColor Yellow
     Write-Host '  Rien n''a été perdu. Recopiez ce dont vous avez besoin.'
 }
