@@ -1,25 +1,66 @@
-﻿# Met le kit de TP a jour, ou le repare s'il a ete abime.
-# Appele par le raccourci « Mettre a jour le TP » pose sur le Bureau.
+﻿# Met le kit de TP a jour, ou le remet a la version officielle du depot.
+# Appele par les deux raccourcis du Bureau :
 #
-# ORDRE VOULU : on essaie TOUJOURS la mise a jour d'abord. Git sait fusionner des
-# nouveautes avec du travail en cours tant que les deux ne touchent pas les memes
-# fichiers - et c'est le cas ici : le formateur pousse des consignes, la salle ecrit
-# des specifications, des agents et des procedures. La remise a neuf n'arrive donc
-# qu'en dernier recours, apres un echec reel et apres confirmation.
+#   « Mettre a jour le TP »            -> sans option
+#      Prend les nouveautes du depot en GARDANT le travail en cours. Git sait
+#      fusionner tant que les nouveautes et le travail ne touchent pas les memes
+#      fichiers, et c'est le cas ici : le formateur pousse des consignes, la salle
+#      ecrit des livrables. La remise a neuf n'arrive qu'apres un echec reel.
 #
-# Ne supprime JAMAIS le travail en cours : un dossier remis a neuf est deplace,
-# horodate, et son chemin est affiche a l'ecran.
+#   « Repartir du projet officiel »    -> avec -Neuf
+#      Remplace le dossier par la version EXACTE du depot, quoi qu'il contienne.
+#      C'est le geste de debut de session, et celui qui remet un poste d'aplomb
+#      entre deux groupes.
+#
+# Aucun des deux ne supprime jamais rien : un dossier remplace est deplace,
+# horodate, et son chemin s'affiche a l'ecran.
 #
 # Installation sur la machine (une seule fois, avant le clonage de l'image) :
 #   Get-Content outils\maj-tp.ps1 -Encoding UTF8 | Set-Content C:\Work\_maj-tp.ps1 -Encoding UTF8
 
+param([switch]$Neuf)
+
 $ErrorActionPreference = 'Stop'
 $cible = 'C:\Work\daia-tp-pharmacie'
 $url = 'https://github.com/MattyDeuti/daia-tp-pharmacie.git'
+$installe = 'C:\Work\_maj-tp.ps1'
+
+function RemettreANeuf {
+    $archive = 'C:\Work\_ancien-tp-' + (Get-Date -Format 'yyyyMMdd-HHmm')
+    Move-Item $cible $archive
+    git clone $url $cible
+    Write-Host ''
+    Write-Host '  Kit remis à la version officielle.' -ForegroundColor Green
+    Write-Host ''
+    Write-Host '  TOUT votre dossier précédent est conservé ici :' -ForegroundColor Yellow
+    Write-Host "     $archive" -ForegroundColor Yellow
+    Write-Host '  Rien n''a été perdu. Recopiez ce dont vous avez besoin.'
+}
+
+# Le script installe dans C:\Work est une COPIE de celui du depot. Sans ce
+# rafraichissement, une correction apportee au script lui-meme n'arriverait jamais
+# sur les postes : le raccourci continuerait de lancer l'ancienne version.
+function RafraichirLeScript {
+    $source = Join-Path $cible 'outils\maj-tp.ps1'
+    if (-not (Test-Path $source)) { return }
+    if (-not (Test-Path $installe)) { return }
+    $a = (Get-FileHash $source -Algorithm SHA256).Hash
+    $b = (Get-FileHash $installe -Algorithm SHA256).Hash
+    if ($a -ne $b) {
+        Get-Content $source -Encoding UTF8 | Set-Content $installe -Encoding UTF8
+        Write-Host ''
+        Write-Host '  (le raccourci lui-même a été mis à jour)' -ForegroundColor DarkGray
+    }
+}
 
 try {
     Write-Host ''
-    Write-Host '  === Mise à jour du kit de TP ===' -ForegroundColor Cyan
+    if ($Neuf) {
+        Write-Host '  === Repartir du projet officiel ===' -ForegroundColor Cyan
+    }
+    else {
+        Write-Host '  === Mise à jour du kit de TP ===' -ForegroundColor Cyan
+    }
     Write-Host ''
 
     if (-not (Test-Path $cible)) {
@@ -27,6 +68,24 @@ try {
         git clone $url $cible
         Write-Host ''
         Write-Host '  Kit installé.' -ForegroundColor Green
+        RafraichirLeScript
+    }
+    elseif ($Neuf) {
+        Write-Host '  Votre dossier va être remplacé par la version officielle du dépôt.'
+        Write-Host '  Il sera DÉPLACÉ, jamais supprimé, et son chemin s''affichera.'
+        Write-Host ''
+        Write-Host '  À faire en début de session, ou quand un poste est à remettre d''aplomb.'
+        Write-Host '  En cours de travaux pratiques, préférez « Mettre a jour le TP ».'
+        Write-Host ''
+        $rep = Read-Host '  Continuer ? (o/n)'
+        if ($rep -ne 'o') {
+            Write-Host ''
+            Write-Host "  Annulé. Rien n'a changé." -ForegroundColor Green
+        }
+        else {
+            RemettreANeuf
+            RafraichirLeScript
+        }
     }
     else {
         Push-Location $cible
@@ -37,6 +96,7 @@ try {
         if ($code -eq 0) {
             Write-Host ''
             Write-Host '  Kit à jour. Votre travail en cours est intact.' -ForegroundColor Green
+            RafraichirLeScript
         }
         else {
             Write-Host ''
@@ -46,25 +106,18 @@ try {
             Write-Host '  Vous avez le choix :'
             Write-Host "    n  ->  on ne touche à rien. Votre travail reste en place et vous"
             Write-Host '           continuez avec la version que vous avez. Prévenez le formateur.'
-            Write-Host '    o  ->  on repart d''un kit neuf. Votre dossier actuel sera DÉPLACÉ,'
-            Write-Host '           jamais supprimé, et son chemin s''affichera.'
+            Write-Host '    o  ->  on repart de la version officielle. Votre dossier actuel sera'
+            Write-Host '           DÉPLACÉ, jamais supprimé, et son chemin s''affichera.'
             Write-Host ''
-            $rep = Read-Host "  Repartir d'un kit neuf ? (o/n)"
+            $rep = Read-Host '  Repartir de la version officielle ? (o/n)'
 
             if ($rep -ne 'o') {
                 Write-Host ''
                 Write-Host "  Rien n'a changé. Votre travail est intact." -ForegroundColor Green
             }
             else {
-                $archive = 'C:\Work\_ancien-tp-' + (Get-Date -Format 'yyyyMMdd-HHmm')
-                Move-Item $cible $archive
-                git clone $url $cible
-                Write-Host ''
-                Write-Host '  Kit remis à neuf.' -ForegroundColor Green
-                Write-Host ''
-                Write-Host '  TOUT votre travail précédent est conservé ici :' -ForegroundColor Yellow
-                Write-Host "     $archive" -ForegroundColor Yellow
-                Write-Host '  Rien n''a été perdu. Recopiez ce dont vous avez besoin.'
+                RemettreANeuf
+                RafraichirLeScript
             }
         }
     }
