@@ -1,0 +1,9 @@
+{
+  "customAgents": [
+    {
+      "name": "redacteur-fiche-fr",
+      "path": ".kiro/agents/redacteur-fiche-fr.md",
+      "enabled": true
+    }
+  ]
+}

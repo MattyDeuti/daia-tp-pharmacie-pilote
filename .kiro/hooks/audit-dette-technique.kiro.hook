@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "enabled": true,
+  "name": "Audit dette technique",
+  "description": "Audit de la dette technique du fichier ouvert",
+  "when": {
+    "type": "userTriggered"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Analyse le fichier actuellement ouvert dans l'éditeur et dresse un audit de sa dette technique, en français : liste les failles (ex. injection SQL, identifiants en dur), les fonctions trop longues, l'absence de tests, le code fragile ; pour chaque point, explique le risque et propose une amélioration. Ne modifie aucun fichier, produis seulement la fiche d'audit."
+  }
+}
