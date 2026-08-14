@@ -23,14 +23,20 @@ Copiez ces **deux lignes** dans le panneau, telles quelles.
 #GestionStock.java
 Audite ce fichier et produis une fiche en français : les défauts
 trouvés, leur gravité, et ce qu'il faudrait corriger en premier.
+Écris pour quelqu'un qui ne programme pas : pour chaque défaut, dis
+d'abord ce qui peut arriver concrètement, en une phrase, avant tout
+terme technique. Ne corrige rien, et ne propose pas de le faire.
 ```
 
-**Ce que fait chaque ligne :**
+**Ce que fait chaque partie :**
 
-- **La première désigne le fichier.** Le dièse suivi d'un nom de fichier le met sous les yeux de
-  l'agent. **Sans elle, il vous répond quand même** — mais il répond dans le vide.
-- **La seconde fixe la langue et la forme.** Sans elle, vous recevrez ce qu'il a l'habitude de
-  produire.
+- **La première ligne désigne le fichier.** Le dièse suivi d'un nom de fichier le met sous les yeux
+  de l'agent. **Sans elle, il vous répond quand même** — mais il répond dans le vide.
+- **Les deux suivantes fixent la langue et la forme du livrable.** Sans elles, vous recevrez ce
+  qu'il a l'habitude de produire.
+- **Les trois dernières fixent le lecteur, et c'est ce qui rend la fiche exploitable par tout le
+  monde.** Sans elles, elle est écrite pour un développeur — noms de bibliothèques, termes anglais
+  — et elle se termine par une proposition de tout corriger à votre place.
 
 **Vous ne lancez qu'une fois.** Le travail commence quand la fiche arrive.
 
