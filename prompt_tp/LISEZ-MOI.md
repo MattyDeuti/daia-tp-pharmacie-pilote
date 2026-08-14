@@ -8,6 +8,7 @@ commence.
 | `J1-slide056/` | Un seul sujet, trois façons de le demander | Jour 1, matin |
 | `J1-slide120/` | Faire produire, ne pas relire, puis constater | Jour 1, avant le déjeuner |
 | `J1-slide160/` | Basculez en mode Agent, et faites-le répondre une fois | Jour 1, début d'après-midi |
+| `J1-slide193/` | Auditer la base existante, chacun depuis son rôle | Jour 1, milieu d'après-midi |
 
 Les autres cas pratiques arrivent au fil des deux jours. **Si le dossier annoncé n'est pas là,
 double-cliquez sur « Mettre a jour le TP »** sur le Bureau : les prompts évoluent jusqu'au dernier
