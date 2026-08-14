@@ -89,9 +89,13 @@ Une seule question :
 
 ---
 
-## Le défi bonus — *seulement si vous avez fini*
+## Les défis bonus — *seulement si vous avez fini*
 
-**Croiser deux audits.** Lancez le même audit sur l'autre fichier :
+**Deux au choix.** Prenez celui qui vous tente.
+
+### Défi ① · croiser deux audits
+
+Lancez le même audit sur l'autre fichier du projet :
 
 ```
 #schema_extensions.sql
@@ -99,3 +103,19 @@ Audite ce fichier avec la même grille que le précédent. Puis
 compare les deux fiches : qu'est-ce que la première voit et que la
 seconde ne peut pas voir, et inversement ?
 ```
+
+### Défi ② · fabriquer le déclencheur
+
+Vous venez de taper cette demande **une fois**. De quoi auriez-vous besoin pour la relancer la
+semaine prochaine sans la retaper ?
+
+```
+Fabrique-moi, dans ce projet, de quoi relancer cet audit sans avoir
+à retaper la demande. Explique-moi ensuite comment m'en servir.
+```
+
+**Puis regardez ce qu'il a créé, et relisez-le avant d'approuver.**
+
+⚠️ **Il peut inventer des éléments qui n'existent pas et qui ont l'air parfaitement plausibles.**
+C'est le piège de la journée, retourné contre lui-même. **Donc vous le vérifiez en le lançant, pas
+en le lisant** — c'est votre réflexe de métier.
