@@ -53,7 +53,8 @@ Cette fiche audite un module de gestion de stock de pharmacie, avec
 de la traçabilité de produits sensibles et des dates de péremption.
 Qu'est-ce qu'elle ne traite pas et que le métier exigerait ? Ne
 propose pas de correction : liste seulement ce qui manque, et dis
-sur quoi tu n'as pas assez d'information.
+sur quoi tu n'as pas assez d'information. Écris en langage métier,
+sans terme technique.
 ```
 
 ⛔ **On audite, on ne fait pas réimplémenter.** Vous ne lui demandez pas de corriger le code.

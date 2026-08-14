@@ -48,7 +48,7 @@ terme technique. Ne corrige rien, et ne propose pas de le faire.
 Dans cette fiche, classe les défauts par rapport gravité sur coût de
 correction, et dis-moi lequel tu traiterais en premier sur CE projet.
 Pour chaque défaut, indique ce que tu ne peux pas vérifier sans voir
-le reste du code.
+le reste du code. Ne corrige rien, et ne propose pas de le faire.
 ```
 
 ⛔ **On audite, on ne fait pas réimplémenter.** Vous ne lui demandez pas de corriger le code.

@@ -9,7 +9,9 @@ français, et ce sont eux votre matière.
 
 ```
 Génère des tests unitaires pour #GestionStock.java, et explique en
-français ce que chaque test vérifie.
+français ce que chaque test vérifie. Écris l'explication pour
+quelqu'un qui ne lira pas le code des tests : une phrase par test,
+qui dit ce qui doit se passer, et ce qui ne doit pas.
 ```
 
 **L'explication en français n'est pas une politesse.** C'est elle qui vous permet de valider
@@ -50,8 +52,10 @@ couverture annoncée est **une description, pas une mesure**. Personne ne l'a me
 
 ```
 Produis un plan de reprise et de migration de ce projet : les phases,
-leur ordre, et l'effort estimé pour chacune. Quand tu n'as pas
-l'information dans le fichier, écris [à compléter]. N'invente pas.
+leur ordre, et l'effort estimé pour chacune. Pour chaque phase, dis
+en une phrase ce qu'elle change concrètement, avant tout terme
+technique. Quand tu n'as pas l'information dans le fichier, écris
+[à compléter]. N'invente pas.
 ```
 
 **Les deux dernières lignes ne sont pas décoratives, et elles vous concernent en premier.** Un

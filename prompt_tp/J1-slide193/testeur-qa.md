@@ -49,7 +49,7 @@ terme technique. Ne corrige rien, et ne propose pas de le faire.
 Parmi les défauts de cette fiche, lesquels sais-tu reproduire par un
 cas de test, et avec quelles données d'entrée ? Pour chacun, dis ce
 qui doit ÉCHOUER. Si tu ne sais pas le reproduire, dis-le au lieu
-d'inventer un test.
+d'inventer un test. Décris les cas en français, n'écris aucun code.
 ```
 
 ⛔ **On audite, on ne fait pas réimplémenter.** Vous ne lui demandez pas de corriger le code, et
