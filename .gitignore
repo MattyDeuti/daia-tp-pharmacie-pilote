@@ -5,12 +5,14 @@ target/
 *.class
 
 # IDE
-# On ignore le contenu de .vscode/ SAUF mcp.json : la config des accès fait partie
-# de la couche du projet, elle doit être versionnée comme le code.
+# On ignore le contenu de .vscode/ SAUF mcp.json et settings.json : la config des
+# accès et celle qui fait lire AGENTS.md font partie de la couche du projet, elles
+# doivent être versionnées comme le code.
 # (Forme obligatoire : `.vscode/*` et non `.vscode/`, sinon git ne peut pas
 #  ré-inclure un fichier dont le dossier parent est exclu.)
 .vscode/*
 !.vscode/mcp.json
+!.vscode/settings.json
 .idea/
 *.iml
 

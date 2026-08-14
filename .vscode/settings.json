@@ -1,0 +1,13 @@
+{
+  // La charte du projet vit dans AGENTS.md, à la racine. Kiro la lit nativement,
+  // sans réglage : chez lui, un AGENTS.md est toujours inclus.
+  //
+  // Côté VS Code, la lecture de ce fichier est derrière ce réglage, et le défaut
+  // varie selon les versions. Sans lui, Copilot ignore AGENTS.md en silence : il
+  // répond normalement, simplement sans aucune des règles du projet, et rien à
+  // l'écran ne le signale.
+  //
+  // On le versionne donc dans le dépôt, comme mcp.json, pour que le comportement
+  // ne dépende ni de la version installée ni des réglages personnels du poste.
+  "chat.useAgentsMdFile": true
+}
