@@ -6,6 +6,7 @@ commence.
 | Dossier | Le cas pratique | Quand |
 |---|---|---|
 | `J1-slide056/` | Un seul sujet, trois façons de le demander | Jour 1, matin |
+| `J1-slide120/` | Faire produire, ne pas relire, puis constater | Jour 1, avant le déjeuner |
 
 Les autres cas pratiques arrivent au fil des deux jours. **Si le dossier annoncé n'est pas là,
 double-cliquez sur « Mettre a jour le TP »** sur le Bureau : les prompts évoluent jusqu'au dernier
