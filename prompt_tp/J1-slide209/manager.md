@@ -54,18 +54,21 @@ couverture annoncée est **une description, pas une mesure**. Personne ne l'a me
 Produis un plan de reprise et de migration de ce projet : les phases,
 leur ordre, et l'effort estimé pour chacune. Pour chaque phase, dis
 en une phrase ce qu'elle change concrètement, avant tout terme
-technique. Quand tu n'as pas l'information dans le fichier, écris
-[à compléter]. N'invente pas.
+technique.
 ```
 
-**Les deux dernières lignes ne sont pas décoratives, et elles vous concernent en premier.** Un
-effort estimé par phase, c'est un tableau — et **dès qu'on demande un tableau, chaque case appelle
-une valeur**. Si l'information n'est pas dans ce qu'on lui a donné, il la fabrique plausible.
+> ⚠️ **Cette demande est incomplète, et c'est exprès. Il vous manque une phrase** — celle que vous
+> avez notée avant la pause. **Collez-la à la fin avant d'envoyer.**
 
-Sans ces deux lignes, vous auriez reçu un plan chiffré, propre, présentable en comité — **et dont
-personne n'aurait pu dire d'où sortent les chiffres.**
+**Elle vous concerne en premier.** Un effort estimé par phase, c'est un tableau — et **dès qu'on
+demande un tableau, chaque case appelle une valeur**. Si l'information n'est pas dans ce qu'on lui
+a donné, il la fabrique plausible.
 
-Cherchez les `[à compléter]`. Ce sont eux qui vous disent où le plan ne sait pas.
+Sans cette phrase, vous recevrez un plan chiffré, propre, présentable en comité — **et dont
+personne ne pourra dire d'où sortent les chiffres.** Avec elle, les trous restent des trous, et
+vous savez quoi aller chercher.
+
+*Elle n'est pas écrite dans ce fichier. Si vous ne l'avez plus, demandez à votre voisin.*
 
 ---
 
