@@ -92,10 +92,12 @@ Deux choses à faire, et rien d'autre :
 
 *Après la mise en commun.*
 
-**Vous n'allez pas corriger la spécification. Vous allez la refaire**, avec **une seule ligne de
-différence** — et comparer les deux résultats.
+**Vous n'allez pas corriger la spécification. Vous allez la refaire**, avec **l'ordre inversé** —
+et comparer les deux résultats.
 
-#### ① Recollez exactement le même bloc, avec une ligne de plus
+Au premier jet, il a écrit d'abord. Cette fois, **il demande d'abord.**
+
+#### ① Recollez le même besoin, avec la fin changée
 
 **Une conversation neuve d'abord** (`/clear`), puis :
 
@@ -111,18 +113,26 @@ On va procéder en trois temps, et tu t'arrêtes après chacun :
   temps 2 — la conception, dans spec/conception.md
   temps 3 — les tâches, dans spec/taches.md
 
-Fais le temps 1, et lui seul. Écris les exigences dans
-spec/exigences.md : ce que la fonctionnalité doit faire, numérotées,
-avec pour chacune ses critères d'acceptation.
-N'écris aucun code. Ne crée aucun autre fichier. Arrête-toi là.
-Quand une information te manque, écris [à compléter] plutôt que de
-choisir à ma place.
-Pose-moi 10 questions pour être sûr de bien comprendre ce que je
-souhaite.
+Avant d'écrire quoi que ce soit, pose-moi 10 questions pour être sûr
+de bien comprendre ce que je souhaite. Numérote-les.
+N'écris aucun fichier et ne rédige aucune exigence tant que je n'ai
+pas répondu : pose tes questions, puis attends.
+
+Une fois que j'aurai répondu, tu feras le temps 1 et lui seul :
+écrire les exigences dans spec/exigences.md, numérotées, avec pour
+chacune ses critères d'acceptation. N'écris aucun code, ne crée aucun
+autre fichier. Quand une information te manque, écris [à compléter]
+plutôt que de choisir à ma place.
 ```
 
-**La dernière phrase est la seule différence avec le premier jet.** Tout le reste est identique,
-mot pour mot. C'est ce qui rend la comparaison honnête : **une seule variable a changé.**
+**Le besoin et les trois temps ne bougent pas d'un mot.** Ce qui change, c'est la fin :
+
+- **« Avant d'écrire quoi que ce soit »** ouvre la phrase. **Sa place décide de l'ordre** — placée à
+  la fin, elle arrive trop tard : il a déjà écrit.
+- **« puis attends »** est ce qui l'empêche de poser ses questions **et d'y répondre lui-même dans
+  la foulée**. C'est son réflexe.
+- **Le futur — « tu feras » —** repousse l'écriture après vos réponses, au lieu de la commander
+  tout de suite.
 
 #### ② Répondez — c'est là qu'est le travail
 
@@ -143,7 +153,7 @@ Voilà mes réponses :
 1. …
 2. …
 
-Écris spec/exigences.md à partir de ça, et de rien d'autre.
+Écris maintenant spec/exigences.md à partir de ça, et de rien d'autre.
 Si tu penses qu'il manque quelque chose que je n'ai pas demandé, ne
 l'ajoute pas aux exigences : mets-le dans une section « Suggestions,
 hors périmètre » à la fin du fichier.
