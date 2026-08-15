@@ -193,8 +193,7 @@ J'ai relu les exigences, elles sont validées. Passe au temps 2.
 
 ```
 Temps 2. À partir de spec/exigences.md uniquement, écris
-spec/conception.md : comment on s'y prend. Pour chaque décision, dis
-à quelle exigence elle répond.
+spec/conception.md : comment on s'y prend.
 Le module doit rester indépendant du code existant : tu ne modifies
 aucun fichier existant. N'écris aucun code. Arrête-toi là.
 ```
@@ -203,19 +202,52 @@ aucun fichier existant. N'écris aucun code. Arrête-toi là.
 
 - **« à partir de spec/exigences.md uniquement »** l'empêche de repartir du besoin brut et de
   réinventer ce que vous venez de valider.
-- **« dis à quelle exigence elle répond »** est ce qui vous permettra de trier. Une décision qui ne
-  répond à rien est du confort.
 - **« tu ne modifies aucun fichier existant »** est **la contrainte du scénario**. Sans elle,
   l'agent part refactoriser le code existant et vous passez le cas pratique à le retenir.
 
-> ⏳ **C'est la phase la plus longue à produire.** Ne croyez pas que ça a planté. Pendant qu'il
-> écrit, **relisez la phase 1** : vous avez du temps gratuit.
+> 🔍 **La traçabilité ne se demande pas ici.** Elle se demande à la porte, juste en dessous, dans
+> un message à elle. Noyée au milieu de ce bloc, **elle passe à la trappe** : il écrit une
+> conception qui suit bien les exigences, mais qui ne les cite nulle part. Une consigne au milieu
+> d'un paragraphe se dilue ; seule, elle s'applique.
 
-### 🚪 La porte 2
+### 🚪 La porte 2 — elle ne se lit pas, elle se demande
 
-> **Pour chaque brique proposée, demandez à quel besoin de la phase 1 elle répond.** Celles qui ne
-> répondent à rien sortent — l'agent propose volontiers la version idéale d'un projet qui n'est pas
-> le vôtre.
+**Vous n'allez pas relire dix pages.** Vous allez lui faire fabriquer les renvois, puis en vérifier
+trois. Quarante secondes.
+
+#### ① Demandez la traçabilité, dans un message à elle
+
+```
+Reprends spec/conception.md. Pour chaque décision, dis à quelle
+exigence elle répond, en citant son numéro.
+Si une décision ne répond à aucune exigence, dis-le au lieu d'inventer
+un renvoi.
+```
+
+**La seconde phrase est le test.** Elle lui laisse une sortie honnête. S'il la prend, tant mieux.
+S'il ne la prend pas, vous allez le voir à l'étape suivante.
+
+#### ② Suivez trois renvois, au hasard
+
+**Ouvrez `spec/exigences.md`** et vérifiez, pour trois décisions prises au hasard :
+
+> **L'exigence citée existe-t-elle ? Et dit-elle bien ce que la conception prétend ?**
+
+⚠️ **Ce sont deux questions, pas une.** Un numéro qui existe ne prouve rien : ce qui compte, c'est
+que son contenu justifie vraiment la décision.
+
+🎯 **Le signal qui trahit un faux renvoi, et il est facile à repérer** : quand le lien est vrai,
+la phrase est **sèche** — *« répond à l'exigence 3 »*. Quand il est faux, elle **s'excuse** :
+*« et implicite sur… »*, *« en particulier la partie sur… »*. **Un renvoi qui a besoin d'un adverbe
+pour tenir n'en est pas un.**
+
+#### ③ Arbitrez les orphelines — on ne supprime pas, on tranche
+
+Une décision sans exigence n'est pas forcément mauvaise : elle est **sans mandat**. Deux sorties, et
+c'est vous qui choisissez :
+
+- **elle est utile** → on ajoute l'exigence qui manque ;
+- **elle est du confort** → elle descend en « Suggestions, hors périmètre ».
 
 Puis :
 
@@ -232,21 +264,37 @@ Conception validée. Passe aux tâches.
 ```
 Temps 3. À partir de spec/exigences.md et spec/conception.md, écris
 spec/taches.md : la liste numérotée des tâches, dans l'ordre où on
-les fait. Chaque tâche renvoie explicitement aux exigences qu'elle
-sert. N'écris aucun code. Arrête-toi là.
+les fait. N'écris aucun code. Arrête-toi là.
 ```
+
+**Ici non plus, la traçabilité ne se demande pas dans le même souffle** — elle se dilue. Elle a son
+message, à la porte.
 
 ### 🚪 La porte 3 — et c'est la plus facile à tenir sans lire de code
 
-> **Prenez trois renvois au hasard et vérifiez que les exigences citées existent vraiment.**
-> C'est le geste le plus simple des trois, et **celui qui trouve le plus de défauts**.
+#### ① Demandez les renvois
+
+```
+Reprends spec/taches.md. Pour chaque tâche, cite les numéros des
+exigences qu'elle sert.
+Si une tâche ne sert aucune exigence, dis-le au lieu d'inventer un
+renvoi.
+```
+
+#### ② Suivez-en trois, au hasard
+
+> **L'exigence citée existe-t-elle ? Et dit-elle bien ce que la tâche prétend ?**
+
+C'est le geste le plus simple des trois portes, et **celui qui trouve le plus de défauts**.
 
 ⚠️ **Le piège attendu, et il est vécu :** une tâche qui renvoie à « l'exigence 1.8 » alors que
 l'exigence 1 n'a que cinq critères. **Tracé n'est pas vrai.** Un renvoi se suit, il ne se croit pas.
 
-**Les deux autres questions, si vous avez le temps :**
+🎯 **Le même signal qu'à la porte 2** : un renvoi vrai est sec ; un renvoi faux s'excuse.
 
-- **Couverture** — y a-t-il une exigence qu'aucune tâche ne couvre ? *(c'est celle qu'on oublie)*
+#### ③ Les deux autres questions, si vous avez le temps
+
+- **Couverture** — y a-t-il une exigence qu'**aucune** tâche ne couvre ? *(c'est celle qu'on oublie)*
 - **Cohérence** — l'ordre tient-il debout ?
 
 ---

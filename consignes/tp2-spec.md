@@ -38,8 +38,8 @@ voulez — la seule chose qui compte, c'est que **ce ne soit jamais la même mai
 | Porte | Le geste, et il ne demande pas de lire du code |
 |---|---|
 | **1 · le QUOI** | **Une seule question : est-ce que tout ce qui est écrit vient de ce que VOUS avez répondu ?** Ce qui n'en vient pas est une décision qu'il a reprise à son compte — elle descend en « hors périmètre », ou elle disparaît. |
-| **2 · le COMMENT** | Pour chaque brique proposée, demandez **à quel besoin de la phase 1 elle répond**. Celles qui ne répondent à rien sortent : l'agent propose volontiers la version idéale d'un projet qui n'est pas le vôtre. |
-| **3 · les TÂCHES** | Prenez **trois renvois au hasard** et vérifiez que les exigences citées existent vraiment. C'est le geste le plus simple des trois, et celui qui trouve le plus de défauts. |
+| **2 · le COMMENT** | **Faites-lui citer**, pour chaque décision, l'exigence qu'elle sert — dans un message à part. Puis **suivez-en trois**. Une décision sans exigence n'est pas mauvaise : elle est **sans mandat**. |
+| **3 · les TÂCHES** | Même geste sur les tâches. **Deux questions par renvoi** : l'exigence citée existe-t-elle, et **dit-elle bien ce que la tâche prétend** ? C'est celui qui trouve le plus de défauts. |
 
 **Une seule personne tape par groupe, et ce n'est pas toujours la même.** Celui qui tient la porte
 de la phase est **celui qui parle**, pas forcément celui qui a le clavier.
