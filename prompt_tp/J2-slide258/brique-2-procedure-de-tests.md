@@ -5,9 +5,6 @@
 **Ce que vous fabriquez :** une procédure packagée — préparer, agir, vérifier — que l'outil ira
 chercher **tout seul**, sans que personne la nomme.
 
-> C'est le chemin **le mieux éprouvé** de ce cas pratique. Il a tourné sur la machine de formation,
-> canari à l'appui.
-
 ---
 
 ## ① Demandez la procédure

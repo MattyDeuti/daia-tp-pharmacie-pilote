@@ -1,7 +1,5 @@
 # Les trois phases, les trois portes
 
-> ⚠️ **PROMPTS NON ÉPROUVÉS.** Voir l'encadré du `LISEZ-MOI` de ce dossier.
-
 **Une seule personne tape à la fois, et ce n'est pas toujours la même.**
 
 ---
@@ -19,9 +17,9 @@
    **quand l'outil ne fournit pas de porte, c'est vous qui la tenez.** Une porte fournie par le
    produit vous priverait de l'exercice.
 
-> 🧪 **Là où le mode Plan mérite d'être essayé, c'est à l'étape ④** — implémenter une tâche. C'est
-> sa forme naturelle : il propose, vous approuvez, il exécute. **À tester au pré-vol**, pas en
-> salle : le comportement exact dépend de la version installée.
+> 🧪 **Là où le mode Plan a sa place, c'est à l'étape ④** — implémenter une tâche. C'est sa forme
+> naturelle : il propose, vous approuvez, il exécute. Essayez-le à ce moment-là si vous voulez
+> comparer.
 
 ---
 

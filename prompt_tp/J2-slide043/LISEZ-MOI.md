@@ -2,11 +2,6 @@
 
 *Jour 2, fin de matinée. **En groupe, autour d'un seul écran.** Copilot en mode Agent.*
 
-> ⚠️ **CES PROMPTS N'ONT PAS ENCORE ÉTÉ ÉPROUVÉS SUR LA MACHINE DE FORMATION.**
-> Ils sont écrits, complets et cohérents avec la consigne — mais **aucun n'a tourné**. Le
-> formateur les valide avant la séance. Si vous lisez encore cet encadré le jour du cas pratique,
-> **suivez ce que dit le formateur à voix haute**, pas ce fichier.
-
 **Un seul fichier ici, et c'est volontaire.** Ce cas pratique ne se fait pas chacun dans son coin :
 il y a **un écran par groupe**, et plusieurs personnes autour. Tout le monde travaille sur la même
 spécification.

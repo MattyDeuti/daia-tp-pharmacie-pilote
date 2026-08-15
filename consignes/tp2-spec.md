@@ -3,10 +3,6 @@
 > 📋 **LES PROMPTS DES TROIS PHASES SONT DANS `prompt_tp/J2-slide043/`.**
 > Ce fichier-ci porte la discipline, les portes et la preuve attendue ; les demandes à copier sont
 > là-bas, dans `les-trois-phases.md`.
->
-> ⚠️ **Ils n'ont pas encore été éprouvés sur la machine de formation.** Le formateur les valide
-> avant la séance. **S'il dit autre chose à voix haute le jour J, c'est lui qui a raison** — et
-> pensez à cliquer sur « Mettre à jour le TP » au démarrage.
 
 > **L'objectif et les étapes sont à l'écran.** Ce fichier ne porte que ce qui ne s'y projette pas.
 
