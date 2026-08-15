@@ -15,6 +15,11 @@ spécification.
 |---|---|
 | `les-trois-phases.md` | les trois demandes, les trois validations, et le lancement d'une tâche |
 
+**Le besoin de départ est déjà dans le premier bloc.** Vous n'avez rien à recopier depuis l'écran :
+un seul copier-coller et la phase 1 part.
+
+**Le mode : Agent.** Pas Ask, pas Plan — la raison est expliquée en tête de `les-trois-phases.md`.
+
 ## La seule règle
 
 **Les trois validations sont faites par trois personnes différentes.**

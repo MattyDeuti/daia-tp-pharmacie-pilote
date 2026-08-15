@@ -6,6 +6,25 @@
 
 ---
 
+## Le mode : **Agent** pour les trois phases
+
+**Pas Ask** — il ne peut pas écrire de fichier, et vous en produisez trois.
+
+**Pas Plan non plus, et c'est un choix**, pour deux raisons :
+
+1. **Ce que vous fabriquez, ce sont trois fichiers réels sur le disque.** Un plan qui vit dans le
+   panneau n'est pas un artefact qu'on ouvre, qu'on annote et qu'on garde. Toute la journée
+   d'hier tenait sur une phrase : *on ouvre l'artefact, toujours.*
+2. **Le mode Plan mettrait sa porte à lui.** Or ce cas pratique porte exactement sur l'inverse :
+   **quand l'outil ne fournit pas de porte, c'est vous qui la tenez.** Une porte fournie par le
+   produit vous priverait de l'exercice.
+
+> 🧪 **Là où le mode Plan mérite d'être essayé, c'est à l'étape ④** — implémenter une tâche. C'est
+> sa forme naturelle : il propose, vous approuvez, il exécute. **À tester au pré-vol**, pas en
+> salle : le comportement exact dépend de la version installée.
+
+---
+
 ## ⓪ Une conversation neuve
 
 ```
@@ -18,11 +37,24 @@ Puis **créez un dossier `spec/`** à la racine du projet.
 
 ## ① Phase 1 · le QUOI
 
-Collez le besoin de départ — **il est à l'écran** — puis, dans le même message, ceci :
+**Tout est dans le bloc ci-dessous, le besoin compris.** Un seul copier-coller, rien à aller
+chercher ailleurs.
 
 ```
-Écris les exigences dans spec/exigences.md : ce que la fonctionnalité
-doit faire, numérotées, avec pour chacune ses critères d'acceptation.
+Nous voulons ajouter au projet un module d'alertes de péremption,
+moderne, qui coexiste avec le code existant sans en dépendre.
+
+À partir d'une liste de lots (produit, quantité, date de péremption),
+il signale les lots déjà périmés et ceux qui le seront bientôt.
+
+On va procéder en trois temps, et tu t'arrêtes après chacun :
+  temps 1 — les exigences, dans spec/exigences.md
+  temps 2 — la conception, dans spec/conception.md
+  temps 3 — les tâches, dans spec/taches.md
+
+Fais le temps 1, et lui seul. Écris les exigences dans
+spec/exigences.md : ce que la fonctionnalité doit faire, numérotées,
+avec pour chacune ses critères d'acceptation.
 N'écris aucun code. Ne crée aucun autre fichier. Arrête-toi là.
 Quand une information te manque, écris [à compléter] plutôt que de
 choisir à ma place.
@@ -30,8 +62,12 @@ choisir à ma place.
 
 **Ce que fait chaque partie :**
 
-- **« numérotées »** est ce qui rendra la traçabilité possible en phase 3. Sans numéros, aucune
-  tâche ne peut renvoyer à rien.
+- **« sans en dépendre »** est la contrainte du scénario, et le garde-fou. Sans elle, l'agent va
+  toucher au code existant et vous passerez le cas pratique à le retenir.
+- **Les trois temps annoncés d'avance** sont ce qui donne un sens à « arrête-toi là ». Sans eux,
+  l'agent ne sait pas qu'il y a une suite, et il essaie de tout faire d'un coup pour bien faire.
+- **« numérotées »** rendra la traçabilité possible au temps 3. Sans numéros, aucune tâche ne peut
+  renvoyer à rien.
 - **« avec ses critères d'acceptation »** est la moitié qu'on oublie. Une exigence sans critère ne
   se recette pas.
 - **« N'écris aucun code. Arrête-toi là. »** — **c'est le point de rupture le plus probable de ce
@@ -61,9 +97,9 @@ J'ai relu les exigences, elles sont validées. Passe à la conception.
 **Ce n'est pas la même personne qui tient cette porte.**
 
 ```
-À partir de spec/exigences.md uniquement, écris spec/conception.md :
-comment on s'y prend. Pour chaque décision, dis à quelle exigence
-elle répond.
+Temps 2. À partir de spec/exigences.md uniquement, écris
+spec/conception.md : comment on s'y prend. Pour chaque décision, dis
+à quelle exigence elle répond.
 Le module doit rester indépendant du code existant : tu ne modifies
 aucun fichier existant. N'écris aucun code. Arrête-toi là.
 ```
@@ -99,7 +135,7 @@ Conception validée. Passe aux tâches.
 **Troisième personne.**
 
 ```
-À partir de spec/exigences.md et spec/conception.md, écris
+Temps 3. À partir de spec/exigences.md et spec/conception.md, écris
 spec/taches.md : la liste numérotée des tâches, dans l'ordre où on
 les fait. Chaque tâche renvoie explicitement aux exigences qu'elle
 sert. N'écris aucun code. Arrête-toi là.
