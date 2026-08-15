@@ -1,0 +1,46 @@
+# Demandez votre procédure, et comptez
+
+*Jour 2, début d'après-midi, juste après le cas pratique de l'écran. Chacun sur son poste.
+**Copilot en mode Agent.***
+
+**Vous ne fabriquez pas un prompt. Vous fabriquez une procédure qui survit à la conversation.**
+
+C'est toute la différence du module : un prompt meurt quand vous fermez la fenêtre ; une procédure
+posée dans le projet est **relue par l'outil la prochaine fois**, sans que personne la nomme.
+
+| Fichier | Pour qui | La procédure qu'il demande |
+|---|---|---|
+| `developpeur.md` | Développeur | `audit-legacy` — six rubriques imposées, toujours dans le même ordre |
+| `testeur-qa.md` | Testeur ou QA | `jeu-de-tests` — trois cas par méthode publique |
+| `analyste.md` | Analyste | `demande-utilisateur` — le format « en tant que, je veux, afin de » |
+| `manager.md` | Manager | `synthese-comite` — quinze lignes pour un comité de pilotage |
+
+## Le canari, et c'est tout l'exercice
+
+Chaque demande se termine par la même ligne :
+
+```
+Fais-lui commencer chaque livrable par le marqueur CANARI-<ton prénom>.
+```
+
+**Remplacez `<ton prénom>` par le vôtre.** Ce n'est pas décoratif : c'est ce qui rend la preuve
+**individuelle**. On verra tout de suite quel poste a réellement déclenché sa procédure.
+
+## ⛔ Ce qui ne compte pas comme preuve
+
+**Un livrable correct sans le marqueur** signifie que votre procédure **n'a jamais été ouverte**.
+L'agent a fait le travail lui-même, et il l'a bien fait.
+
+C'est la fausse impression à démonter : **ce n'est pas la qualité du résultat qui prouve qu'une
+procédure a servi. C'est le canari.**
+
+## Les deux gestes qui débloquent
+
+1. **Rechargez la fenêtre** après avoir déposé la procédure. Sans ça, l'outil ne l'a pas encore vue.
+2. **Si la tâche a l'air banale, nommez la procédure explicitement.** Dans le doute, l'agent fait
+   le travail lui-même — et vous n'aurez pas de canari.
+
+## À la fin, on compte
+
+**Vous levez la main : ça a marché, ou pas.** On regarde ensemble ce que le compte dit. Un « pas »
+vaut autant qu'un « oui » — c'est même souvent plus instructif.

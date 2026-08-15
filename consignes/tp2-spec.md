@@ -1,10 +1,12 @@
 # TP 2 — Du besoin à la fonctionnalité, sans sauter d'étape
 
-> ⚠️ **CONSIGNE INCOMPLÈTE À CE JOUR.** La discipline, les portes et la preuve attendue
-> ci-dessous sont arrêtées. **Les prompts exacts des trois phases ne le sont pas encore** : ils
-> seront ajoutés après le drill du chemin Copilot, et vous les récupérerez en cliquant sur
-> « Mettre à jour le TP » au démarrage. Si vous lisez encore cet encadré le jour du cas pratique,
-> les prompts vous seront donnés en séance.
+> 📋 **LES PROMPTS DES TROIS PHASES SONT DANS `prompt_tp/J2-slide043/`.**
+> Ce fichier-ci porte la discipline, les portes et la preuve attendue ; les demandes à copier sont
+> là-bas, dans `les-trois-phases.md`.
+>
+> ⚠️ **Ils n'ont pas encore été éprouvés sur la machine de formation.** Le formateur les valide
+> avant la séance. **S'il dit autre chose à voix haute le jour J, c'est lui qui a raison** — et
+> pensez à cliquer sur « Mettre à jour le TP » au démarrage.
 
 > **L'objectif et les étapes sont à l'écran.** Ce fichier ne porte que ce qui ne s'y projette pas.
 
@@ -32,11 +34,19 @@ validée avant de lui demander la suivante.
 C'est moins confortable. C'est aussi ce qui se transfère : un bouton qu'on n'a pas ne s'emporte
 pas, une discipline si.
 
-**Qui mène quoi :**
+**Qui tient quoi : trois portes, trois personnes différentes.**
 
-- **Phase 1** — tout le monde. C'est le moment où l'analyste et le manager pèsent le plus.
-- **Phase 2** — les développeurs mènent, les autres challengent.
-- **Phase 3** — on vérifie la couverture et la traçabilité **avant** de lancer quoi que ce soit.
+Pas de rôle attribué, pas de métier requis. Vous vous répartissez les trois portes comme vous
+voulez — la seule chose qui compte, c'est que **ce ne soit jamais la même main trois fois**.
+
+| Porte | Le geste, et il ne demande pas de lire du code |
+|---|---|
+| **1 · le QUOI** | Reprenez le besoin de départ **phrase par phrase** : chacune a-t-elle son critère ? Puis lisez un critère en commençant par « je vais devoir prouver que » — si la phrase ne se termine pas, il n'est pas testable. |
+| **2 · le COMMENT** | Pour chaque brique proposée, demandez **à quel besoin de la phase 1 elle répond**. Celles qui ne répondent à rien sortent : l'agent propose volontiers la version idéale d'un projet qui n'est pas le vôtre. |
+| **3 · les TÂCHES** | Prenez **trois renvois au hasard** et vérifiez que les exigences citées existent vraiment. C'est le geste le plus simple des trois, et celui qui trouve le plus de défauts. |
+
+**Une seule personne tape par groupe, et ce n'est pas toujours la même.** Celui qui tient la porte
+de la phase est **celui qui parle**, pas forcément celui qui a le clavier.
 
 ## La preuve attendue
 

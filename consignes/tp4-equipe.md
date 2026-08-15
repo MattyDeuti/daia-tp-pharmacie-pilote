@@ -1,23 +1,25 @@
 # TP 4 — Quatre briques, un seul dépôt
 
 > **L'objectif et les étapes sont à l'écran.** Ce fichier ne porte que ce qui ne s'y projette
-> pas : le prompt de votre rôle, votre preuve, et quoi faire si ça coince.
+> pas : le prompt de votre brique, votre preuve, et quoi faire si ça coince.
 >
 > **Une brique chacun. Pas la même.** À la fin, elles atterrissent toutes dans le même dépôt.
 
 ## Comment vous êtes organisés
 
-**Un binôme par rôle.** Prenez **le rôle de votre métier**, pas celui qui vous fait envie.
+**Un binôme par brique.** Prenez **celle qui vous tente** — aucune n'exige le métier qui lui a
+donné son nom, et **les deux dernières ne demandent pas une ligne de code**. La seule chose qui
+compte : **les quatre briques doivent être prises**, et un binôme n'en prend qu'une.
 
 Dans le binôme : **un pilote, un observe et note la preuve.** L'observateur n'est pas un
 spectateur — c'est lui qui pourra dire, à la fin, si la brique a agi.
 
-**Trois règles pour les quatre rôles :**
+**Trois règles pour les quatre briques :**
 
 1. **Donnez-lui un exemple** de ce que vous appelez un bon résultat. Sans exemple, il vous rendra
    la convention générique d'Internet, pas la vôtre.
 2. **On ne corrige pas le code du projet.** Ce n'est pas l'exercice.
-3. **Une brique, pas deux.** Si vous finissez tôt, vous ne prenez pas le rôle du voisin : vous
+3. **Une brique, pas deux.** Si vous finissez tôt, vous ne prenez pas celle du voisin : vous
    passez au défi bonus, en bas de cette page.
 
 ---

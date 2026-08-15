@@ -3,17 +3,32 @@
 **Un sous-dossier par cas pratique.** Le formateur vous dit lequel ouvrir au moment où il
 commence.
 
+### Jour 1
+
 | Dossier | Le cas pratique | Quand |
 |---|---|---|
-| `J1-slide056/` | Un seul sujet, trois façons de le demander | Jour 1, matin |
-| `J1-slide120/` | Faire produire, ne pas relire, puis constater | Jour 1, avant le déjeuner |
-| `J1-slide160/` | Basculez en mode Agent, et faites-le répondre une fois | Jour 1, début d'après-midi |
-| `J1-slide193/` | Auditer la base existante, chacun depuis son rôle | Jour 1, milieu d'après-midi |
-| `J1-slide209/` | Générer des tests, puis obtenir un plan de reprise | Jour 1, fin d'après-midi |
+| `J1-slide057/` | Un seul sujet, trois façons de le demander | matin |
+| `J1-slide120/` | Faire produire, ne pas relire, puis constater | avant le déjeuner |
+| `J1-slide160/` | Basculez en mode Agent, et faites-le répondre une fois | début d'après-midi |
+| `J1-slide191/` | Auditer la base existante, chacun depuis son rôle | milieu d'après-midi |
+| `J1-slide207/` | Générer des tests, puis obtenir un plan de reprise | fin d'après-midi |
 
-Les autres cas pratiques arrivent au fil des deux jours. **Si le dossier annoncé n'est pas là,
-double-cliquez sur « Mettre a jour le TP »** sur le Bureau : les prompts évoluent jusqu'au dernier
-moment.
+### Jour 2
+
+| Dossier | Le cas pratique | Quand |
+|---|---|---|
+| `J2-slide043/` | Du besoin à la fonctionnalité : votre propre spécification | fin de matinée |
+| `J2-slide193/` | Ce qu'il voit à l'écran | début d'après-midi |
+| `J2-slide200/` | Demandez votre procédure, et comptez | début d'après-midi |
+| `J2-slide258/` | La couche de l'équipe, en quatre briques | fin d'après-midi |
+
+**Deux cas pratiques n'ont pas de dossier ici, et c'est normal : ils se font sans outil.**
+L'auto-évaluation du début du jour 1 et celle de la clôture, et le micro-exercice sur la stratégie
+des milliers de pages — celui-là est **le seul moment des deux jours où ceux qui ne codent pas sont
+à égalité complète**, et il se joue sur papier.
+
+**Si le dossier annoncé n'est pas là, double-cliquez sur « Mettre a jour le TP »** sur le Bureau :
+les prompts évoluent jusqu'au dernier moment.
 
 ## Ce que vous trouverez dedans, et ce que vous n'y trouverez pas
 
