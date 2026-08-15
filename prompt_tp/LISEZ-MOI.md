@@ -18,9 +18,9 @@ commence.
 | Dossier | Le cas pratique | Quand |
 |---|---|---|
 | `J2-slide043/` | Du besoin à la fonctionnalité : votre propre spécification | fin de matinée |
-| `J2-slide197/` | Ce qu'il voit à l'écran | début d'après-midi |
-| `J2-slide204/` | Demandez votre procédure, et comptez | début d'après-midi |
-| `J2-slide262/` | La couche de l'équipe, en quatre briques | fin d'après-midi |
+| `J2-slide186/` | Ce qu'il voit à l'écran | début d'après-midi |
+| `J2-slide193/` | Demandez votre procédure, et comptez | début d'après-midi |
+| `J2-slide251/` | La couche de l'équipe, en quatre briques | fin d'après-midi |
 
 **Deux cas pratiques n'ont pas de dossier ici, et c'est normal : ils se font sans outil.**
 L'auto-évaluation du début du jour 1 et celle de la clôture, et le micro-exercice sur la stratégie
