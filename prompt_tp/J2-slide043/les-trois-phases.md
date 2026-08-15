@@ -76,17 +76,78 @@ choisir à ma place.
 
 ### 🚪 La porte 1 — et ce n'est pas un bouton
 
-**Relisez avant de valider.** Le geste :
+**Vous n'allez pas chercher ce qui manque. Vous allez chercher ce qui est en trop.**
 
-> **Reprenez le besoin de départ, phrase par phrase.** Chacune a-t-elle son exigence ?
-> Puis lisez un critère à voix haute en commençant par **« je vais devoir prouver que »**. Si la
-> phrase ne se termine pas, le critère n'est pas testable.
+C'est contre-intuitif, et c'est pour ça que c'est la porte la plus instructive des trois.
 
-**Complétez ce qui manque**, en le lui demandant. Puis, et seulement puis :
+#### ① Comptez. Deux nombres, trente secondes.
+
+| | |
+|---|---|
+| **Votre besoin** | 2 phrases |
+| **Sa spécification** | *(comptez les exigences)* |
+
+**Écrivez les deux nombres l'un sous l'autre.** Tout le reste de la porte découle de cet écart.
+
+#### ② Triez, en trois colonnes
+
+Passez chaque exigence, dans l'ordre :
+
+| Elle vient du besoin | Elle est déduite, et c'est raisonnable | **Il l'a inventée** |
+|---|---|---|
+| vous pouvez pointer la phrase | personne ne l'a demandée, mais elle est nécessaire | ni demandée, ni nécessaire ici |
+
+**La troisième colonne est l'objectif.** Elle contiendra des choses parfaitement défendables —
+internationalisation, observabilité, volumétrie, sécurité des journaux, interface HTTP. **Ce sont
+les réflexes d'un bon module en général**, pas de celui que vous avez demandé.
+
+> ⚠️ **Chacune de ces lignes est un engagement que quelqu'un devra construire.** Une exigence qu'on
+> laisse passer à la porte 1 devient une tâche au temps 3, et du code après. **C'est ici qu'elle
+> coûte le moins cher à retirer.**
+
+#### ③ Coupez — et ça se demande, ça ne se discute pas
+
+Remplacez les numéros par les vôtres :
 
 ```
-J'ai relu les exigences, elles sont validées. Passe à la conception.
+Les exigences 8 à 12 ne viennent pas de mon besoin. Supprime-les.
+Pour chaque exigence restante, ajoute en fin de ligne d'où elle vient :
+soit la phrase de mon besoin qui la justifie, soit « déduite ».
 ```
+
+**La seconde phrase est la plus utile des deux.** Elle vous donne une traçabilité **remontante**,
+et vous verrez d'un coup d'œil lesquelles ne s'accrochent à rien.
+
+#### ④ Tranchez le `[à compléter]` qui compte
+
+Il en a laissé plusieurs. **Un seul est une vraie décision** : l'horizon de l'alerte.
+
+> **Combien de jours avant la péremption faut-il alerter ?**
+
+Sept ? Trente ? Quatre-vingt-dix pour un produit sensible ? **Aucune machine ne peut répondre à
+votre place** — ce n'est pas une question technique, c'est une règle de votre métier.
+
+🟢 **C'est le meilleur moment du cas pratique pour qui ne code pas.** Vous êtes ici strictement à
+égalité, et probablement en avance.
+
+Donnez-lui la réponse :
+
+```
+L'horizon « bientôt périmé » est de N jours. Mets-le à la place du
+[à compléter] de l'exigence concernée.
+```
+
+#### ⑤ Puis seulement, validez
+
+**Un dernier réflexe, s'il vous reste du temps :** prenez un critère au hasard et lisez-le à voix
+haute en commençant par **« je vais devoir prouver que »**. Si la phrase ne se termine pas
+naturellement, le critère n'est pas testable.
+
+```
+J'ai relu les exigences, elles sont validées. Passe au temps 2.
+```
+
+> **Celui qui prononce cette phrase n'est pas celui qui prononcera la suivante.**
 
 ---
 

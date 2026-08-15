@@ -37,7 +37,7 @@ voulez — la seule chose qui compte, c'est que **ce ne soit jamais la même mai
 
 | Porte | Le geste, et il ne demande pas de lire du code |
 |---|---|
-| **1 · le QUOI** | Reprenez le besoin de départ **phrase par phrase** : chacune a-t-elle son critère ? Puis lisez un critère en commençant par « je vais devoir prouver que » — si la phrase ne se termine pas, il n'est pas testable. |
+| **1 · le QUOI** | **Comptez.** Votre besoin fait deux phrases ; sa spécification en fera douze. Cherchez **ce qui est en trop**, pas ce qui manque — puis demandez-lui de couper. Chaque exigence inventée deviendra une tâche, puis du code. |
 | **2 · le COMMENT** | Pour chaque brique proposée, demandez **à quel besoin de la phase 1 elle répond**. Celles qui ne répondent à rien sortent : l'agent propose volontiers la version idéale d'un projet qui n'est pas le vôtre. |
 | **3 · les TÂCHES** | Prenez **trois renvois au hasard** et vérifiez que les exigences citées existent vraiment. C'est le geste le plus simple des trois, et celui qui trouve le plus de défauts. |
 
