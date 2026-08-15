@@ -17,7 +17,7 @@
    **quand l'outil ne fournit pas de porte, c'est vous qui la tenez.** Une porte fournie par le
    produit vous priverait de l'exercice.
 
-> 🧪 **Là où le mode Plan a sa place, c'est à l'étape ④** — implémenter une tâche. C'est sa forme
+> 🧪 **Là où le mode Plan a sa place, c'est à l'étape ⑤** — implémenter une tâche. C'est sa forme
 > naturelle : il propose, vous approuvez, il exécute. Essayez-le à ce moment-là si vous voulez
 > comparer.
 
@@ -33,7 +33,7 @@ Puis **créez un dossier `spec/`** à la racine du projet.
 
 ---
 
-## ① Phase 1 · le QUOI
+## ① Phase 1 · le premier jet
 
 **Tout est dans le bloc ci-dessous, le besoin compris.** Un seul copier-coller, rien à aller
 chercher ailleurs.
@@ -74,53 +74,39 @@ choisir à ma place.
 - **« écris [à compléter] »** est la parade d'hier. Sans elle, il choisit un seuil d'alerte tout
   seul, et personne ne le lui a donné.
 
-### 🚪 La porte 1 — et ce n'est pas un bouton
+### ⛔ STOP. On ne valide rien.
 
-**Vous n'allez pas chercher ce qui manque. Vous allez chercher ce qui est en trop.**
+**Quand le fichier est écrit, vous vous arrêtez et vous ne touchez plus à rien.**
 
-C'est contre-intuitif, et c'est pour ça que c'est la porte la plus instructive des trois.
+Deux choses à faire, et rien d'autre :
 
-#### ① Comptez. Deux nombres, trente secondes.
+1. **Ouvrez `spec/exigences.md`** et lisez-le.
+2. **Comptez.** Combien d'exigences ? Combien de critères d'acceptation en tout ? **Écrivez les
+   deux nombres**, on va vous les demander.
 
-| | |
-|---|---|
-| **Votre besoin** | 2 phrases |
-| **Sa spécification** | *(comptez les exigences)* |
+**Puis levez les yeux.** On se retrouve tous ensemble avant d'aller plus loin.
 
-**Écrivez les deux nombres l'un sous l'autre.** Tout le reste de la porte découle de cet écart.
+---
 
-#### ② Triez, en trois colonnes
+## ② Phase 1 · le second jet
 
-Passez chaque exigence, dans l'ordre :
+*Après la mise en commun.*
 
-| Elle vient du besoin | Elle est déduite, et c'est raisonnable | **Il l'a inventée** |
-|---|---|---|
-| vous pouvez pointer la phrase | personne ne l'a demandée, mais elle est nécessaire | ni demandée, ni nécessaire ici |
+**Vous n'allez pas corriger la spécification. Vous allez la refaire autrement**, et comparer.
 
-**La troisième colonne est l'objectif.** Elle contiendra des choses parfaitement défendables —
-internationalisation, observabilité, volumétrie, sécurité des journaux, interface HTTP. **Ce sont
-les réflexes d'un bon module en général**, pas de celui que vous avez demandé.
+#### ① Faites-lui poser les questions
 
-> ⚠️ **Chacune de ces lignes est un engagement que quelqu'un devra construire.** Une exigence qu'on
-> laisse passer à la porte 1 devient une tâche au temps 3, et du code après. **C'est ici qu'elle
-> coûte le moins cher à retirer.**
-
-#### ③ Coupez — et ça se demande, ça ne se discute pas
-
-Remplacez les numéros par les vôtres :
+C'est le geste du premier matin, celui de 10h02. Vous l'avez déjà fait une fois.
 
 ```
-Les exigences 8 à 12 ne viennent pas de mon besoin. Supprime-les.
-Pour chaque exigence restante, ajoute en fin de ligne d'où elle vient :
-soit la phrase de mon besoin qui la justifie, soit « déduite ».
+Reprends depuis le début. Avant d'écrire quoi que ce soit, pose-moi
+une dizaine de questions pour cerner le besoin. Ne réponds à aucune
+à ma place, et n'écris aucun fichier tant que je n'ai pas répondu.
 ```
 
-**La seconde phrase est la plus utile des deux.** Elle vous donne une traçabilité **remontante**,
-et vous verrez d'un coup d'œil lesquelles ne s'accrochent à rien.
+#### ② Répondez — c'est là qu'est le travail
 
-#### ④ Tranchez le `[à compléter]` qui compte
-
-Il en a laissé plusieurs. **Un seul est une vraie décision** : l'horizon de l'alerte.
+Ses questions vont porter sur des choses que **vous seuls** pouvez trancher. En tête :
 
 > **Combien de jours avant la péremption faut-il alerter ?**
 
@@ -130,18 +116,35 @@ votre place** — ce n'est pas une question technique, c'est une règle de votre
 🟢 **C'est le meilleur moment du cas pratique pour qui ne code pas.** Vous êtes ici strictement à
 égalité, et probablement en avance.
 
-Donnez-lui la réponse :
+**Répondez à tout, dans un seul message.** Quand vous ne savez pas, dites-le : *« je ne sais pas,
+mets [à compléter] »*. C'est une réponse valable, et souvent la plus honnête.
+
+#### ③ Faites-lui réécrire — et mettez ses idées en quarantaine
 
 ```
-L'horizon « bientôt périmé » est de N jours. Mets-le à la place du
-[à compléter] de l'exigence concernée.
+Voilà mes réponses. Réécris spec/exigences.md à partir de ça, et de
+rien d'autre.
+Si tu penses qu'il manque quelque chose que je n'ai pas demandé, ne
+l'ajoute pas aux exigences : mets-le dans une section « Suggestions,
+hors périmètre » à la fin du fichier.
 ```
 
-#### ⑤ Puis seulement, validez
+**Le second paragraphe est le plus important des deux, et c'est un geste à emporter.** Vous ne lui
+interdisez pas d'avoir des idées — **vous lui interdisez de les mélanger avec vos exigences.**
+Ce qui est dans la section du bas ne deviendra jamais une tâche, ni du code, ni un engagement.
 
-**Un dernier réflexe, s'il vous reste du temps :** prenez un critère au hasard et lisez-le à voix
-haute en commençant par **« je vais devoir prouver que »**. Si la phrase ne se termine pas
-naturellement, le critère n'est pas testable.
+---
+
+### 🚪 La porte 1 — et ce n'est pas un bouton
+
+**Une seule question, et elle se répond en une minute :**
+
+> **Est-ce que tout ce qui est écrit vient de ce que vous avez répondu ?**
+
+Tout ce qui n'en vient pas est une décision qu'il a reprise à son compte. Elle descend dans
+« Suggestions, hors périmètre », ou elle disparaît.
+
+**Comparez aussi les deux nombres** — ceux du premier jet, et ceux de maintenant.
 
 ```
 J'ai relu les exigences, elles sont validées. Passe au temps 2.
@@ -151,7 +154,7 @@ J'ai relu les exigences, elles sont validées. Passe au temps 2.
 
 ---
 
-## ② Phase 2 · le COMMENT
+## ③ Phase 2 · le COMMENT
 
 **Ce n'est pas la même personne qui tient cette porte.**
 
@@ -189,7 +192,7 @@ Conception validée. Passe aux tâches.
 
 ---
 
-## ③ Phase 3 · les TÂCHES
+## ④ Phase 3 · les TÂCHES
 
 **Troisième personne.**
 
@@ -215,7 +218,7 @@ l'exigence 1 n'a que cinq critères. **Tracé n'est pas vrai.** Un renvoi se sui
 
 ---
 
-## ④ Une tâche, une seule
+## ⑤ Une tâche, une seule
 
 **Pas le bouton qui lance tout.**
 
@@ -233,11 +236,12 @@ Puis **ouvrez le fichier produit**. Pas le compte rendu — le fichier.
 ## Vous avez fini quand vous pouvez montrer ceci
 
 - ☐ **Trois fichiers** dans `spec/`
+- ☐ **Les deux nombres du premier jet**, et ceux du second
 - ☐ **Les trois portes franchies par trois personnes différentes**
 - ☐ **Ce que vous avez dû corriger avant d'accepter** — pour chaque porte, au moins une chose
 - ☐ **Un fichier produit ouvert**, et son contenu regardé
 
-**Un groupe qui n'a que les trois premiers points a réussi le cas pratique.**
+**Un groupe qui n'a que les quatre premiers points a réussi le cas pratique.**
 
 ---
 
