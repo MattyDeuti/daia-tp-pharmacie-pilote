@@ -92,17 +92,37 @@ Deux choses à faire, et rien d'autre :
 
 *Après la mise en commun.*
 
-**Vous n'allez pas corriger la spécification. Vous allez la refaire autrement**, et comparer.
+**Vous n'allez pas corriger la spécification. Vous allez la refaire**, avec **une seule ligne de
+différence** — et comparer les deux résultats.
 
-#### ① Faites-lui poser les questions
+#### ① Recollez exactement le même bloc, avec une ligne de plus
 
-C'est le geste du premier matin, celui de 10h02. Vous l'avez déjà fait une fois.
+**Une conversation neuve d'abord** (`/clear`), puis :
 
 ```
-Reprends depuis le début. Avant d'écrire quoi que ce soit, pose-moi
-une dizaine de questions pour cerner le besoin. Ne réponds à aucune
-à ma place, et n'écris aucun fichier tant que je n'ai pas répondu.
+Nous voulons ajouter au projet un module d'alertes de péremption,
+moderne, qui coexiste avec le code existant sans en dépendre.
+
+À partir d'une liste de lots (produit, quantité, date de péremption),
+il signale les lots déjà périmés et ceux qui le seront bientôt.
+
+On va procéder en trois temps, et tu t'arrêtes après chacun :
+  temps 1 — les exigences, dans spec/exigences.md
+  temps 2 — la conception, dans spec/conception.md
+  temps 3 — les tâches, dans spec/taches.md
+
+Fais le temps 1, et lui seul. Écris les exigences dans
+spec/exigences.md : ce que la fonctionnalité doit faire, numérotées,
+avec pour chacune ses critères d'acceptation.
+N'écris aucun code. Ne crée aucun autre fichier. Arrête-toi là.
+Quand une information te manque, écris [à compléter] plutôt que de
+choisir à ma place.
+Pose-moi 10 questions pour être sûr de bien comprendre ce que je
+souhaite.
 ```
+
+**La dernière phrase est la seule différence avec le premier jet.** Tout le reste est identique,
+mot pour mot. C'est ce qui rend la comparaison honnête : **une seule variable a changé.**
 
 #### ② Répondez — c'est là qu'est le travail
 
@@ -116,22 +136,25 @@ votre place** — ce n'est pas une question technique, c'est une règle de votre
 🟢 **C'est le meilleur moment du cas pratique pour qui ne code pas.** Vous êtes ici strictement à
 égalité, et probablement en avance.
 
-**Répondez à tout, dans un seul message.** Quand vous ne savez pas, dites-le : *« je ne sais pas,
-mets [à compléter] »*. C'est une réponse valable, et souvent la plus honnête.
-
-#### ③ Faites-lui réécrire — et mettez ses idées en quarantaine
+**Répondez à tout dans un seul message**, et ajoutez la mise en quarantaine à la fin :
 
 ```
-Voilà mes réponses. Réécris spec/exigences.md à partir de ça, et de
-rien d'autre.
+Voilà mes réponses :
+1. …
+2. …
+
+Écris spec/exigences.md à partir de ça, et de rien d'autre.
 Si tu penses qu'il manque quelque chose que je n'ai pas demandé, ne
 l'ajoute pas aux exigences : mets-le dans une section « Suggestions,
 hors périmètre » à la fin du fichier.
 ```
 
-**Le second paragraphe est le plus important des deux, et c'est un geste à emporter.** Vous ne lui
-interdisez pas d'avoir des idées — **vous lui interdisez de les mélanger avec vos exigences.**
-Ce qui est dans la section du bas ne deviendra jamais une tâche, ni du code, ni un engagement.
+**Quand vous ne savez pas, dites-le** : *« je ne sais pas, mets [à compléter] »*. C'est une réponse
+valable, et souvent la plus honnête.
+
+**Le dernier paragraphe est un geste à emporter.** Vous ne lui interdisez pas d'avoir des idées —
+**vous lui interdisez de les mélanger avec vos exigences.** Ce qui est dans la section du bas ne
+deviendra jamais une tâche, ni du code, ni un engagement.
 
 ---
 
