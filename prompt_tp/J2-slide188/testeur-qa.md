@@ -18,9 +18,8 @@ français, lisibles par quelqu'un qui ne code pas.
 Identiques pour les quatre rôles. La première, **attendez la réponse**, puis la seconde.
 
 ```
-Ouvre http://localhost:8000 avec le serveur playwright, prends une
-capture de la fenêtre (pas de la page entière), et dis-moi ce qui
-ne va pas sur cet écran.
+Prends une capture d'écran de http://localhost:8000 avec le serveur
+playwright, et dis-moi ce qui ne va pas sur cet écran.
 ```
 
 ```
