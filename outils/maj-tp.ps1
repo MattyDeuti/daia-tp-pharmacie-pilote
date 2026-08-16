@@ -22,7 +22,10 @@ param([switch]$Neuf)
 
 $ErrorActionPreference = 'Stop'
 $cible = 'C:\Work\daia-tp-pharmacie'
-$url = 'https://github.com/MattyDeuti/daia-tp-pharmacie.git'
+# Depot de SESSION, pas le kit source : la salle y a le droit d'ecrire, et il se
+# jette et se recree entre deux sessions. Le kit source, daia-tp-pharmacie, reste
+# en lecture seule pour tout le monde. Decide le 16/08.
+$url = 'https://github.com/MattyDeuti/daia-tp-pharmacie-pilote.git'
 $installe = 'C:\Work\_maj-tp.ps1'
 
 # On ne DEPLACE jamais le dossier : sur Windows, un dossier ouvert dans l'editeur ou
