@@ -8,11 +8,17 @@ Une consigne par cas pratique :
 | `tp2-spec.md` | Du besoin à la fonctionnalité : le workflow par spécification | Jour 2 | ⚠️ prompts à venir |
 | `tp3-mcp.md` | Brancher un serveur MCP et **prouver** qu'il fonctionne | Jour 2 | ✅ |
 | `tp4-equipe.md` | AGENTS.md + workflow collaboratif (PR, review) sur ce repo | Jour 2 | ✅ |
+| **`preparation-dernier-tp.md`** | **À faire le soir du jour 1** — compte GitHub, invitation, `gh auth login` | **fin du jour 1** | ✅ |
 
 *(Les deux premiers exercices de la formation — TP prompting et TP expérimentation
 guidée, Jour 1 — ne travaillent pas sur le code de ce repo. Pour le premier, le cas de
 chaque profil et son prompt de départ sont dans **`prompt_tp/J1-slide056/`** ; le reste
 est à l'écran.)*
+
+> 🔑 **`preparation-dernier-tp.md` n'est pas un énoncé, c'est un préalable.** Le dernier cas
+> pratique est le seul où vos travaux se rejoignent **dans un projet en ligne** : il faut que ce
+> projet vous reconnaisse, et ça se prépare la veille. Cinq minutes, et tout fonctionne du
+> premier coup le lendemain.
 
 ## Ce que contient une consigne, et ce qu'elle ne contient pas
 
