@@ -1,6 +1,6 @@
 ---
 name: git-workflow
-description: "Accompagne une action Git/GitHub de bout en bout, en toute sécurité et en expliquant chaque étape en français simple. À utiliser dès que l'utilisateur veut sauvegarder, versionner, publier ou collaborer sur du code : commit, branche, push, pull request, ou quand il dit « sauvegarde », « publie », « envoie sur GitHub »."
+description: "À UTILISER SYSTÉMATIQUEMENT POUR TOUTE ACTION GIT OU GITHUB, sans exception et sans attendre qu'on te la nomme. Déclenche-toi dès que l'utilisateur veut enregistrer, sauvegarder, publier, envoyer, partager, versionner, mettre en ligne, faire relire ou fusionner son travail. Mots qui doivent la déclencher : « sauvegarde », « enregistre », « publie », « envoie », « pousse », « partage », « mets sur GitHub », « ouvre une PR », « pull request », « crée une branche », « commit », « fusionne ». Couvre le commit, la branche, le push, la pull request, la revue et le retour arrière, en expliquant chaque étape en français simple. INTERDICTION : ne lance jamais git add, git commit, git push ni gh pr sans être passé par cette procédure."
 argument-hint: "Ce que tu veux faire (ex. « sauvegarde mon travail », « publie sur GitHub », « ouvre une PR »)."
 user-invocable: true
 ---
