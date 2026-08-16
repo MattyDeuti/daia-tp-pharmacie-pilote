@@ -15,14 +15,18 @@ rapport, dans le même ordre**, sur n'importe quel fichier ancien.
 
 ## ① Demandez la procédure
 
-**Remplacez `<ton prénom>` par le vôtre** avant de coller.
+**Remplacez `PRENOM` par votre prénom** avant de coller.
 
 ```
-Crée-moi une skill nommée audit-legacy, qui produit l'audit d'un
-fichier de code ancien : six rubriques imposées et toujours dans
-le même ordre (sécurité, robustesse, lisibilité, tests, dette,
-priorités), en français, dix lignes par rubrique au maximum.
-Fais-lui commencer chaque livrable par le marqueur CANARI-<ton prénom>.
+Crée une skill nommée audit-legacy dans le fichier
+.github/skills/audit-legacy/SKILL.md, sur le modèle de
+.github/skills/git-workflow/SKILL.md : même frontmatter, avec
+seulement name, description, argument-hint et user-invocable.
+Elle produit l'audit d'un fichier de code ancien : six rubriques
+imposées et toujours dans le même ordre (sécurité, robustesse,
+lisibilité, tests, dette, priorités), en français, dix lignes par
+rubrique au maximum.
+Fais-lui commencer chaque livrable par la ligne exacte CANARI-PRENOM.
 ```
 
 **Ce que fait chaque partie :**

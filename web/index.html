@@ -1,27 +1,14 @@
 <!DOCTYPE html>
 <!--
-  ============================================================================
   PharmaStock — écran de gestion des stocks
-  Cible web du projet fil rouge DAIA. Aucune dépendance : ce fichier s'ouvre
-  directement dans un navigateur (double-clic ou file://).
+  Cible web du projet fil rouge DAIA.
 
-  ⚠️ NOTE FORMATEUR — NE PAS DIFFUSER CE BLOC EN SALLE ⚠️
-  Cette page contient QUATRE défauts volontaires, dans le même esprit que le
-  code Java du projet. Ils sont là pour que la génération de tests ait quelque
-  chose à trouver.
-
-    1. RECHERCHE SENSIBLE À LA CASSE — « doliprane » ne trouve pas « Doliprane ».
-    2. STUPÉFIANT SANS ORDONNANCE — la case « stupéfiant » peut être cochée sans
-       renseigner le numéro d'ordonnance : la traçabilité réglementaire n'est pas
-       imposée. (C'est exactement la règle métier que l'analyste écrira dans
-       AGENTS.md au TP de la couche d'équipe.)
-    3. PÉRIMÉ AUJOURD'HUI = AFFICHÉ « VALIDE » — la comparaison exclut le jour
-       même : un lot qui périme aujourd'hui n'est pas signalé.
-    4. QUANTITÉ NÉGATIVE ACCEPTÉE — le champ n'a pas de borne basse.
+  Cette page est servie sur http://localhost:8000 par la tâche VS Code
+  « Ecran PharmaStock », qui démarre à l'ouverture du projet. Le serveur MCP
+  du navigateur refuse le protocole file://, d'où le serveur HTTP.
 
   Les dates du jeu d'essai sont calculées à l'ouverture de la page, donc la
   démonstration reste juste quelle que soit la session.
-  ============================================================================
 -->
 <html lang="fr">
 <head>

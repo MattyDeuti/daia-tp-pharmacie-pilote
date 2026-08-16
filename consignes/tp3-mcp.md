@@ -23,8 +23,8 @@ Repli si l'indicateur n'apparaît pas :  Ctrl + Shift + P  →  « MCP »
 ## ② La demande
 
 ```
-Ouvre web/index.html, prends-en une capture, et dis-moi ce qui
-ne va pas sur cet écran.
+Ouvre http://localhost:8000 avec le serveur playwright, prends-en
+une capture, et dis-moi ce qui ne va pas sur cet écran.
 ```
 
 Puis, une fois qu'il a répondu :

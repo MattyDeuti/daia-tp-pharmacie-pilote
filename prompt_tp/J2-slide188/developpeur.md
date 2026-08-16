@@ -18,8 +18,8 @@ Elles sont identiques pour les quatre rôles. Collez la première, **attendez la
 collez la seconde.
 
 ```
-Ouvre web/index.html, prends-en une capture, et dis-moi ce qui
-ne va pas sur cet écran.
+Ouvre http://localhost:8000 avec le serveur playwright, prends-en
+une capture, et dis-moi ce qui ne va pas sur cet écran.
 ```
 
 ```

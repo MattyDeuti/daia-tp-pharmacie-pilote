@@ -21,8 +21,8 @@ comme des obligations ou des interdictions.
 Identiques pour les quatre rôles. La première, **attendez la réponse**, puis la seconde.
 
 ```
-Ouvre web/index.html, prends-en une capture, et dis-moi ce qui
-ne va pas sur cet écran.
+Ouvre http://localhost:8000 avec le serveur playwright, prends-en
+une capture, et dis-moi ce qui ne va pas sur cet écran.
 ```
 
 ```

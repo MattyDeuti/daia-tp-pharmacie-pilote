@@ -20,11 +20,15 @@ posée dans le projet est **relue par l'outil la prochaine fois**, sans que pers
 Chaque demande se termine par la même ligne :
 
 ```
-Fais-lui commencer chaque livrable par le marqueur CANARI-<ton prénom>.
+Fais-lui commencer chaque livrable par la ligne exacte CANARI-PRENOM.
 ```
 
-**Remplacez `<ton prénom>` par le vôtre.** Ce n'est pas décoratif : c'est ce qui rend la preuve
+**Remplacez `PRENOM` par votre prénom.** Ce n'est pas décoratif : c'est ce qui rend la preuve
 **individuelle**. On verra tout de suite quel poste a réellement déclenché sa procédure.
+
+> La formulation d'origine disait « ton prénom ». **L'assistant comprenait que ça désignait le
+> sien** et écrivait `CANARI-GitHub Copilot`. Si vous oubliez de remplacer `PRENOM`, ce n'est
+> pas grave : le marqueur sort quand même, il n'est simplement plus individuel.
 
 ## ⛔ Ce qui ne compte pas comme preuve
 

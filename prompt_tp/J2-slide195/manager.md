@@ -18,14 +18,18 @@ format de note** — quinze lignes, la dette, l'effort, la décision demandée.
 
 ## ① Demandez la procédure
 
-**Remplacez `<ton prénom>` par le vôtre** avant de coller.
+**Remplacez `PRENOM` par votre prénom** avant de coller.
 
 ```
-Crée-moi une skill nommée synthese-comite, qui rédige une synthèse
-de quinze lignes maximum pour un comité de pilotage : la dette
-constatée, l'effort estimé, et la décision demandée au comité.
-Pas de jargon technique, pas d'introduction, pas de conclusion.
-Fais-lui commencer chaque livrable par le marqueur CANARI-<ton prénom>.
+Crée une skill nommée synthese-comite dans le fichier
+.github/skills/synthese-comite/SKILL.md, sur le modèle de
+.github/skills/git-workflow/SKILL.md : même frontmatter, avec
+seulement name, description, argument-hint et user-invocable.
+Elle rédige une synthèse de quinze lignes maximum pour un comité de
+pilotage : la dette constatée, l'effort estimé, et la décision demandée
+au comité. Pas de jargon technique, pas d'introduction, pas de
+conclusion.
+Fais-lui commencer chaque livrable par la ligne exacte CANARI-PRENOM.
 ```
 
 **Ce que fait chaque partie :**

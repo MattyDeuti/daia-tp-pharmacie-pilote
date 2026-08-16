@@ -18,14 +18,17 @@ même format** — « en tant que, je veux, afin de », suivi des critères d'ac
 
 ## ① Demandez la procédure
 
-**Remplacez `<ton prénom>` par le vôtre** avant de coller.
+**Remplacez `PRENOM` par votre prénom** avant de coller.
 
 ```
-Crée-moi une skill nommée demande-utilisateur, qui rédige une
-demande au format « en tant que, je veux, afin de », suivie de
-ses critères d'acceptation, en français et sans aucun terme
-technique.
-Fais-lui commencer chaque livrable par le marqueur CANARI-<ton prénom>.
+Crée une skill nommée demande-utilisateur dans le fichier
+.github/skills/demande-utilisateur/SKILL.md, sur le modèle de
+.github/skills/git-workflow/SKILL.md : même frontmatter, avec
+seulement name, description, argument-hint et user-invocable.
+Elle rédige une demande au format « en tant que, je veux, afin de »,
+suivie de ses critères d'acceptation, en français et sans aucun
+terme technique.
+Fais-lui commencer chaque livrable par la ligne exacte CANARI-PRENOM.
 ```
 
 **Ce que fait chaque partie :**

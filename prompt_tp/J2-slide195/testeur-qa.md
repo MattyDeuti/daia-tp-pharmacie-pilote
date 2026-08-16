@@ -15,14 +15,17 @@ par méthode publique** — jamais deux, jamais dix.
 
 ## ① Demandez la procédure
 
-**Remplacez `<ton prénom>` par le vôtre** avant de coller.
+**Remplacez `PRENOM` par votre prénom** avant de coller.
 
 ```
-Crée-moi une skill nommée jeu-de-tests, qui écrit pour chaque
-méthode publique exactement trois cas : un cas nominal, un cas
-limite et un cas d'erreur, chacun au format Étant donné / Quand /
-Alors, en français.
-Fais-lui commencer chaque livrable par le marqueur CANARI-<ton prénom>.
+Crée une skill nommée jeu-de-tests dans le fichier
+.github/skills/jeu-de-tests/SKILL.md, sur le modèle de
+.github/skills/git-workflow/SKILL.md : même frontmatter, avec
+seulement name, description, argument-hint et user-invocable.
+Elle écrit pour chaque méthode publique exactement trois cas : un cas
+nominal, un cas limite et un cas d'erreur, chacun au format
+Étant donné / Quand / Alors, en français.
+Fais-lui commencer chaque livrable par la ligne exacte CANARI-PRENOM.
 ```
 
 **Ce que fait chaque partie :**

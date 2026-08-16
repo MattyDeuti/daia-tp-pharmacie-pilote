@@ -1,0 +1,27 @@
+{
+  // L'ecran PharmaStock doit etre servi en HTTP : le serveur MCP du navigateur
+  // refuse le protocole `file://`. Cette tache demarre toute seule a l'ouverture
+  // du projet — la premiere fois, VS Code demande l'autorisation d'executer les
+  // taches automatiques du dossier : repondre « Allow ».
+  //
+  // Pour la relancer a la main : Terminal > Run Task... > « Ecran PharmaStock ».
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Ecran PharmaStock",
+      "detail": "Sert web/index.html sur http://localhost:8000 — l'adresse a donner a l'agent",
+      "type": "shell",
+      "command": "node",
+      "args": ["outils/ecran-pharmastock.js"],
+      "isBackground": true,
+      "problemMatcher": [],
+      "runOptions": { "runOn": "folderOpen" },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "formation",
+        "clear": true
+      }
+    }
+  ]
+}
