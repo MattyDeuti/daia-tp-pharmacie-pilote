@@ -29,6 +29,19 @@ ne partira que si vous l'avez bien annoncée.
 > suite.** Essayez avec vos mots, ratez si besoin, réécrivez une fois — c'est le rattrapage qui
 > enseigne. Le filet est là pour que personne ne reste bloqué, pas pour éviter l'essai.
 
+## Deux défis bonus, si vous finissez avant
+
+Ils sont **à la fin de votre fichier de rôle**. Le premier fait écrire une parade dans la
+procédure elle-même. Le second ne se tape pas dans le chat : c'est un **réglage**, et c'est de la
+gouvernance.
+
+```
+Ctrl + Maj + P   →   Chat: Manage Tool Approval
+```
+
+Vous y décidez **quels appels d'outils passent tout seuls et lesquels vous demandent**. Ce qu'on
+vous demandera ensuite n'est pas votre réglage : c'est **votre raison**.
+
 ## Le canari, et c'est tout l'exercice
 
 Chaque demande se termine par la même ligne :

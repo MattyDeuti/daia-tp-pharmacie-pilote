@@ -120,3 +120,46 @@ Audite le fichier db/schema_extensions.sql.
 **Ce que ça montre :** les six rubriques sortent quand même, y compris celles qui n'ont rien à dire
 sur ce fichier-là. **Une forme imposée se remplit toujours** — c'est le piège d'hier, et votre
 propre procédure vient de le reproduire. Regardez ce qu'elle a écrit sous « tests ».
+
+---
+
+## Le second défi bonus — **régler l'approbation**
+
+*Celui-ci n'a rien à taper dans le chat. C'est un réglage, et c'est de la gouvernance.*
+
+Depuis la démonstration de tout à l'heure, chaque appel d'outil vous demande votre accord.
+**Vous allez décider lesquels continuent de le faire, et lesquels passent tout seuls.**
+
+### Le geste
+
+```
+Ctrl + Maj + P   →   Chat: Manage Tool Approval
+```
+
+La liste des outils s'ouvre, **groupés par serveur**. Dépliez `playwright` : vous pouvez cocher
+outil par outil, ou cocher le serveur entier pour tout accorder d'un coup.
+
+### La règle que je vous propose, et que vous avez le droit de refuser
+
+| Ce que l'outil fait | Ce que je conseille |
+|---|---|
+| il **lit** | peut passer tout seul |
+| il **écrit** un fichier | qu'il demande |
+| il **exécute** une commande | qu'il demande |
+| il **sort du projet** — le web, un navigateur | qu'il demande |
+
+**Ce sont les quatre paliers de droits vus tout à l'heure**, appliqués à l'approbation.
+
+### Ce qu'on vous demandera
+
+Pas votre réglage : **votre raison**. « J'ai tout coché » est une réponse acceptable, à
+condition de pouvoir la défendre devant les autres. C'est exactement la conversation qu'une
+équipe doit avoir **avant** de lâcher un agent sur son projet, pas après.
+
+> **Le dialogue d'approbation offre quatre portées, et elles n'engagent pas la même chose :**
+> cet appel-ci · cette session · **ce projet** · toutes les fois à venir.
+> La troisième s'écrit dans le projet, donc **elle engage toute l'équipe**. La quatrième vaut
+> partout, pour toujours, y compris sur les dépôts que vous n'avez pas encore ouverts.
+
+> **Pour revenir en arrière**, à connaître et à garder : `Chat: Reset Tool Confirmations`
+> efface toutes les approbations que vous avez accordées.
