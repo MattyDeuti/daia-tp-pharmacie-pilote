@@ -18,8 +18,8 @@ Elles sont identiques pour les quatre rôles. Collez la première, **attendez la
 collez la seconde.
 
 ```
-Prends une capture d'écran de http://localhost:8000 avec le serveur
-playwright, et dis-moi ce qui ne va pas sur cet écran.
+prend une capture d'ecran de "C:\Work\daia-tp-pharmacie\web\index.html"
+et dis-moi ce qui ne va pas sur cet écran.
 ```
 
 ```

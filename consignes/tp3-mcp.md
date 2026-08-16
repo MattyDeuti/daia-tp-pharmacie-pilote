@@ -23,8 +23,8 @@ Repli si l'indicateur n'apparaît pas :  Ctrl + Shift + P  →  « MCP »
 ## ② La demande
 
 ```
-Prends une capture d'écran de http://localhost:8000 avec le serveur
-playwright, et dis-moi ce qui ne va pas sur cet écran.
+prend une capture d'ecran de "C:\Work\daia-tp-pharmacie\web\index.html"
+et dis-moi ce qui ne va pas sur cet écran.
 ```
 
 Puis, une fois qu'il a répondu :
