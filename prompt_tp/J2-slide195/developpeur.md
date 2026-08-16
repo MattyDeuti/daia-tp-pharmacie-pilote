@@ -13,21 +13,41 @@ rapport, dans le même ordre**, sur n'importe quel fichier ancien.
 
 ---
 
-## ① Demandez la procédure
+## ① Écrivez la demande — avec vos mots
 
-**Remplacez `PRENOM` par votre prénom** avant de coller.
+**Il n'y a pas de texte à copier ici.** Le nom de la procédure est imposé, son cahier des
+charges aussi. **Les deux lignes du milieu, c'est vous qui les écrivez** — et ce sont elles
+qui décident de tout.
 
 ```
-Crée une skill nommée audit-legacy dans le fichier
-.github/skills/audit-legacy/SKILL.md, sur le modèle de
-.github/skills/git-workflow/SKILL.md : même frontmatter, avec
-seulement name, description, argument-hint et user-invocable.
-Elle produit l'audit d'un fichier de code ancien : six rubriques
-imposées et toujours dans le même ordre (sécurité, robustesse,
-lisibilité, tests, dette, priorités), en français, dix lignes par
-rubrique au maximum.
-Fais-lui commencer chaque livrable par la ligne exacte CANARI-PRENOM.
+Crée une skill nommée %s.
+
+À QUOI ELLE SERT : ......................................
+
+QUAND ELLE DOIT ÊTRE INVOQUÉE : .........................
+
+Fais-lui commencer chaque livrable par la ligne exacte
+CANARI-PRENOM.
 ```
+
+**Ce que la procédure doit produire**, et là-dessus vous n'avez pas le choix :
+%s.
+
+**Ce que vous écrivez vous-même :**
+
+- **À quoi elle sert** — ce qu'elle produit, en une phrase.
+- **Quand elle doit être invoquée** — la phrase que vous taperiez dans deux mois, sans y
+  penser et sans connaître le nom du fichier.
+
+> Ces deux lignes deviennent le champ que l'outil lit — **le seul** — avant de décider
+> d'ouvrir votre procédure. Mal écrites, elle ne partira jamais toute seule. **Vous le
+> verrez à l'étape ③**, qui la déclenche sans la nommer.
+
+**Remplacez `PRENOM` par votre prénom.**
+
+> 🆘 **Si ça ne part pas**, et seulement après avoir réécrit votre description une fois :
+> ouvrez **`LA-TRICHE.md`**, dans ce dossier. Il donne la demande complète et les trois
+> pièges que personne ne devine.
 
 **Ce que fait chaque partie :**
 

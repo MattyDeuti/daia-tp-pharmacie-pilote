@@ -15,6 +15,20 @@ posée dans le projet est **relue par l'outil la prochaine fois**, sans que pers
 | `analyste.md` | Analyste | `demande-utilisateur` — le format « en tant que, je veux, afin de » |
 | `manager.md` | Manager | `synthese-comite` — quinze lignes pour un comité de pilotage |
 
+## Ce que vous écrivez, et ce qui vous est donné
+
+Le **nom** de votre procédure est imposé, et son **cahier des charges** aussi : ils sont dans
+votre fichier de rôle. **Ce que vous écrivez vous-même, ce sont deux lignes** — à quoi elle sert,
+et quand elle doit être invoquée.
+
+Ces deux lignes deviennent le seul texte que l'outil lira avant de décider d'ouvrir votre
+procédure. **C'est tout l'exercice** : à l'étape ③ vous la déclenchez **sans la nommer**, et elle
+ne partira que si vous l'avez bien annoncée.
+
+> 🆘 **`LA-TRICHE.md`**, dans ce dossier, donne la demande complète. **N'y allez pas tout de
+> suite.** Essayez avec vos mots, ratez si besoin, réécrivez une fois — c'est le rattrapage qui
+> enseigne. Le filet est là pour que personne ne reste bloqué, pas pour éviter l'essai.
+
 ## Le canari, et c'est tout l'exercice
 
 Chaque demande se termine par la même ligne :
