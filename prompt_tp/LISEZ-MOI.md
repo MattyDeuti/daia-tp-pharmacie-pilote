@@ -1,7 +1,11 @@
 # `prompt_tp/` — les prompts à copier-coller
 
-**Un sous-dossier par cas pratique.** Le formateur vous dit lequel ouvrir au moment où il
-commence.
+**Un sous-dossier par cas pratique**, et **son nom est écrit sur la slide** qui annonce le cas
+pratique, en haut à droite, sous la durée : `LES PROMPTS À COPIER`. Vous n'avez rien à deviner —
+vous recopiez ce qui est affiché.
+
+Le nom se lit ainsi : `J2-slide186` = **jour 2, slide 186**. C'est le numéro en bas à droite de
+la slide qui lance le cas pratique.
 
 ### Jour 1
 
@@ -18,9 +22,9 @@ commence.
 | Dossier | Le cas pratique | Quand |
 |---|---|---|
 | `J2-slide043/` | Du besoin à la fonctionnalité : votre propre spécification | fin de matinée |
-| `J2-slide188/` | Ce qu'il voit à l'écran | début d'après-midi |
-| `J2-slide195/` | Demandez votre procédure, et comptez | début d'après-midi |
-| `J2-slide253/` | La couche de l'équipe, en quatre briques | fin d'après-midi |
+| `J2-slide186/` | Ce qu'il voit à l'écran | début d'après-midi |
+| `J2-slide193/` | Demandez votre procédure, et comptez | début d'après-midi |
+| `J2-slide250/` | La couche de l'équipe, en quatre briques | fin d'après-midi |
 
 **Deux cas pratiques n'ont pas de dossier ici, et c'est normal : ils se font sans outil.**
 L'auto-évaluation du début du jour 1 et celle de la clôture, et le micro-exercice sur la stratégie
