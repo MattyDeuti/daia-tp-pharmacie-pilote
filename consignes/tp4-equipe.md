@@ -83,19 +83,33 @@ Vous fabriquez une **skill** — une procédure packagée — dans `.github/skil
 **Le projet en contient déjà un exemplaire à lire :** `.github/skills/git-workflow/SKILL.md`, celui
 qui fera votre publication tout à l'heure. C'est votre modèle.
 
-Remplacez `<mon prénom>` par votre prénom.
+**Il n'y a pas de texte tout prêt ici, et c'est voulu.** Le squelette, et le reste est à vous :
 
 ```
-Crée une skill nommée tests-de-classe, dans .github/skills/, sur le
-modèle de .github/skills/git-workflow/SKILL.md.
-Elle génère les tests d'une classe Java : un cas nominal, un cas limite
-et un cas d'erreur par méthode publique, format préparer / agir / vérifier.
-Fais-lui commencer chaque fichier produit par le marqueur CANARI-<mon prénom>.
+Crée une skill nommée tests-de-classe, sur le modèle de
+.github/skills/git-workflow/SKILL.md.
+
+À QUOI ELLE SERT : ......................................
+
+QUAND ELLE DOIT ÊTRE INVOQUÉE : .........................
+
+Fais-lui commencer chaque fichier produit par la ligne exacte
+CANARI-<mon prénom>.
 ```
+
+**Ce qu'elle doit produire, et là-dessus vous n'avez pas le choix :** trois cas par méthode
+publique — un nominal, un limite, un d'erreur — au format préparer / agir / vérifier.
+
+**Les deux lignes du milieu deviennent la `description`**, le seul texte que l'outil lit avant de
+décider d'ouvrir votre skill. « Quand elle doit être invoquée », c'est **la phrase que vous
+taperiez dans deux mois**, sans y penser et sans connaître le nom du fichier.
 
 > ⚠️ **Le nom `tests-de-classe` est imposé.** Si vous aviez le profil testeur au cas pratique de
 > 14h13, vous avez déjà `jeu-de-tests` dans ce projet : un nom distinct évite de l'écraser, **et
 > vous saurez laquelle des deux a servi.**
+
+> 🆘 **La demande complète est à la fin de votre fiche**, dans `prompt_tp/J2-slide250/`. N'y allez
+> qu'après avoir réécrit votre description une fois.
 
 Puis, pour la déclencher : `Génère les tests de cette classe.`
 

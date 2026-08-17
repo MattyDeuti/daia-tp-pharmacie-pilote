@@ -23,36 +23,67 @@ vous le verrez à l'étape ③, qui la déclenche sans la nommer.
 
 ---
 
-## ① Demandez la skill
+## ① Écrivez votre demande — avec vos mots
 
-**Remplacez `<mon prénom>` par le vôtre** avant de coller.
+**Il n'y a pas de texte à copier ici, et c'est voulu.** Le squelette est à l'écran ; le reste,
+c'est vous.
 
 ```
-Crée une skill nommée tests-de-classe, dans .github/skills/, sur le
-modèle de .github/skills/git-workflow/SKILL.md.
-Elle génère les tests d'une classe Java : un cas nominal, un cas limite
-et un cas d'erreur par méthode publique, format préparer / agir / vérifier.
-Fais-lui commencer chaque fichier produit par le marqueur CANARI-<mon prénom>.
+Crée une skill nommée tests-de-classe, sur le modèle de
+.github/skills/git-workflow/SKILL.md.
+
+À QUOI ELLE SERT : ......................................
+
+QUAND ELLE DOIT ÊTRE INVOQUÉE : .........................
+
+Fais-lui commencer chaque fichier produit par la ligne exacte
+CANARI-<mon prénom>.
 ```
 
-> ⚠️ **Le nom `tests-de-classe` est imposé, et ce n'est pas un caprice.** Si vous aviez le profil
-> testeur au cas pratique de 14h13, vous avez déjà une procédure nommée `jeu-de-tests` dans ce
-> projet. Un nom distinct évite de l'écraser — **et vous saurez laquelle des deux a servi.**
+### Ce qui est imposé, et sur quoi vous n'avez pas le choix
 
-**Ce que fait chaque partie :**
+| | |
+|---|---|
+| **Le nom** | `tests-de-classe` |
+| **L'adresse** | `.github/skills/tests-de-classe/SKILL.md` |
+| **Le modèle** | `.github/skills/git-workflow/SKILL.md`, déjà dans le projet |
+| **Ce qu'elle produit** | **trois cas par méthode publique** — un nominal, un limite, un d'erreur — au format **préparer / agir / vérifier** |
+| **Le marqueur** | `CANARI-<votre prénom>` en tête de chaque fichier produit |
 
-- **« sur le modèle de `git-workflow/SKILL.md` »** lui donne la forme réelle, prise **dans le
-  projet**, au lieu de la lui faire inventer. C'est la ligne qui évite les champs plausibles qui
-  n'existent pas.
-- **« un cas nominal, un cas limite et un cas d'erreur »** nomme les trois. Sans le compte, il écrit
-  trois chemins heureux — parce que c'est celui qui vient tout seul.
-- **« préparer / agir / vérifier »** est la forme, et c'est elle qui rend deux jeux de tests
-  comparables.
-- **Le marqueur, et c'est votre preuve.** Le prénom le rend **individuel** : on verra tout de suite
-  quel poste a réellement déclenché sa procédure.
+> ⚠️ **Le nom est imposé, et ce n'est pas un caprice.** Si vous aviez le profil testeur au cas
+> pratique de 14h13, vous avez déjà une procédure nommée `jeu-de-tests` dans ce projet. Un nom
+> distinct évite de l'écraser — **et vous saurez laquelle des deux a servi.**
 
-**Relisez sa `description` avant de passer à la suite.** Si elle ne contient pas les mots que
-**vous** taperiez dans deux mois sans y penser, elle ne se déclenchera pas toute seule.
+### Ce que vous écrivez vous-même, et c'est là que tout se joue
+
+**Deux lignes. Elles deviennent la `description` de votre skill** — le seul texte que l'outil lira
+avant de décider de l'ouvrir.
+
+- **À quoi elle sert** — ce qu'elle produit, en une phrase.
+- **Quand elle doit être invoquée** — **la phrase que vous taperiez dans deux mois**, sans y penser
+  et sans connaître le nom du fichier.
+
+**Mal écrites, elle ne partira jamais toute seule. Et vous le verrez à l'étape ③**, qui la déclenche
+sans la nommer. C'est tout l'exercice.
+
+### Quatre indications, avant de vous lancer
+
+- **Dites-lui d'aller lire le modèle.** Un fichier de skill a une forme réelle, qui est **dans le
+  projet**. Si vous ne l'y envoyez pas, il l'invente — et il invente des champs parfaitement
+  plausibles qui n'existent pas.
+- **Comptez les cas.** Si vous ne dites pas *trois*, il écrit trois chemins heureux : c'est celui
+  qui vient tout seul. **Le cas limite et le cas d'erreur sont les deux qui trouvent des bugs.**
+- **Imposez la forme.** *Préparer / agir / vérifier* est ce qui rend deux jeux de tests comparables,
+  et lisibles par quelqu'un qui ne code pas.
+- **Le marqueur est votre preuve, pas une décoration.** Le prénom le rend **individuel** : on verra
+  tout de suite quel poste a réellement déclenché sa procédure.
+
+**Relisez la `description` qu'il a écrite avant de passer à la suite.** Si elle ne contient pas les
+mots que **vous** emploieriez naturellement, elle ne se déclenchera pas.
+
+> 🆘 **Si ça ne part pas**, et seulement **après avoir réécrit votre description une fois** : la
+> demande complète est **à la fin de cette fiche**. Le filet est là pour que personne ne reste
+> bloqué, pas pour éviter l'essai.
 
 ---
 
@@ -125,3 +156,29 @@ Exécute ces tests et montre-moi la sortie complète, sans la résumer.
 **Lisez la sortie vous-même.** S'il annonce que tout passe sans vous montrer le compte rendu
 d'exécution, vous n'avez toujours rien vu passer — et **des tests qui existent ne sont pas des
 tests qui passent**.
+
+---
+
+## 🆘 La demande complète, si vous calez
+
+**N'y venez pas tout de suite.** Essayez avec vos mots, ratez si besoin, réécrivez votre
+description une fois : **c'est le rattrapage qui enseigne.** Le filet est là pour que personne ne
+reste bloqué, pas pour éviter l'essai.
+
+**Remplacez `<mon prénom>` par le vôtre** avant de coller.
+
+```
+Crée une skill nommée tests-de-classe, dans .github/skills/, sur le
+modèle de .github/skills/git-workflow/SKILL.md.
+Elle génère les tests d'une classe Java : un cas nominal, un cas limite
+et un cas d'erreur par méthode publique, format préparer / agir / vérifier.
+Fais-lui commencer chaque fichier produit par le marqueur CANARI-<mon prénom>.
+```
+
+> ⚠️ **Cette version marche, et elle vous coûte quelque chose.** Elle décrit ce que la skill
+> **fait** — pas **quand l'ouvrir**. C'est justement la partie que l'outil lit pour décider, et
+> celle que vous seul pouviez écrire.
+>
+> **Si elle ne part pas toute seule à l'étape ③, c'est normal, et c'est la leçon** : ajoutez-lui
+> une phrase de votre main, celle que vous taperiez dans deux mois — puis rechargez la fenêtre et
+> retentez.
