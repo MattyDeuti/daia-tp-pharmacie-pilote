@@ -30,6 +30,7 @@ Développeurs, testeurs, analystes : les TP se font en binôme, chacun y a sa pl
 | `db/schema_extensions.sql` | Le schéma de base de données associé |
 | `consignes/` | Les énoncés des TP, dans l'ordre |
 | `prompt_tp/` | Les prompts à copier-coller, **un sous-dossier par cas pratique** |
+| `prompt_demo/` | Les prompts des **démonstrations**, un fichier par démo — pour les rejouer |
 | `a-supprimer/` | Votre brouillon jetable des deux jours |
 | `src/test/java/` | Vide pour l'instant : **c'est vous** (et votre IA) qui le remplirez |
 
