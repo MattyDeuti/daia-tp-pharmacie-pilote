@@ -109,11 +109,19 @@ Ctrl + Maj + P   →   Developer: Reload Window
 C'est tout le test :
 
 ```
-Génère les tests de cette classe.
+#GestionStock.java Génère les tests de la méthode enregistrerReception.
 ```
 
 **Vous ne nommez pas la skill.** Si sa `description` est bien écrite, l'outil doit aller la chercher
 de lui-même — c'est ça, une couche qui survit au prompt.
+
+> **Cette demande est volontairement banale, et ça se joue à un mot près.** Elle dit **sur quoi**
+> travailler — le dièse désigne le fichier, comme hier après-midi. Elle ne dit **ni combien de cas,
+> ni sous quelle forme** : tout ça est dans votre skill, et c'est précisément ce qu'on vérifie.
+>
+> ⛔ **Ne rajoutez rien.** Si vous précisez « trois cas, format préparer / agir / vérifier »,
+> l'agent a tout dans la phrase : **il fait le travail lui-même sans jamais ouvrir votre
+> procédure**, et vous ne saurez plus pourquoi le marqueur manque.
 
 > Si vous aviez le profil testeur à 14h13, **vous avez maintenant deux procédures qui savent faire
 > des tests** dans ce projet. Regardez laquelle il ouvre : le prénom du canari vous le dira. C'est

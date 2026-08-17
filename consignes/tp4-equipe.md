@@ -111,7 +111,14 @@ taperiez dans deux mois**, sans y penser et sans connaître le nom du fichier.
 > 🆘 **La demande complète est à la fin de votre fiche**, dans `prompt_tp/J2-slide250/`. N'y allez
 > qu'après avoir réécrit votre description une fois.
 
-Puis, pour la déclencher : `Génère les tests de cette classe.`
+Puis, pour la déclencher — **sans jamais la nommer, et sans rien ajouter** :
+
+```
+#GestionStock.java Génère les tests de la méthode enregistrerReception.
+```
+
+Elle dit **sur quoi** travailler, jamais **comment** : le combien et la forme sont dans votre skill.
+Si vous les remettez dans la phrase, l'agent fait le travail lui-même et vous n'aurez pas de canari.
 
 **Trois gestes qui ne concernent que vous :**
 
