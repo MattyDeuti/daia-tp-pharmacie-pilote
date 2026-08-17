@@ -90,17 +90,17 @@ Crée une skill nommée tests-de-classe, sur le modèle de
 .github/skills/git-workflow/SKILL.md.
 
 À QUOI ELLE SERT : ......................................
-
 QUAND ELLE DOIT ÊTRE INVOQUÉE : .........................
+
+CE QU'ELLE DOIT PRODUIRE : pour chaque méthode publique, trois cas
+de test — un nominal, un limite, un d'erreur — chacun au format
+préparer / agir / vérifier.
 
 Fais-lui commencer chaque fichier produit par la ligne exacte
 CANARI-<mon prénom>.
 ```
 
-**Ce qu'elle doit produire, et là-dessus vous n'avez pas le choix :** trois cas par méthode
-publique — un nominal, un limite, un d'erreur — au format préparer / agir / vérifier.
-
-**Les deux lignes du milieu deviennent la `description`**, le seul texte que l'outil lit avant de
+**Les deux lignes à trous deviennent la `description`**, le seul texte que l'outil lit avant de
 décider d'ouvrir votre skill. « Quand elle doit être invoquée », c'est **la phrase que vous
 taperiez dans deux mois**, sans y penser et sans connaître le nom du fichier.
 

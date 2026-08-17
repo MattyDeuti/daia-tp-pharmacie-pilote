@@ -33,12 +33,18 @@ Crée une skill nommée tests-de-classe, sur le modèle de
 .github/skills/git-workflow/SKILL.md.
 
 À QUOI ELLE SERT : ......................................
-
 QUAND ELLE DOIT ÊTRE INVOQUÉE : .........................
+
+CE QU'ELLE DOIT PRODUIRE : pour chaque méthode publique, trois cas
+de test — un nominal, un limite, un d'erreur — chacun au format
+préparer / agir / vérifier.
 
 Fais-lui commencer chaque fichier produit par la ligne exacte
 CANARI-<mon prénom>.
 ```
+
+**Tout est là sauf deux lignes.** Ce qui est imposé vous est donné — vous n'avez à inventer que ce
+que personne ne peut écrire à votre place.
 
 ### Ce qui est imposé, et sur quoi vous n'avez pas le choix
 
