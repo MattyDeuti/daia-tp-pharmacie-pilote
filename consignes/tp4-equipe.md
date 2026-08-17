@@ -77,23 +77,34 @@ Aucune commande à taper, rien à savoir de Git.
 
 ---
 
-### 🟥 Testeur / QA — *voie 1* — la procédure qui génère les tests
+### 🟥 Testeur / QA — *voie 2* — la skill qui génère les tests
+
+Vous fabriquez une **skill** — une procédure packagée — dans `.github/skills/tests-de-classe/SKILL.md`.
+**Le projet en contient déjà un exemplaire à lire :** `.github/skills/git-workflow/SKILL.md`, celui
+qui fera votre publication tout à l'heure. C'est votre modèle.
 
 Remplacez `<mon prénom>` par votre prénom.
 
 ```
-Crée-moi une procédure packagée qui génère les tests d'une classe Java :
-un cas nominal, un cas limite et un cas d'erreur par méthode publique, au
-format préparer / agir / vérifier. Fais-lui commencer chaque fichier produit
-par le marqueur CANARI-<mon prénom>.
+Crée une skill nommée tests-de-classe, dans .github/skills/, sur le
+modèle de .github/skills/git-workflow/SKILL.md.
+Elle génère les tests d'une classe Java : un cas nominal, un cas limite
+et un cas d'erreur par méthode publique, format préparer / agir / vérifier.
+Fais-lui commencer chaque fichier produit par le marqueur CANARI-<mon prénom>.
 ```
+
+> ⚠️ **Le nom `tests-de-classe` est imposé.** Si vous aviez le profil testeur au cas pratique de
+> 14h13, vous avez déjà `jeu-de-tests` dans ce projet : un nom distinct évite de l'écraser, **et
+> vous saurez laquelle des deux a servi.**
 
 Puis, pour la déclencher : `Génère les tests de cette classe.`
 
-**Deux gestes qui ne concernent que vous :**
+**Trois gestes qui ne concernent que vous :**
 
-- **Rechargez la fenêtre** après avoir déposé la procédure — sinon elle n'existe pas encore pour
-  l'outil (`Ctrl + Shift + P` → `Developer: Reload Window`)
+- **Relisez sa `description`** : c'est **le seul texte** que l'outil lit avant de décider d'ouvrir
+  votre skill. Mal écrite, elle ne partira jamais toute seule
+- **Rechargez la fenêtre** après l'avoir déposée — sinon elle n'existe pas encore pour l'outil
+  (`Ctrl + Maj + P` → `Developer: Reload Window`)
 - **Nommez-la** si la tâche a l'air banale : dans le doute, un agent fait le travail lui-même
 
 **Votre preuve : le marqueur, en tête du fichier de tests produit.** Jamais « procédure
