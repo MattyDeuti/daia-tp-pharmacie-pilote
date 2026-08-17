@@ -527,6 +527,87 @@ public class GestionStock {
         }
     }
 
+    /**
+     * Enregistre une sortie de morphine avec traçabilité complète.
+     * La morphine est un stupéfiant : toute sortie doit être journalisée.
+     */
+    public void enregistrerSortieMorphine(String produitId, int quantite, String utilisateur, String ordonnance) throws Exception {
+        enregistrerSortieMorphine(produitId, quantite, utilisateur, ordonnance, "Ordonnance: " + ordonnance);
+    }
+
+    /**
+     * Enregistre une sortie de morphine avec traçabilité complète et motif explicite.
+     */
+    public void enregistrerSortieMorphine(String produitId, int quantite, String utilisateur, String ordonnance, String motif) throws Exception {
+        if (utilisateur == null || utilisateur.isEmpty() || utilisateur.length() > 50) {
+            System.out.println("Identifiant utilisateur invalide");
+            return;
+        }
+        if (ordonnance == null || ordonnance.isEmpty() || ordonnance.length() > 500) {
+            System.out.println("Ordonnance requise pour la morphine");
+            return;
+        }
+        if (motif == null || motif.isEmpty() || motif.length() > 500) {
+            System.out.println("Motif invalide pour la morphine");
+            return;
+        }
+
+        String erreur = validerQuantite(quantite);
+        if (erreur != null) {
+            System.out.println(erreur);
+            return;
+        }
+
+        Connection con = null;
+        try {
+            con = DriverManager.getConnection(URL, USER, PASS);
+            con.setAutoCommit(false);
+
+            if (!estStupéfiant(con, produitId)) {
+                System.out.println("Ce produit n'est pas de catégorie stupéfiant");
+                return;
+            }
+
+            int stockActuel = getStockCourant(con, produitId);
+            if (quantite > stockActuel) {
+                System.out.println("Stock insuffisant : disponible " + stockActuel + ", demandé " + quantite);
+                return;
+            }
+
+            int nouveauStock = stockActuel - quantite;
+            Statement stUpdate = con.createStatement();
+            stUpdate.executeUpdate(
+                "UPDATE stock SET quantite = " + nouveauStock + " WHERE produit_id = '" + produitId + "'");
+
+            Statement stMvt = con.createStatement();
+            stMvt.executeUpdate(
+                "INSERT INTO mouvements (produit_id, quantite, date_mouvement) VALUES (" +
+                "'" + produitId + "', " + (-quantite) + ", NOW())");
+
+            Statement stId = con.createStatement();
+            ResultSet rsId = stId.executeQuery("SELECT LAST_INSERT_ID()");
+            rsId.next();
+            int mouvementId = rsId.getInt(1);
+
+            Statement stTrace = con.createStatement();
+            stTrace.executeUpdate(
+                "INSERT INTO tracabilite_stupefiants (mouvement_id, produit_id, utilisateur, date_heure, quantite, type_mouvement, motif) VALUES (" +
+                mouvementId + ", '" + produitId + "', '" + utilisateur + "', NOW(), " + quantite + ", 'sortie', '" + motif + "')");
+
+            con.commit();
+            System.out.println("Sortie de morphine enregistrée pour le produit " + produitId + " : -" + quantite + " unités");
+        } catch (Exception e) {
+            if (con != null) {
+                con.rollback();
+            }
+            throw e;
+        } finally {
+            if (con != null) {
+                con.close();
+            }
+        }
+    }
+
     // ============================================
     // Requirement 6: Consultation de l'Historique des Mouvements
     // ============================================

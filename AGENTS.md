@@ -29,14 +29,9 @@ volontairement imparfait : il sert de terrain d'exercice, on ne le corrige pas �
 > pas parce que la technique le demande. Écrivez en français, sans jargon technique.
 > Une règle par ligne, formulée comme une obligation ou une interdiction.
 
-*Exemple de la forme attendue (à remplacer par les vôtres) :*
-
 - Toute écriture concernant un produit classé stupéfiant doit être tracée : qui, quand,
-  quelle quantité, et pour quelle ordonnance. Aucune écriture sans journal.
-
-*(Vos règles ci-dessous)*
-
--
+  quelle quantité, pour quelle ordonnance, et aucune écriture n'est autorisée sans journal.
+  Règle métier RM-matthias.
 
 ---
 
