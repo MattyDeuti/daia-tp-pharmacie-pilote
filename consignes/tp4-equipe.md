@@ -40,9 +40,12 @@ Vous fabriquez un agent dont le métier est de relire, et **rien d'autre**.
 
 > **Écrivez son fichier vous-même, à la main**, dans le dossier des agents du dépôt. C'est le sens
 > de la voie 1 : vous voulez **voir les champs**, et on ne voit bien que ce qu'on a écrit soi-même.
+> **Le squelette, les cinq champs et le symptôme classique sont dans le projet**, à trois clics :
+> `.github/agents/README.md`.
 >
 > **Si vous calez, demandez-le à l'agent dans le chat** — mais essayez d'abord. Cinq minutes à
 > chercher un champ valent mieux qu'un fichier correct dont vous ne sauriez rien dire.
+> *(La demande toute prête est à la fin de votre fiche, dans `prompt_tp/J2-slide250/`.)*
 
 Il doit porter **deux choses**, et ce sont elles qu'on regardera.
 
@@ -50,15 +53,23 @@ Il doit porter **deux choses**, et ce sont elles qu'on regardera.
    relecteur.
 2. **Une consigne de forme** : commencer par dire ce qui va bien, avant ce qui gêne.
 
-Puis vous l'utilisez :
+Puis vous l'utilisez **sur la charte du projet** :
 
 ```
-Relis les modifications que je n'ai pas encore enregistrées et rends-moi une
-revue. Commence par ce qui va bien, puis ce qui te gêne. Ne modifie rien.
+Relis le fichier AGENTS.md et rends-moi une revue.
+Commence par ce qui va bien, puis ce qui te gêne. Ne modifie rien.
 ```
 
-**Votre preuve : il rend une revue, et il n'a rien modifié.** La vérification se fait **sur le
-disque**, pas sur sa parole — la liste de vos modifications est identique avant et après.
+> **Pourquoi ce fichier-là.** C'est celui que **deux autres binômes sont en train d'écrire** en ce
+> moment même — les sections 2 et 3. Votre relecteur lit la charte de l'équipe, pas un exercice.
+> Et il est en français : **votre observateur peut juger la revue**, et c'est lui qui détient la
+> preuve.
+
+**Votre preuve : il rend une revue, et `AGENTS.md` n'a pas bougé.** Elle ne se lit pas dans sa
+réponse, elle se lit **dans la liste des fichiers modifiés** — le panneau Source Control, à gauche.
+
+Regardez-le **avant** de lancer la revue. Regardez-le **après**. **`AGENTS.md` n'y est pas apparu.**
+Aucune commande à taper, rien à savoir de Git.
 
 > 🔴 **Le symptôme que vous aurez sans doute :** votre agent n'apparaît pas dans la liste. Neuf
 > fois sur dix ce n'est **pas** une faute d'écriture, c'est **un champ réel mal réglé**. Levez la
@@ -151,7 +162,7 @@ vous venez d'écrire.
 
 | Votre rôle | Ce qui vaut preuve |
 |---|---|
-| 🟦 Développeur | il rend une revue **et n'a rien modifié** |
+| 🟦 Développeur | il rend une revue, et **`AGENTS.md` n'apparaît pas** dans les fichiers modifiés |
 | 🟥 Testeur / QA | **le marqueur** est en tête du fichier de tests produit |
 | 🟨 Analyste | la règle **tient** face à la demande piège |
 | 🟩 Manager | il **refuse en citant** la règle |
