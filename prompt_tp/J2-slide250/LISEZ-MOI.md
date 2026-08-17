@@ -13,8 +13,8 @@ qu'une.
 |---|---|---|---|
 | `brique-1-agent-de-revue.md` | un relecteur en lecture seule | **1** — vous voyez les champs | il relit `AGENTS.md` et **ne l'a pas modifié** |
 | `brique-2-procedure-de-tests.md` | une skill qui génère les tests | **2** — en français | **le canari** dans le fichier produit |
-| `brique-3-regles-metier.md` | la section 2 de la charte | **2** — en français | la règle **tient face à une demande piège** |
-| `brique-4-gouvernance.md` | la section 3 de la charte | **2** — en français | il **refuse en citant votre règle** |
+| `brique-3-regles-metier.md` | la section 2 de la charte | **2** — en français | la règle tient face au piège, **et il cite `RM-<prénom>`** |
+| `brique-4-gouvernance.md` | la section 3 de la charte | **2** — en français | il **refuse en citant `RG-<prénom>`** |
 
 ## Les deux voies, et personne ne corrigera votre choix
 

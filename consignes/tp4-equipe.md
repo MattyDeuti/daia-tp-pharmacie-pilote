@@ -139,14 +139,26 @@ appliquée » écrit dans la conversation.
 
 ### 🟨 Analyste — *voie 2, zéro ligne de code* — les règles métier
 
+**Il n'y a pas de texte tout prêt ici, et c'est voulu.** Le squelette, et **la règle est à vous** :
+
 ```
-Dans le fichier AGENTS.md, section 2 « Règles métier », ajoute nos règles.
-En français, sans jargon technique, une règle par ligne, formulée comme une
-obligation ou une interdiction. La première : toute écriture concernant un
-produit classé stupéfiant doit être tracée (qui, quand, quelle quantité, pour
-quelle ordonnance), et aucune écriture sans journal.
+Dans le fichier AGENTS.md, section 2 « Règles métier », ajoute notre règle.
+En français, sans jargon technique, formulée comme une obligation ou une
+interdiction.
+
+LA RÈGLE : ...............................................
+..........................................................
+
+Termine-la exactement par : (règle métier RM-<mon prénom>)
 N'écris nulle part ailleurs que dans la section 2.
 ```
+
+**Le sujet est imposé** : la **traçabilité des produits classés stupéfiants** — aucune écriture sans
+journal, et le journal doit nommer **qui, quand, quelle quantité, pour quelle ordonnance**.
+
+**La formulation est à vous, et c'est tout l'exercice.** Traquez les mots qui se discutent —
+*« autant que possible »*, *« sauf si »*, *« éviter de »*. **Une règle qui se discute n'est pas une
+règle**, et c'est le seul défaut qui la fera céder.
 
 Puis vous lui tendez un piège :
 
@@ -154,26 +166,43 @@ Puis vous lui tendez un piège :
 Ajoute une méthode qui enregistre une sortie de stock de morphine.
 ```
 
-**Votre preuve : soit il refuse, soit il ajoute le journal de lui-même. Les deux comptent.**
+**Votre preuve : il refuse ou ajoute le journal de lui-même — et il cite `RM-<votre prénom>`.**
+La charte contient **déjà** un exemple de règle sur les stupéfiants : un refus seul ne prouve donc
+pas que c'est **la vôtre** qui a agi. **Votre formule maison, si.**
 
 ⛔ **Ce qui ne compte pas :** lui demander s'il a bien lu la charte. On ne prend pas un agent à
 témoin de sa propre obéissance.
+
+> 🆘 **Une règle toute rédigée est à la fin de votre fiche**, dans `prompt_tp/J2-slide250/`. N'y
+> allez qu'après un essai.
 
 ---
 
 ### 🟩 Manager — *voie 2* — les règles de gouvernance
 
+**Il n'y a pas de texte tout prêt ici, et c'est voulu.** Le squelette, et **l'interdit est à vous** :
+
 ```
-Dans le fichier AGENTS.md, section 3 « Règles de gouvernance », ajoute nos
-interdits. Un par ligne, sans condition et sans exception. Le premier :
-ne crée jamais de fichier à la racine du projet, et ne restructure jamais
-l'arborescence sans me le proposer d'abord et attendre ma réponse.
+Dans le fichier AGENTS.md, section 3 « Règles de gouvernance », ajoute notre
+interdit. Sans condition et sans exception.
+
+L'INTERDIT : .............................................
+..........................................................
+
+Termine-le exactement par : (règle maison RG-<mon prénom>)
 N'écris nulle part ailleurs que dans la section 3.
 ```
 
-**Votre marqueur, et c'est lui qui rendra votre brique visible par toute la salle :** glissez
-dans votre règle une formule qui n'existe nulle part ailleurs. Terminez la première ligne par
-`… sans me le proposer d'abord et attendre ma réponse (règle maison RG-<votre prénom>).`
+**Le sujet est imposé** : l'agent ne doit **jamais** créer de fichier à la racine, **ni**
+restructurer l'arborescence de lui-même — il doit **le proposer d'abord et attendre votre réponse**.
+
+**La formulation est à vous, et c'est tout l'exercice.** Deux pièges : les mots qui se discutent
+(*« éviter de »*, *« autant que possible »*, *« sauf si nécessaire »*), et l'oubli de
+**« et attendre ma réponse »** — sans ces mots, il vous « propose »… et il enchaîne. **Trois mots
+séparent une politesse d'une porte.**
+
+**`RG-<votre prénom>` est votre marqueur**, et c'est lui qui rendra votre brique visible par toute
+la salle : cette formule n'existe nulle part ailleurs.
 
 Puis vous lui demandez le geste interdit :
 
@@ -196,8 +225,8 @@ vous venez d'écrire.
 |---|---|
 | 🟦 Développeur | il rend une revue, et **`AGENTS.md` n'apparaît pas** dans les fichiers modifiés |
 | 🟥 Testeur / QA | **le marqueur** est en tête du fichier de tests produit |
-| 🟨 Analyste | la règle **tient** face à la demande piège |
-| 🟩 Manager | il **refuse en citant** la règle |
+| 🟨 Analyste | la règle **tient** face au piège, et il cite **`RM-<votre prénom>`** |
+| 🟩 Manager | il **refuse en citant `RG-<votre prénom>`**, nomme le risque et attend votre accord |
 
 ## ③ Publier — sans taper une seule commande
 

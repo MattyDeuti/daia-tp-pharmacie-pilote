@@ -7,33 +7,53 @@ droit de faire dans ce projet.
 
 ---
 
-## ① Écrivez votre section
+## ① Écrivez votre interdit — avec vos mots
 
-**Vous seul écrivez dans la section 3.** La dernière ligne est un garde-fou : sans elle, il réécrit
-la charte entière et les quatre briques se marchent dessus.
-
-**Remplacez `<son prénom>` par le vôtre** — c'est votre marqueur, et il compte.
+**Il n'y a pas de texte à copier ici, et c'est voulu.** Le squelette est à l'écran ; **l'interdit,
+c'est vous.**
 
 ```
-Dans le fichier AGENTS.md, section 3 « Règles de gouvernance », ajoute nos
-interdits. Un par ligne, sans condition et sans exception. Le premier :
-ne crée jamais de fichier à la racine du projet, et ne restructure jamais
-l'arborescence sans me le proposer d'abord et attendre ma réponse
-(règle maison RG-<son prénom>).
+Dans le fichier AGENTS.md, section 3 « Règles de gouvernance », ajoute notre
+interdit. Sans condition et sans exception.
+
+L'INTERDIT : .............................................
+..........................................................
+
+Termine-le exactement par : (règle maison RG-<mon prénom>)
 N'écris nulle part ailleurs que dans la section 3.
 ```
 
-**Ce que fait chaque partie :**
+### Ce qui est imposé, et sur quoi vous n'avez pas le choix
 
-- **« sans condition et sans exception »** est le cœur de votre brique. *Un interdit qui se discute
-  n'est pas un interdit* — et les modèles adorent écrire « éviter de », « autant que possible »,
-  « sauf si nécessaire ». Chassez-les.
-- **« et attendre ma réponse »** transforme une préférence en porte. Sans ces trois mots, il vous
-  « propose » et il enchaîne.
-- **`RG-<votre prénom>`** est **votre canari**, et il n'existe nulle part ailleurs. Retenez-le : il
-  fait toute la valeur de l'étape suivante.
+| | |
+|---|---|
+| **La section** | la **3**, et rien d'autre du fichier |
+| **Le sujet** | l'agent ne doit **jamais** créer de fichier à la racine du projet, **ni** restructurer l'arborescence de sa propre initiative |
+| **Ce que l'interdit doit exiger** | qu'il **propose d'abord** — **et qu'il attende votre réponse** |
+| **Votre marqueur** | `RG-<votre prénom>` à la fin de l'interdit |
+| **Le garde-fou** | *« n'écris nulle part ailleurs que dans la section 3 »* — sans lui, il réécrit la charte entière et les quatre briques se marchent dessus |
+
+### Ce que vous écrivez vous-même, et c'est là que tout se joue
+
+**La formulation.** Le sujet vous est donné ; **la phrase qui transforme une préférence en porte
+est votre métier**, et c'est la seule chose que personne dans cette salle ne peut écrire à votre
+place.
+
+### Trois indications, avant de vous lancer
+
+- **Sans condition et sans exception.** C'est le cœur de votre brique. *Un interdit qui se discute
+  n'est pas un interdit* — et les modèles adorent écrire *« éviter de »*, *« autant que possible »*,
+  *« sauf si nécessaire »*. **Chassez-les.**
+- **« Et attendre ma réponse » vaut plus que tout le reste de la phrase.** Sans ces mots, il vous
+  « propose »… et il enchaîne. Trois mots séparent une politesse d'une porte.
+- **`RG-<votre prénom>` est votre canari.** Cette formule n'existe nulle part ailleurs dans le
+  fichier. **Retenez-la : elle fait toute la valeur de l'étape ③.**
 
 **Relisez ce qu'il a écrit avant de continuer.** Si un mot se discute, reformulez maintenant.
+
+> 🆘 **Si vous calez sur la formulation**, et seulement **après un essai** : un interdit tout rédigé
+> est **à la fin de cette fiche**. Le filet est là pour que personne ne reste bloqué, pas pour
+> éviter l'essai.
 
 ---
 
@@ -101,3 +121,31 @@ Reformulez-en un, sans condition et sans exception, et retentez le piège corres
 
 **Ce que ça apprend :** l'écart entre un interdit et une recommandation tient souvent à trois mots,
 et c'est vous, pas l'outil, qui savez lesquels.
+
+---
+
+## 🆘 Un interdit tout rédigé, si vous calez
+
+**N'y venez pas tout de suite.** Écrivez le vôtre, ratez, reformulez une fois : **c'est le
+rattrapage qui enseigne**, et c'est même exactement la compétence que cette brique travaille.
+
+**Remplacez `<mon prénom>` par le vôtre** avant de coller.
+
+```
+Dans le fichier AGENTS.md, section 3 « Règles de gouvernance », ajoute notre
+interdit. Sans condition et sans exception.
+
+L'INTERDIT : ne crée jamais de fichier à la racine du projet, et ne restructure
+jamais l'arborescence sans me le proposer d'abord et attendre ma réponse
+(règle maison RG-<mon prénom>).
+
+N'écris nulle part ailleurs que dans la section 3.
+```
+
+> ⚠️ **Cette version marche, et elle vous coûte quelque chose.** C'est **l'interdit d'un autre**.
+> Au débrief, on demandera à votre observateur ce que votre règle disait — et *« celle qui était
+> écrite dans le fichier »* n'est pas une réponse.
+>
+> **Le vrai exercice était la formulation** : trouver les mots qui ne laissent aucune place à la
+> discussion. C'est ce que fait un manager quand il écrit une règle, et aucun outil ne le fait à
+> sa place.
