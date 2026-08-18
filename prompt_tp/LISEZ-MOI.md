@@ -12,10 +12,10 @@ la slide qui lance le cas pratique.
 | Dossier | Le cas pratique | Quand |
 |---|---|---|
 | `J1-slide057/` | Un seul sujet, trois façons de le demander | matin |
-| `J1-slide120/` | Faire produire, ne pas relire, puis constater | avant le déjeuner |
-| `J1-slide160/` | Basculez en mode Agent, et faites-le répondre une fois | début d'après-midi |
-| `J1-slide191/` | Auditer la base existante, chacun depuis son rôle | milieu d'après-midi |
-| `J1-slide207/` | Générer des tests, puis obtenir un plan de reprise | fin d'après-midi |
+| `J1-slide118/` | Faire produire, ne pas relire, puis constater | avant le déjeuner |
+| `J1-slide158/` | Basculez en mode Agent, et faites-le répondre une fois | début d'après-midi |
+| `J1-slide189/` | Auditer la base existante, chacun depuis son rôle | milieu d'après-midi |
+| `J1-slide205/` | Générer des tests, puis obtenir un plan de reprise | fin d'après-midi |
 
 ### Jour 2
 

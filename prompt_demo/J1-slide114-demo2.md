@@ -1,6 +1,6 @@
 # Démo 2 · Un parle, l'autre fait
 
-*Jour 1, 11h50 → 12h10 · slide 116 · Copilot, puis Kiro en fin de créneau*
+*Jour 1, 11h50 → 12h10 · slide 114 · Copilot, puis Kiro en fin de créneau*
 
 ---
 
