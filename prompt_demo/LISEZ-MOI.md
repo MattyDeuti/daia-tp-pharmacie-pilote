@@ -10,9 +10,9 @@ la demande exacte est ici.
 
 | Quand | La démonstration | Le fichier |
 |---|---|---|
-| **J1 · 10h02** | Un besoin, deux outils | `J1-slide052-demo1.md` |
-| **J1 · 11h50** | Un parle, l'autre fait | `J1-slide114-demo2.md` |
-| **J1 · 14h15** | Le legacy sous audit | `J1-slide169-demo3.md` |
+| **J1 · 10h02** | Un besoin, deux outils | `J1-slide055-demo1.md` |
+| **J1 · 11h50** | Un parle, l'autre fait | `J1-slide117-demo2.md` |
+| **J1 · 14h15** | Le legacy sous audit | `J1-slide172-demo3.md` |
 | **J2 · 09h15** | Une spécification de bout en bout | `J2-slide029-demo4.md` |
 | **J2 · 11h15** | Mémoire et coûts, en live | `J2-slide095-demo5.md` |
 | **J2 · 13h15** | La brigade | `J2-slide129-demo6.md` |
