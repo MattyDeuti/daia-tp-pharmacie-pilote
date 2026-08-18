@@ -15,7 +15,7 @@ demandera. C'est l'outil qu'on teste, pas vous.
 3. **Repérez la jauge de consommation**, là où vous l'avez trouvée ce matin
 
 > 🔴 **Si votre outil ne répond pas, dites-le tout de suite.** Maintenant, pas dans une heure. Un
-> poste muet à 14h45 coûte l'après-midi entier à celui qui est dessus.
+> poste muet à 15h15 coûte l'après-midi entier à celui qui est dessus.
 
 ---
 

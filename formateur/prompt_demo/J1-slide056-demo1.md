@@ -1,6 +1,6 @@
 # Démo 1 · Un besoin, deux outils
 
-*Jour 1, 10h02 → 10h27 · slide 56 · Copilot puis Kiro*
+*Jour 1, 10h32 → 10h57 · slide 56 · Copilot puis Kiro*
 
 ---
 
