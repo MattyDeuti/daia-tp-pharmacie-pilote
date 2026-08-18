@@ -24,15 +24,19 @@ Développeurs, testeurs, analystes : les TP se font en binôme, chacun y a sa pl
 
 ## Contenu du projet
 
+**Tout ce qui vous concerne est dans `apprenant/`.** Le reste, c'est le projet sur lequel vous
+allez travailler, et la configuration que vos outils lisent.
+
 | Où | Quoi |
 |---|---|
-| `src/main/java/GestionStock.java` | Le code legacy (701 lignes, Java + SQL) |
-| `db/schema_extensions.sql` | Le schéma de base de données associé |
+| `apprenant/00-pour_commencer/` | **À lire en premier** : se connecter à GitHub, puis à Copilot |
 | `apprenant/consignes/` | Les énoncés des TP, dans l'ordre |
 | `apprenant/prompt_tp/` | Les prompts à copier-coller, **un sous-dossier par cas pratique** |
-| `formateur/prompt_demo/` | Les prompts des **démonstrations**, un fichier par démo — pour les rejouer |
 | `apprenant/a-supprimer/` | Votre brouillon jetable des deux jours |
+| `src/main/java/GestionStock.java` | Le code legacy (701 lignes, Java + SQL) |
+| `db/schema_extensions.sql` | Le schéma de base de données associé |
 | `src/test/java/` | Vide pour l'instant : **c'est vous** (et votre IA) qui le remplirez |
+| `formateur/` | Le matériel du formateur — les prompts de ses démonstrations, si vous voulez les rejouer |
 
 ## La couche : ce qui survit au prompt
 
@@ -46,28 +50,25 @@ charge tout seul.
 | `AGENTS.md` | **La charte** : les contraintes qui valent toujours | à chaque demande, automatiquement |
 | `.github/skills/` | **Les skills** : une procédure packagée, réutilisable | quand la tâche s'y prête, ou sur appel |
 | `.github/agents/` | **Les agents** : un rôle délégué, avec ses droits | quand vous le déléguez |
-| `.vscode/mcp.json` · `.kiro/settings/mcp.json` | **Les accès** : les prises qu'on branche à l'assistant | quand il a besoin de l'outil |
+| `.vscode/mcp.json` | **Les accès** : les prises qu'on branche à l'assistant | quand il a besoin de l'outil |
 
 `AGENTS.md` et le dossier des agents sont **volontairement à trous** : ce sont eux que vous
 remplirez pendant le TP « la couche de l'équipe ».
 
 ## Brancher un accès (MCP)
 
-Le dossier contient déjà la configuration, désactivée. Pour l'activer :
-
-- **Dans VS Code / Copilot** : `.vscode/mcp.json` est prêt tel quel, le chemin du projet s'y
-  calcule tout seul.
-- **Dans Kiro** : ouvrez `.kiro/settings/mcp.json`, remplacez
-  `REMPLACER_PAR_LE_CHEMIN_COMPLET_DU_PROJET` par le chemin de ce dossier sur votre machine,
-  puis passez `"disabled"` à `false`. Le rechargement se fait à chaud.
+Le dossier contient déjà la configuration : **`.vscode/mcp.json` est prêt tel quel**, le chemin
+du projet s'y calcule tout seul. Vous n'avez rien à modifier.
 
 La preuve que ça marche n'est jamais ce que l'assistant vous répond. C'est **un outil qui
 s'exécute et qui vous demande son approbation**.
 
 ## Par où commencer ?
 
-1. Ouvrez ce dossier dans l'outil indiqué par le formateur (VS Code ou Kiro).
-2. Ouvrez `apprenant/consignes/` et suivez le TP annoncé.
-3. Tout est déjà installé sur votre machine de formation (Java, Maven, Node, Git).
+1. **Commencez par [`apprenant/00-pour_commencer/`](apprenant/00-pour_commencer/PREMIERE-ETAPE.md)** :
+   se connecter à GitHub, puis à Copilot. Cinq minutes, une seule fois, et rien ne marche avant.
+2. Ouvrez ce dossier dans **VS Code**. C'est le seul outil que vous manipulerez des deux jours.
+3. Ouvrez `apprenant/consignes/` et suivez le TP annoncé.
+4. Tout est déjà installé sur votre machine de formation (Java, Maven, Node, Git).
 
 Bonne formation !
