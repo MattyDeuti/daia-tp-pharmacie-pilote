@@ -28,10 +28,10 @@ Développeurs, testeurs, analystes : les TP se font en binôme, chacun y a sa pl
 |---|---|
 | `src/main/java/GestionStock.java` | Le code legacy (701 lignes, Java + SQL) |
 | `db/schema_extensions.sql` | Le schéma de base de données associé |
-| `consignes/` | Les énoncés des TP, dans l'ordre |
-| `prompt_tp/` | Les prompts à copier-coller, **un sous-dossier par cas pratique** |
-| `prompt_demo/` | Les prompts des **démonstrations**, un fichier par démo — pour les rejouer |
-| `a-supprimer/` | Votre brouillon jetable des deux jours |
+| `apprenant/consignes/` | Les énoncés des TP, dans l'ordre |
+| `apprenant/prompt_tp/` | Les prompts à copier-coller, **un sous-dossier par cas pratique** |
+| `formateur/prompt_demo/` | Les prompts des **démonstrations**, un fichier par démo — pour les rejouer |
+| `apprenant/a-supprimer/` | Votre brouillon jetable des deux jours |
 | `src/test/java/` | Vide pour l'instant : **c'est vous** (et votre IA) qui le remplirez |
 
 ## La couche : ce qui survit au prompt
@@ -67,7 +67,7 @@ s'exécute et qui vous demande son approbation**.
 ## Par où commencer ?
 
 1. Ouvrez ce dossier dans l'outil indiqué par le formateur (VS Code ou Kiro).
-2. Ouvrez `consignes/` et suivez le TP annoncé.
+2. Ouvrez `apprenant/consignes/` et suivez le TP annoncé.
 3. Tout est déjà installé sur votre machine de formation (Java, Maven, Node, Git).
 
 Bonne formation !

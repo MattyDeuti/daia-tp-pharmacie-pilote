@@ -16,7 +16,7 @@ Copiez-collez tel quel. **Une phrase, on n'ajoute rien.**
 Refactorise cette méthode d'enregistrement de réception de marchandises.
 ```
 
-➜ L'observateur colle la réponse dans `a-supprimer/approche-1-sec.md`, puis on vide la
+➜ L'observateur colle la réponse dans `apprenant/a-supprimer/approche-1-sec.md`, puis on vide la
 conversation.
 
 ---
@@ -32,7 +32,7 @@ péremption, un fournisseur — et une pharmacie a des règles sur chacun. Un st
 le même circuit. Il n'y a aucun test automatisé sur ce code. Enfin, vous avez sûrement une idée
 de ce que la reprise a le droit de changer, et de ce qu'elle n'a pas le droit de casser.
 
-➜ `a-supprimer/approche-2-contexte.md`, puis on vide.
+➜ `apprenant/a-supprimer/approche-2-contexte.md`, puis on vide.
 
 ---
 
@@ -44,5 +44,5 @@ interdire de proposer quoi que ce soit tout de suite, et l'obliger à **vous int
 C'est le geste vu en démo. À contexte égal, c'est la seule chose qui change entre ② et ③ : c'est
 précisément pour ça qu'on peut lire ce qu'elle apporte.
 
-➜ `a-supprimer/approche-3-questions.md` : ici, ce sont **les questions** qu'on garde. Écrivez
+➜ `apprenant/a-supprimer/approche-3-questions.md` : ici, ce sont **les questions** qu'on garde. Écrivez
 dessous **celle à laquelle vous n'aviez pas pensé.**

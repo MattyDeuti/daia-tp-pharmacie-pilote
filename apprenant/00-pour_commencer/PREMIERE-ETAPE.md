@@ -134,6 +134,6 @@ Bonne formation !
 ---
 
 > 📌 **Une seule autre chose à préparer sur ces deux jours**, et c'est pour ce soir :
-> [`consignes/preparation-dernier-tp.md`](../consignes/preparation-dernier-tp.md).
+> [`apprenant/consignes/preparation-dernier-tp.md`](../consignes/preparation-dernier-tp.md).
 > Cinq minutes à la fin du jour 1, pour que le dernier cas pratique de demain fonctionne
 > du premier coup. Rien à faire maintenant.

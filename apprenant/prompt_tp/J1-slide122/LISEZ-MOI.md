@@ -52,4 +52,4 @@ moment où on en parle.
 ## Où va ce que vous produisez
 
 Les fichiers que l'agent crée, il les met où il veut : c'est justement une des questions. Vos
-notes, elles, peuvent aller dans `a-supprimer/`.
+notes, elles, peuvent aller dans `apprenant/a-supprimer/`.

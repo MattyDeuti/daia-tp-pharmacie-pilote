@@ -40,7 +40,7 @@ et décris-moi ce que tu vois.
 
 > ⚠️ **À trancher au pré-vol, et à répercuter partout d'un coup.** Les deux formes existent dans
 > le kit. Si c'est la seconde qui marche, elle doit remplacer la première dans
-> `prompt_tp/J2-slide186/` (quatre fiches) et dans `consignes/tp3-mcp.md`, sinon neuf personnes
+> `apprenant/prompt_tp/J2-slide186/` (quatre fiches) et dans `apprenant/consignes/tp3-mcp.md`, sinon neuf personnes
 > tapent à 14h05 une adresse qui ne répond pas.
 
 **Le nom du serveur reste dans le texte.** Sans lui, le modèle peut répondre avec ses outils

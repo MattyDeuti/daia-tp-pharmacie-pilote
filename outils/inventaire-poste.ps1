@@ -90,7 +90,7 @@ if (Test-Path $kit) {
             Ligne $m ($l -join ' + ')
         }
     }
-    Ligne 'consignes' ((Get-ChildItem 'consignes\tp*.md' -ErrorAction SilentlyContinue).Count.ToString() + ' fichier(s)')
+    Ligne 'consignes' ((Get-ChildItem 'apprenant\consignes\tp*.md' -ErrorAction SilentlyContinue).Count.ToString() + ' fichier(s)')
     Pop-Location
 }
 else { Ligne 'kit' '!! ABSENT !!' }

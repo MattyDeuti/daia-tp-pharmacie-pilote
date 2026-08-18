@@ -22,7 +22,7 @@ Copiez-collez tel quel. **Une phrase, on n'ajoute rien** — pas même le besoin
 Découpe en tâches la mise en place de la traçabilité des stupéfiants.
 ```
 
-➜ L'observateur colle la réponse dans `a-supprimer/approche-1-sec.md`, puis on vide la
+➜ L'observateur colle la réponse dans `apprenant/a-supprimer/approche-1-sec.md`, puis on vide la
 conversation.
 
 ---
@@ -37,7 +37,7 @@ l'accompagne pour être exploitable. L'ordre a-t-il une importance ? Et surtout 
 faire de ce qui n'est pas de son ressort — trancher seul, ou vous dire ce qui reste à arbitrer
 avec le métier ?
 
-➜ `a-supprimer/approche-2-contexte.md`, puis on vide.
+➜ `apprenant/a-supprimer/approche-2-contexte.md`, puis on vide.
 
 ---
 
@@ -49,7 +49,7 @@ interdire de découper quoi que ce soit tout de suite, et l'obliger à **vous in
 C'est le geste vu en démo. À contexte égal, c'est la seule chose qui change entre ② et ③ : c'est
 précisément pour ça qu'on peut lire ce qu'elle apporte.
 
-➜ `a-supprimer/approche-3-questions.md` : ici, ce sont **les questions** qu'on garde. Écrivez
+➜ `apprenant/a-supprimer/approche-3-questions.md` : ici, ce sont **les questions** qu'on garde. Écrivez
 dessous **celle à laquelle vous n'aviez pas pensé.**
 
 *Ce que vous faites là, c'est en miniature le module de spécification de demain matin.*

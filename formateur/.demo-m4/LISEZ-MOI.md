@@ -1,4 +1,4 @@
-# `.demo-m4/` — le support de la démonstration du formateur
+# `formateur/.demo-m4/` — le support de la démonstration du formateur
 
 **Ce dossier n'est pas un exercice.** Vous n'avez rien à y faire, rien à y écrire, rien à en
 retirer. Il contient ce que le formateur projette pendant la démonstration du jour 2 sur la

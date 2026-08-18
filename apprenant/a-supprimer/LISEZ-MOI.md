@@ -1,4 +1,4 @@
-# `a-supprimer/` — votre brouillon des deux jours
+# `apprenant/a-supprimer/` — votre brouillon des deux jours
 
 Ce dossier est **jetable**. Il sert à garder sous la main ce que vous produisez pendant les
 exercices, sans encombrer le projet.

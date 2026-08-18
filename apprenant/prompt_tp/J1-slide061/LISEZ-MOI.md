@@ -33,7 +33,7 @@ obligation.** Mais si vous le prenez, gardez-le pour les trois.
 ## Où va ce que vous produisez
 
 Avant chaque remise à zéro de la conversation, **l'observateur colle la réponse** dans le dossier
-`a-supprimer/`, qui a déjà ses trois fichiers. Le détail est dans `a-supprimer/LISEZ-MOI.md`.
+`apprenant/a-supprimer/`, qui a déjà ses trois fichiers. Le détail est dans `apprenant/a-supprimer/LISEZ-MOI.md`.
 
 Sans ce collage, il ne reste rien à comparer au moment du bilan : vider la conversation efface
 aussi la réponse d'avant.

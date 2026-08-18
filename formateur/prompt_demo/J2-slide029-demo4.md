@@ -22,7 +22,7 @@ mouvements.
 
 ## Bloc 5 · la directive du pilote automatique
 
-**Elle se lit à l'écran, elle ne se tape plus** — les documents de `.demo-m4/` sont inertes.
+**Elle se lit à l'écran, elle ne se tape plus** — les documents de `formateur/.demo-m4/` sont inertes.
 
 ```
 termine les tâches de code, ignore le Manuel/MySQL/javac

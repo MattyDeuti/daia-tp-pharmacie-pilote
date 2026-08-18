@@ -1,4 +1,4 @@
-# `prompt_tp/` — les prompts à copier-coller
+# `apprenant/prompt_tp/` — les prompts à copier-coller
 
 **Un sous-dossier par cas pratique**, et **son nom est écrit sur la slide** qui annonce le cas
 pratique, en haut à droite, sous la durée : `LES PROMPTS À COPIER`. Vous n'avez rien à deviner —
@@ -11,11 +11,11 @@ la slide qui lance le cas pratique.
 
 | Dossier | Le cas pratique | Quand |
 |---|---|---|
-| `J1-slide060/` | Un seul sujet, trois façons de le demander | matin |
-| `J1-slide121/` | Faire produire, ne pas relire, puis constater | avant le déjeuner |
-| `J1-slide161/` | Basculez en mode Agent, et faites-le répondre une fois | début d'après-midi |
-| `J1-slide192/` | Auditer la base existante, chacun depuis son rôle | milieu d'après-midi |
-| `J1-slide208/` | Générer des tests, puis obtenir un plan de reprise | fin d'après-midi |
+| `J1-slide061/` | Un seul sujet, trois façons de le demander | matin |
+| `J1-slide122/` | Faire produire, ne pas relire, puis constater | avant le déjeuner |
+| `J1-slide162/` | Basculez en mode Agent, et faites-le répondre une fois | début d'après-midi |
+| `J1-slide193/` | Auditer la base existante, chacun depuis son rôle | milieu d'après-midi |
+| `J1-slide209/` | Générer des tests, puis obtenir un plan de reprise | fin d'après-midi |
 
 ### Jour 2
 
@@ -49,6 +49,6 @@ noir sur blanc à chaque fois.
 
 | Dossier | Quoi |
 |---|---|
-| `prompt_tp/` | ce que vous **copiez** : les prompts de départ |
-| `a-supprimer/` | ce que vous **collez** : vos résultats, votre brouillon des deux jours |
-| `consignes/` | les énoncés des TP qui travaillent sur le code de ce projet |
+| `apprenant/prompt_tp/` | ce que vous **copiez** : les prompts de départ |
+| `apprenant/a-supprimer/` | ce que vous **collez** : vos résultats, votre brouillon des deux jours |
+| `apprenant/consignes/` | les énoncés des TP qui travaillent sur le code de ce projet |

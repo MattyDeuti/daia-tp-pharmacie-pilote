@@ -23,7 +23,7 @@ Copiez-collez tel quel. **Une phrase, on n'ajoute rien** — pas même la situat
 Fais-moi une synthèse des risques du projet.
 ```
 
-➜ L'observateur colle la réponse dans `a-supprimer/approche-1-sec.md`, puis on vide la
+➜ L'observateur colle la réponse dans `apprenant/a-supprimer/approche-1-sec.md`, puis on vide la
 conversation.
 
 **Le piège de ce profil : la première réponse a l'air propre, donc on l'accepte.** La question à
@@ -44,7 +44,7 @@ contenir — et ce que vous ne voulez pas voir : le jargon, l'introduction, la c
 **Les dix lignes ne sont pas un détail.** C'est le format qu'un outil rate systématiquement
 quand on ne le lui impose pas : c'est là que l'écart se voit le mieux.
 
-➜ `a-supprimer/approche-2-contexte.md`, puis on vide.
+➜ `apprenant/a-supprimer/approche-2-contexte.md`, puis on vide.
 
 ---
 
@@ -56,5 +56,5 @@ interdire de rédiger quoi que ce soit tout de suite, et l'obliger à **vous int
 C'est le geste vu en démo. À contexte égal, c'est la seule chose qui change entre ② et ③ : c'est
 précisément pour ça qu'on peut lire ce qu'elle apporte.
 
-➜ `a-supprimer/approche-3-questions.md` : ici, ce sont **les questions** qu'on garde. Écrivez
+➜ `apprenant/a-supprimer/approche-3-questions.md` : ici, ce sont **les questions** qu'on garde. Écrivez
 dessous **celle à laquelle vous n'aviez pas pensé.**
