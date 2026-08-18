@@ -1,6 +1,6 @@
 # Démo 7 · Brancher un accès, et le prouver
 
-*Jour 2, 13h55 → 14h05 · slide 176 · Copilot*
+*Jour 2, 13h45 → 13h54 · slide 176 · Copilot*
 
 ---
 
@@ -24,7 +24,7 @@ http://localhost:8000
 
 ## Bloc 2 · s'en servir
 
-**La demande, telle qu'elle est écrite dans les quatre fiches du cas pratique de 14h05 :**
+**La demande, telle qu'elle est écrite dans les quatre fiches du cas pratique de 13h54 :**
 
 ```
 prend une capture d'ecran de "C:\Work\daia-tp-pharmacie\web\index.html"
@@ -41,7 +41,7 @@ et décris-moi ce que tu vois.
 > ⚠️ **À trancher au pré-vol, et à répercuter partout d'un coup.** Les deux formes existent dans
 > le kit. Si c'est la seconde qui marche, elle doit remplacer la première dans
 > `apprenant/prompt_tp/J2-slide186/` (quatre fiches) et dans `apprenant/consignes/tp3-mcp.md`, sinon neuf personnes
-> tapent à 14h05 une adresse qui ne répond pas.
+> tapent à 13h54 une adresse qui ne répond pas.
 
 **Le nom du serveur reste dans le texte.** Sans lui, le modèle peut répondre avec ses outils
 natifs : belle réponse à l'écran, et aucune preuve que la prise a servi.

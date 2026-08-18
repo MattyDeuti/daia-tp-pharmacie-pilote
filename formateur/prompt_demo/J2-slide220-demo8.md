@@ -1,13 +1,13 @@
 # Démo 8 · Le rejeu de la brigade
 
-*Jour 2, 15h00 → 15h15 · slide 220 · Copilot*
+*Jour 2, 14h46 → 14h59 · slide 220 · Copilot*
 
 ---
 
 ## Rien n'est relancé
 
 **Aucune demande n'est tapée pendant ce créneau.** On rouvre la conversation du cold open de
-13h15 et on relit ce qui s'y trouve déjà.
+13h05 et on relit ce qui s'y trouve déjà.
 
 Les deux phrases à ramener au premier plan et à surligner sont celles de l'agent lui-même :
 

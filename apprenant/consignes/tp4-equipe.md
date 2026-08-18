@@ -105,7 +105,7 @@ décider d'ouvrir votre skill. « Quand elle doit être invoquée », c'est **la
 taperiez dans deux mois**, sans y penser et sans connaître le nom du fichier.
 
 > ⚠️ **Le nom `tests-de-classe` est imposé.** Si vous aviez le profil testeur au cas pratique de
-> 14h13, vous avez déjà `jeu-de-tests` dans ce projet : un nom distinct évite de l'écraser, **et
+> 14h02, vous avez déjà `jeu-de-tests` dans ce projet : un nom distinct évite de l'écraser, **et
 > vous saurez laquelle des deux a servi.**
 
 > 🆘 **La demande complète est à la fin de votre fiche**, dans `apprenant/prompt_tp/J2-slide250/`. N'y allez

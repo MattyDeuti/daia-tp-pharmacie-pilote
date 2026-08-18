@@ -107,7 +107,7 @@ Puis la phrase commune : `sauvegarde et publie mon travail`
 ## Le défi bonus — *seulement si vous avez fini*
 
 **Lâchez votre agent de revue sur votre propre travail de l'après-midi** : la procédure que vous
-avez écrite au cas pratique de 14h13.
+avez écrite au cas pratique de 14h02.
 
 ```
 Relis le fichier .github/skills/<ma-procédure>/SKILL.md et rends-moi une revue.

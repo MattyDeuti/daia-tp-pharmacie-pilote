@@ -57,7 +57,7 @@ que personne ne peut écrire à votre place.
 | **Le marqueur** | `CANARI-<votre prénom>` en tête de chaque fichier produit |
 
 > ⚠️ **Le nom est imposé, et ce n'est pas un caprice.** Si vous aviez le profil testeur au cas
-> pratique de 14h13, vous avez déjà une procédure nommée `jeu-de-tests` dans ce projet. Un nom
+> pratique de 14h02, vous avez déjà une procédure nommée `jeu-de-tests` dans ce projet. Un nom
 > distinct évite de l'écraser — **et vous saurez laquelle des deux a servi.**
 
 ### Ce que vous écrivez vous-même, et c'est là que tout se joue
@@ -123,7 +123,7 @@ de lui-même — c'est ça, une couche qui survit au prompt.
 > l'agent a tout dans la phrase : **il fait le travail lui-même sans jamais ouvrir votre
 > procédure**, et vous ne saurez plus pourquoi le marqueur manque.
 
-> Si vous aviez le profil testeur à 14h13, **vous avez maintenant deux procédures qui savent faire
+> Si vous aviez le profil testeur à 14h02, **vous avez maintenant deux procédures qui savent faire
 > des tests** dans ce projet. Regardez laquelle il ouvre : le prénom du canari vous le dira. C'est
 > une question de `description`, pas de qualité.
 

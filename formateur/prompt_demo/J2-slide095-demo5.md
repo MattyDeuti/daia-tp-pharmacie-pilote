@@ -1,6 +1,6 @@
 # Démo 5 · Mémoire et coûts, en live
 
-*Jour 2, 11h15 → 11h45 · slide 95 · Copilot*
+*Jour 2, 11h08 → 11h35 · slide 95 · Copilot*
 
 ---
 
@@ -15,7 +15,7 @@ Le bouton du geste en direct est dans la même zone :
 Configure Tools
 ```
 
-> **Recocher tout de suite après.** C'est un réglage global, et le cas pratique de 13h55 a besoin
+> **Recocher tout de suite après.** C'est un réglage global, et le cas pratique de 13h45 a besoin
 > des deux prises.
 
 ---
