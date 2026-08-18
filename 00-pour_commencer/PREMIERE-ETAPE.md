@@ -51,17 +51,26 @@ il sert tout de suite à l'étape suivante.
 
 ---
 
-## ③ Connectez-vous à Copilot, dans VS Code
+## ③ Ouvrez le projet, et connectez-vous à Copilot
 
 **C'est l'outil que vous utiliserez pendant les deux jours.** Il est déjà installé.
 
 1. Ouvrez **VS Code**.
-2. Ouvrez le panneau de discussion : **`Ctrl + Alt + I`**.
+2. Ouvrez **le dossier du projet** — `Fichier` → `Ouvrir le dossier…` :
+
+   ```
+   C:\Work\daia-tp-pharmacie
+   ```
+
+   C'est le dossier dans lequel vous travaillerez pendant les deux jours. **Ouvrez le
+   dossier lui-même, pas un fichier à l'intérieur** : sinon l'assistant ne voit qu'une
+   page au lieu du projet entier.
+3. Ouvrez le panneau de discussion : **`Ctrl + Alt + I`**.
    *(ou l'icône Copilot, en haut de la fenêtre)*
-3. Le panneau affiche un bouton **« Sign in »** — cliquez dessus.
-4. VS Code demande l'autorisation d'ouvrir le navigateur : **acceptez**.
-5. Le navigateur affiche **« Authorize Visual Studio Code »** — cliquez sur le bouton vert.
-6. Revenez dans VS Code. Le panneau est prêt.
+4. Le panneau affiche un bouton **« Sign in »** — cliquez dessus.
+5. VS Code demande l'autorisation d'ouvrir le navigateur : **acceptez**.
+6. Le navigateur affiche **« Authorize Visual Studio Code »** — cliquez sur le bouton vert.
+7. Revenez dans VS Code. Le panneau est prêt.
 
 **Parce que vous êtes déjà connecté à GitHub depuis l'étape ①, il n'y a ni mot de passe ni
 nouveau code à cette étape** — juste deux clics.
@@ -102,6 +111,7 @@ Vous n'avez donc **aucun compte supplémentaire à créer**, et aucune connexion
 | Ce que vous voyez | Ce que ça veut dire | Quoi faire |
 |---|---|---|
 | Le code n'arrive pas | il est parti dans les indésirables, ou l'adresse n'est pas la bonne | regardez vos spams, puis redemandez un code |
+| `C:\Work\daia-tp-pharmacie` n'existe pas | le projet n'a pas été déposé sur votre machine | **signalez-le au formateur**, n'allez pas le chercher ailleurs |
 | *« Your account is not eligible »* dans VS Code | le compte connecté n'a pas la licence Copilot | **signalez-le au formateur** |
 | Le panneau reste vide, sans bouton | l'extension n'a pas fini de démarrer | fermez VS Code, rouvrez-le, refaites l'étape ③ |
 | Le navigateur s'ouvre sur un autre compte | une session étrangère traîne | déconnectez-vous, refaites l'étape ① |
@@ -112,9 +122,10 @@ Node, Git, les deux éditeurs. S'il manque quelque chose, c'est au formateur de 
 
 ---
 
-## Vous avez fini quand ces trois choses sont vraies
+## Vous avez fini quand ces quatre choses sont vraies
 
 - ☐ Votre page GitHub est ouverte dans le navigateur, **à votre nom**
+- ☐ VS Code affiche le dossier **`daia-tp-pharmacie`** dans son explorateur, à gauche
 - ☐ Le panneau Copilot de VS Code vous a **répondu**
 - ☐ Vous n'avez rien fait pour Kiro — et c'est normal
 
