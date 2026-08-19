@@ -20,3 +20,7 @@ target/
 # OS
 .DS_Store
 Thumbs.db
+
+# Sortie du declencheur de demonstration (.github/hooks/journal-agent.*)
+# Il se recree tout seul des que le hook est arme ; il n'a rien a faire dans le depot.
+journal-agent.txt

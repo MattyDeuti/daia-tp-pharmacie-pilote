@@ -18,6 +18,10 @@ la demande exacte est ici.
 | **J2 · 13h15** | La brigade | `J2-slide121-demo6.md` |
 | **J2 · 13h55** | Brancher un accès, et le prouver | `J2-slide171-demo7.md` |
 | **J2 · 15h00** | Le rejeu de la brigade | `J2-slide212-demo8.md` |
+| **J2 · bonus** | Un déclencheur, chez Copilot | `J2-slide154-bonus-hook.md` |
+
+La dernière n'est pas au conducteur : c'est un **bonus de deux minutes**, à sortir seulement si
+la brique 4 appelle une démonstration. Elle est livrée désarmée et ne coûte aucun crédit.
 
 Le nom du fichier porte **le numéro de la slide** qui ouvre la démonstration. C'est la même
 convention que `apprenant/prompt_tp/`, où se trouvent les demandes des cas pratiques.
