@@ -81,6 +81,56 @@ mise en commun.
 
 ---
 
+## Le principe, si on vous le demande
+
+> **QUAND l'agent fait quelque chose, ALORS ma commande s'exécute.**
+
+### Les huit moments
+
+| Événement | Il part quand… |
+|---|---|
+| `SessionStart` | vous envoyez le tout premier message d'une session |
+| `UserPromptSubmit` | vous envoyez un message |
+| `PreToolUse` | **avant** que l'agent lance un outil |
+| `PostToolUse` | **après** qu'un outil a réussi |
+| `PreCompact` | avant que la conversation soit compactée |
+| `SubagentStart` | un sous-agent démarre |
+| `SubagentStop` | un sous-agent termine |
+| `Stop` | l'agent s'arrête |
+
+**Aucun n'est un événement fichier.** Ce sont tous des moments de la **session de l'agent** —
+c'est la phrase qui tranche de la slide 155 : *Kiro déclenche sur ce que VOUS faites, Copilot sur
+ce que l'AGENT fait.*
+
+### Ce que la commande peut être
+
+**N'importe quoi que la machine sait exécuter** : un script PowerShell, un `.bat`, `npx prettier`,
+`mvn test`, un appel réseau. Copilot ne fournit que le moment ; le reste est à vous.
+
+> ⚠️ **C'est une exécution de code sur votre poste, avec vos droits.** Un déclencheur qui arrive
+> par `git pull` s'exécutera chez vous sans rien demander. À dire en salle : **on lit un fichier
+> de hook avant de l'accepter**, comme on lit un script d'installation.
+
+### Le déclencheur peut répondre, pas seulement observer
+
+L'événement arrive en JSON sur l'entrée standard. Ce que la commande écrit en sortie peut
+infléchir la suite :
+
+| Ce que le script renvoie | Effet |
+|---|---|
+| `permissionDecision: "deny"` *(PreToolUse)* | l'outil **ne s'exécute pas**, avec votre raison |
+| `decision: "block"` + `reason` *(Stop)* | l'agent **ne s'arrête pas** et repart au travail |
+| `additionalContext` *(SessionStart)* | du contexte injecté avant qu'il commence |
+| rien du tout | il observe et se tait — **c'est notre journal** |
+
+Les codes de sortie comptent aussi : `0` = la sortie est lue · `2` = erreur bloquante montrée au
+modèle · tout autre = simple avertissement.
+
+**C'est ce qui rend les quatre cartes de la slide 155 possibles** — refuser avant d'agir, ne pas
+partir sans les tests, laisser une trace, démarrer renseigné.
+
+---
+
 ## Les trois limites, à dire si on vous les demande
 
 **① Il n'existe aucun événement « fichier ».** Les déclencheurs de Copilot sont des moments de la
