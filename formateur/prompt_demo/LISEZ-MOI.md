@@ -10,14 +10,14 @@ la demande exacte est ici.
 
 | Quand | La démonstration | Le fichier |
 |---|---|---|
-| **J1 · 10h02** | Un besoin, deux outils | `J1-slide056-demo1.md` |
-| **J1 · 11h50** | Un parle, l'autre fait | `J1-slide118-demo2.md` |
-| **J1 · 14h15** | Le legacy sous audit | `J1-slide173-demo3.md` |
+| **J1 · 10h02** | Un besoin, deux outils | `J1-slide057-demo1.md` |
+| **J1 · 11h50** | Un parle, l'autre fait | `J1-slide119-demo2.md` |
+| **J1 · 14h15** | Le legacy sous audit | `J1-slide175-demo3.md` |
 | **J2 · 09h15** | Une spécification de bout en bout | `J2-slide029-demo4.md` |
 | **J2 · 11h15** | Mémoire et coûts, en live | `J2-slide095-demo5.md` |
-| **J2 · 13h15** | La brigade | `J2-slide129-demo6.md` |
-| **J2 · 13h55** | Brancher un accès, et le prouver | `J2-slide176-demo7.md` |
-| **J2 · 15h00** | Le rejeu de la brigade | `J2-slide220-demo8.md` |
+| **J2 · 13h15** | La brigade | `J2-slide121-demo6.md` |
+| **J2 · 13h55** | Brancher un accès, et le prouver | `J2-slide171-demo7.md` |
+| **J2 · 15h00** | Le rejeu de la brigade | `J2-slide212-demo8.md` |
 
 Le nom du fichier porte **le numéro de la slide** qui ouvre la démonstration. C'est la même
 convention que `apprenant/prompt_tp/`, où se trouvent les demandes des cas pratiques.

@@ -4,32 +4,31 @@
 pratique, en haut à droite, sous la durée : `LES PROMPTS À COPIER`. Vous n'avez rien à deviner —
 vous recopiez ce qui est affiché.
 
-Le nom se lit ainsi : `J2-slide186` = **jour 2, slide 186**. C'est le numéro en bas à droite de
+Le nom se lit ainsi : `J2-slide178` = **jour 2, slide 178**. C'est le numéro en bas à droite de
 la slide qui lance le cas pratique.
 
 ### Jour 1
 
 | Dossier | Le cas pratique | Quand |
 |---|---|---|
-| `J1-slide061/` | Un seul sujet, trois façons de le demander | matin |
-| `J1-slide122/` | Faire produire, ne pas relire, puis constater | avant le déjeuner |
-| `J1-slide162/` | Basculez en mode Agent, et faites-le répondre une fois | début d'après-midi |
-| `J1-slide193/` | Auditer la base existante, chacun depuis son rôle | milieu d'après-midi |
-| `J1-slide209/` | Générer des tests, puis obtenir un plan de reprise | fin d'après-midi |
+| `J1-slide062/` | Un seul sujet, trois façons de le demander | matin |
+| `J1-slide123/` | Faire produire, ne pas relire, puis constater | avant le déjeuner |
+| `J1-slide163/` | Basculez en mode Agent, et faites-le répondre une fois | début d'après-midi |
+| `J1-slide194/` | Auditer la base existante, chacun depuis son rôle | milieu d'après-midi |
+| `J1-slide210/` | Générer des tests, puis obtenir un plan de reprise | fin d'après-midi |
 
 ### Jour 2
 
 | Dossier | Le cas pratique | Quand |
 |---|---|---|
 | `J2-slide043/` | Du besoin à la fonctionnalité : votre propre spécification | fin de matinée |
-| `J2-slide186/` | Ce qu'il voit à l'écran | début d'après-midi |
-| `J2-slide193/` | Demandez votre procédure, et comptez | début d'après-midi |
-| `J2-slide250/` | La couche de l'équipe, en quatre briques | fin d'après-midi |
+| `J2-slide178/` | Ce qu'il voit à l'écran | début d'après-midi |
+| `J2-slide185/` | Demandez votre procédure, et comptez | début d'après-midi |
+| `J2-slide242/` | La couche de l'équipe, en quatre briques | fin d'après-midi |
 
 **Deux cas pratiques n'ont pas de dossier ici, et c'est normal : ils se font sans outil.**
-L'auto-évaluation du début du jour 1 et celle de la clôture, et le micro-exercice sur la stratégie
-des milliers de pages — celui-là est **le seul moment des deux jours où ceux qui ne codent pas sont
-à égalité complète**, et il se joue sur papier.
+L'auto-évaluation du début du jour 1 et celle de la clôture. Elles se jouent sur papier, et ce sont
+**les deux moments où ceux qui ne codent pas sont à égalité complète**.
 
 **Si le dossier annoncé n'est pas là, double-cliquez sur « Mettre a jour le TP »** sur le Bureau :
 les prompts évoluent jusqu'au dernier moment.

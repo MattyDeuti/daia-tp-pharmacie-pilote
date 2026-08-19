@@ -24,7 +24,7 @@ Reviewed 2 files
 Created 5 reports                   ← en une seule étape
 ```
 
-Si la brigade a dû être relancée, sa demande est dans `J2-slide129-demo6.md`.
+Si la brigade a dû être relancée, sa demande est dans `J2-slide121-demo6.md`.
 
 ---
 

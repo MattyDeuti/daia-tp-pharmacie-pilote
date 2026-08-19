@@ -12,7 +12,7 @@ Une consigne par cas pratique :
 
 *(Les deux premiers exercices de la formation — TP prompting et TP expérimentation
 guidée, Jour 1 — ne travaillent pas sur le code de ce repo. Pour le premier, le cas de
-chaque profil et son prompt de départ sont dans **`apprenant/prompt_tp/J1-slide061/`** ; le reste
+chaque profil et son prompt de départ sont dans **`apprenant/prompt_tp/J1-slide062/`** ; le reste
 est à l'écran.)*
 
 > 🔑 **`preparation-dernier-tp.md` n'est pas un énoncé, c'est un préalable.** Le dernier cas
