@@ -1,6 +1,6 @@
 # Démo 6 · La brigade
 
-*Jour 2, 13h05 → 13h10 · slide 121 · Copilot, en mode agent, session neuve*
+*Jour 2, 13h05 → 13h10 · slide 120 · Copilot, en mode agent, session neuve*
 
 > **C'est le texte le plus long des deux jours — vingt-deux lignes.** Il se colle en une fois
 > depuis ce fichier. La version coupée en deux est plus bas, en cas de besoin.

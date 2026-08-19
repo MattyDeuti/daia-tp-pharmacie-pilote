@@ -1,7 +1,7 @@
 {
   "_lisez-moi": "DECLENCHEUR DESARME. Pour l'armer : renommez la cle 'hooks_DESARME' ci-dessous en 'hooks', sauvegardez, rechargez la fenetre. Pour le desarmer : remettez 'hooks_DESARME'. Tant que la cle ne s'appelle pas exactement 'hooks', VS Code ne charge rien et ce fichier est inerte.",
   "_ce-que-ca-fait": "Apres CHAQUE appel d'outil de l'agent, un script ecrit une ligne dans journal-agent.txt a la racine du projet : l'heure, l'outil appele, le fichier touche. Aucune IA n'est appelee, donc cela ne coute aucun credit.",
-  "_mode-d-emploi": "formateur/prompt_demo/J2-slide154-bonus-hook.md",
+  "_mode-d-emploi": "formateur/prompt_demo/J2-slide153-bonus-hook.md",
 
   "hooks_DESARME": {
     "PostToolUse": [

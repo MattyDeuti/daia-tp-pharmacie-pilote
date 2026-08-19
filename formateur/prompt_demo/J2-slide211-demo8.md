@@ -1,6 +1,6 @@
 # Démo 8 · Le rejeu de la brigade
 
-*Jour 2, 14h46 → 14h59 · slide 220 · Copilot*
+*Jour 2, 14h46 → 14h59 · slide 211 · Copilot*
 
 ---
 
@@ -24,7 +24,7 @@ Reviewed 2 files
 Created 5 reports                   ← en une seule étape
 ```
 
-Si la brigade a dû être relancée, sa demande est dans `J2-slide121-demo6.md`.
+Si la brigade a dû être relancée, sa demande est dans `J2-slide120-demo6.md`.
 
 ---
 

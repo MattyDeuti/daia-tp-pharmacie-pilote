@@ -10,15 +10,15 @@ la demande exacte est ici.
 
 | Quand | La démonstration | Le fichier |
 |---|---|---|
-| **J1 · 10h02** | Un besoin, deux outils | `J1-slide057-demo1.md` |
-| **J1 · 11h50** | Un parle, l'autre fait | `J1-slide119-demo2.md` |
-| **J1 · 14h15** | Le legacy sous audit | `J1-slide175-demo3.md` |
-| **J2 · 09h15** | Une spécification de bout en bout | `J2-slide029-demo4.md` |
-| **J2 · 11h15** | Mémoire et coûts, en live | `J2-slide095-demo5.md` |
-| **J2 · 13h15** | La brigade | `J2-slide121-demo6.md` |
-| **J2 · 13h55** | Brancher un accès, et le prouver | `J2-slide171-demo7.md` |
-| **J2 · 15h00** | Le rejeu de la brigade | `J2-slide212-demo8.md` |
-| **J2 · bonus** | Un déclencheur, chez Copilot | `J2-slide154-bonus-hook.md` |
+| **J1 · 10h02** | Un besoin, deux outils | `J1-slide056-demo1.md` |
+| **J1 · 11h50** | Un parle, l'autre fait | `J1-slide118-demo2.md` |
+| **J1 · 14h15** | Le legacy sous audit | `J1-slide174-demo3.md` |
+| **J2 · 09h15** | Une spécification de bout en bout | `J2-slide028-demo4.md` |
+| **J2 · 11h15** | Mémoire et coûts, en live | `J2-slide094-demo5.md` |
+| **J2 · 13h15** | La brigade | `J2-slide120-demo6.md` |
+| **J2 · 13h55** | Brancher un accès, et le prouver | `J2-slide170-demo7.md` |
+| **J2 · 15h00** | Le rejeu de la brigade | `J2-slide211-demo8.md` |
+| **J2 · bonus** | Un déclencheur, chez Copilot | `J2-slide153-bonus-hook.md` |
 
 La dernière n'est pas au conducteur : c'est un **bonus de deux minutes**, à sortir seulement si
 la brique 4 appelle une démonstration. Elle est livrée désarmée et ne coûte aucun crédit.

@@ -1,6 +1,6 @@
 # Bonus · Un déclencheur, chez Copilot
 
-*Jour 2, module 6, après la slide 154 · **deux minutes** · Copilot, en mode agent*
+*Jour 2, module 6, après la slide 153 · **deux minutes** · Copilot, en mode agent*
 
 > **La carte d'identité dit « le bouton d'audit d'hier en était un — c'était Kiro ».**
 > Cette démo donne l'équivalent côté Copilot, pour que la brique 4 ne reste pas une slide.

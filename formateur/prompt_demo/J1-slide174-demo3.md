@@ -1,6 +1,6 @@
 # Démo 3 · Le legacy sous audit
 
-*Jour 1, 14h45 → 15h15 · slide 173 · Kiro pour les blocs 3 et 5, Copilot pour le bloc 6*
+*Jour 1, 14h45 → 15h15 · slide 174 · Kiro pour les blocs 3 et 5, Copilot pour le bloc 6*
 
 ---
 

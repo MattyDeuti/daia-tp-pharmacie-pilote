@@ -1,6 +1,6 @@
 # Démo 4 · Une spécification de bout en bout
 
-*Jour 2, 09h15 → 09h42 · slide 29 · Kiro, et lui seul*
+*Jour 2, 09h15 → 09h42 · slide 28 · Kiro, et lui seul*
 
 ---
 
