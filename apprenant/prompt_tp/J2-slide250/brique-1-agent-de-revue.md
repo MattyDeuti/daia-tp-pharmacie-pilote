@@ -159,6 +159,8 @@ Montre-moi le fichier avant de l'écrire.
 > y a autre chose que la lecture et la recherche, votre relecteur peut corriger, et votre brique
 > ne prouve plus rien.
 >
-> **Et si un champ vous surprend, il est peut-être inventé.** Le tableau des cinq champs réels est
-> dans `.github/agents/README.md`. C'est exactement le risque de la voie 2 : le modèle produit des
-> champs parfaitement plausibles qui n'existent pas.
+> **Et si un champ vous surprend, vérifiez-le avant de conclure.** Il y a plus de champs réels que
+> les cinq du `README.md` : la liste complète est dans
+> `apprenant/01-references/sous-agents/CHAMPS.md`. **S'il n'y est pas non plus, il est inventé** —
+> c'est exactement le risque de la voie 2 : le modèle produit des champs parfaitement plausibles
+> qui n'existent pas.

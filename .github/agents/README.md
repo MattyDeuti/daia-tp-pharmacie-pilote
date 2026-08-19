@@ -36,7 +36,7 @@ Un fichier par agent, **dans ce dossier**, nommé d'après l'agent :
 Le nom du fichier et le champ `name` doivent dire **la même chose**. C'est la première cause
 du symptôme « mon agent n'apparaît pas ».
 
-## Les champs acceptés
+## Les cinq champs essentiels
 
 | Champ | À quoi il sert | Ce qui se passe si vous le ratez |
 |---|---|---|
@@ -45,6 +45,11 @@ du symptôme « mon agent n'apparaît pas ».
 | `argument-hint` | ce que vous êtes censé lui passer | rien de grave, c'est une aide de saisie |
 | `tools` | **la frontière dure** : ce qu'il a le droit de faire | sans droit d'écrire, il rend un script au lieu d'agir |
 | `user-invocable` | à `true`, vous pouvez l'appeler par son nom | à `false`, il existe mais reste hors de la liste |
+
+> **Ces cinq-là suffisent pour écrire votre premier agent.** Il en existe d'autres — dont `model`,
+> qui impose le modèle qui l'exécute, et `agents`, qui décide qui il a le droit d'appeler.
+> **La liste complète est dans `apprenant/01-references/sous-agents/CHAMPS.md`**, avec les
+> squelettes et le diagnostic quand ça ne marche pas.
 
 ## Le squelette
 
