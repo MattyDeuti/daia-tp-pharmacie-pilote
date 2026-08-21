@@ -73,9 +73,12 @@ remontant le fil, dans cet ordre, pendant le temps 3.
 
 ### Le déroulé
 
-**Il est dans `demos/J2-slide227-DEMO09-lindex-montre-pour-de-vrai.md`**, avec les six temps
-minutés, les demandes exactes, ce qu'on montre, et les plans B. Les demandes seules, prêtes à
-coller, sont dans `formateur/prompt_demo/J2-slide227-demo9.md`.
+**Il n'est pas dans ce dépôt** : les fiches de déroulé vivent côté formateur, dans
+`Big Training/demos/`. Celle-ci est `J2-slide227-DEMO09-lindex-montre-pour-de-vrai.md`, avec les
+six temps minutés, ce qu'on montre, les cinq plans B et la liste de contrôle du drill.
+
+**Les demandes seules, prêtes à coller, sont dans le dépôt** :
+`formateur/prompt_demo/J2-slide227-demo9.md`.
 
 ### Ce que la démonstration coûte en préparation
 

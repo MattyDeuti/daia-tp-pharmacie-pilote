@@ -10,5 +10,5 @@ Leur numéro de slide est celui de la v1 et ne veut plus rien dire.
 | `J1-slide118-demo2.md` | le bloc DEMO 02 a ete supprime : la demo et le cas pratique disaient la meme chose |
 | `J2-slide211-demo8.md` | le rejeu de la brigade est parti avec les sous-agents, remontes au module 6 |
 
-> Le déroulé complet de ces deux démonstrations est archivé au même endroit, côté formateur :
-> `demos/_retires/`.
+> Le déroulé complet de ces deux démonstrations est archivé côté formateur, **hors de ce
+> dépôt** : `Big Training/demos/_retires/`.

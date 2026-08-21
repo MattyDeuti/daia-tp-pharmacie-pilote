@@ -34,8 +34,8 @@ remontés au module 6). Rien n'est supprimé.
 
 **`J2-slide227-demo9.md` demande deux gestes avant d'ouvrir la bouche** : armer le fichier, et
 laisser des modifications non publiées dans le dépôt. Les deux sont expliqués dans
-`formateur/demo-index/LISEZ-MOI.md`, et le déroulé minuté est dans
-`demos/J2-slide227-DEMO09-lindex-montre-pour-de-vrai.md`.
+`formateur/demo-index/LISEZ-MOI.md`. Le déroulé minuté, lui, vit **hors du dépôt**, côté
+formateur : `Big Training/demos/J2-slide227-DEMO09-lindex-montre-pour-de-vrai.md`.
 
 C'est aussi la seule qui tourne sur un **autre modèle** — Gemini 3.5 Flash, avec Sonnet en repli.
 
