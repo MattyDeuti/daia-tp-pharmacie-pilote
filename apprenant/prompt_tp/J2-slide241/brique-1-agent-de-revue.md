@@ -33,7 +33,7 @@ arriver concrètement**, avant toute explication technique · ③ par quoi il co
 point**, et pourquoi celui-là.
 
 **Sa façon d'écrire.** En français, **pour quelqu'un qui ne programme pas** — c'est votre
-observateur qui devra juger cette revue.
+personne qui relira votre pull request tout à l'heure.
 
 **Ce qu'il ne fait jamais.** Il **ne propose jamais de corriger lui-même**, et il ne demande jamais
 l'autorisation de le faire. Il constate, c'est tout. *(Il n'en a de toute façon pas le droit — mais
@@ -60,10 +60,10 @@ Commence par ce qui va bien, puis ce qui te gêne. Ne modifie rien.
 ```
 
 > **Pourquoi ce fichier-là, et pas votre code.** `AGENTS.md` est la charte du projet, et c'est
-> **celle que deux autres binômes sont en train d'écrire en ce moment même** — les sections 2 et 3.
+> **celle que deux autres personnes sont en train d'écrire en ce moment même** — les sections 2 et 3.
 > Votre relecteur ne relit pas un exercice : il relit le travail de l'équipe.
 >
-> Et il est **en français, court**. Votre observateur peut juger la revue — et c'est lui qui
+> Et il est **en français, court**. N'importe qui peut juger la revue — et c'est ce qui
 > détient la preuve.
 
 ---

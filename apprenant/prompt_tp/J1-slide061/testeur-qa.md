@@ -20,7 +20,7 @@ Copiez-collez tel quel. **Une phrase, on n'ajoute rien** — pas même la règle
 Écris des cas de test pour la vente de produits en pharmacie.
 ```
 
-➜ L'observateur colle la réponse dans `apprenant/a-supprimer/approche-1-sec.md`, puis on vide la
+➜ Collez la réponse dans `apprenant/a-supprimer/approche-1-sec.md`, puis on vide la
 conversation.
 
 ---

@@ -16,7 +16,7 @@ Copiez-collez tel quel. **Une phrase, on n'ajoute rien.**
 Refactorise cette méthode d'enregistrement de réception de marchandises.
 ```
 
-➜ L'observateur colle la réponse dans `apprenant/a-supprimer/approche-1-sec.md`, puis on vide la
+➜ Collez la réponse dans `apprenant/a-supprimer/approche-1-sec.md`, puis on vide la
 conversation.
 
 ---

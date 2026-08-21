@@ -1,6 +1,6 @@
 # Un seul sujet, trois façons de le demander
 
-*Jour 1, matin. En binôme : un pilote, un observateur.*
+*Jour 1, matin. **25 minutes. Chacun sur son poste.***
 
 Un fichier par profil. **Ouvrez celui de votre rôle, et un seul.**
 
@@ -32,8 +32,16 @@ obligation.** Mais si vous le prenez, gardez-le pour les trois.
 
 ## Où va ce que vous produisez
 
-Avant chaque remise à zéro de la conversation, **l'observateur colle la réponse** dans le dossier
-`apprenant/a-supprimer/`, qui a déjà ses trois fichiers. Le détail est dans `apprenant/a-supprimer/LISEZ-MOI.md`.
+**Avant chaque remise à zéro de la conversation, collez la réponse** dans le dossier
+`apprenant/a-supprimer/`, qui a déjà ses trois fichiers. Le détail est dans
+`apprenant/a-supprimer/LISEZ-MOI.md`.
 
 Sans ce collage, il ne reste rien à comparer au moment du bilan : vider la conversation efface
-aussi la réponse d'avant.
+aussi la réponse d'avant. **Vous êtes seul à tenir votre trace — personne ne la tient pour vous.**
+
+## Ce que vous postez dans le chat
+
+**Le coût des trois approches, en crédits.** Trois nombres, une ligne, par exemple `0,4 / 1,1 / 2,3`.
+
+C'est tout ce qui est attendu, et c'est ce qui permet de débriefer sans que personne ne partage
+son écran. Le coût s'affiche sous chaque réponse — c'est le même endroit que ce matin.

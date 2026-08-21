@@ -1,29 +1,43 @@
-# apprenant/consignes/ — Les énoncés des TP
+# apprenant/consignes/ — Les énoncés longs
 
-Une consigne par cas pratique :
+**Ce dossier est un complément, pas la source.** Ce qui fait foi, c'est ce qui est à l'écran et le
+dossier de votre cas pratique dans `apprenant/prompt_tp/`. Les fichiers d'ici développent, pour
+ceux qui veulent le détail ou qui reprennent après coup.
 
-| Fichier | TP | Moment | État |
-|---|---|---|---|
-| `tp1-legacy.md` | Auditer le legacy, puis générer et **exécuter** des tests | Jour 1 | ✅ |
-| `tp2-spec.md` | Du besoin à la fonctionnalité : le workflow par spécification | Jour 2 | ⚠️ prompts à venir |
-| `tp3-mcp.md` | Brancher un serveur MCP et **prouver** qu'il fonctionne | Jour 2 | ✅ |
-| `tp4-equipe.md` | AGENTS.md + workflow collaboratif (PR, review) sur ce repo | Jour 2 | ✅ |
-| **`preparation-dernier-tp.md`** | **À faire le soir du jour 1** — compte GitHub, invitation, `gh auth login` | **fin du jour 1** | ✅ |
+| Fichier | Ce que ça développe | Le dossier qui fait foi |
+|---|---|---|
+| `tp1-legacy.md` | Auditer le legacy, puis générer et **exécuter** des tests | `prompt_tp/J1-slide193/` |
+| `tp2-spec.md` | Du besoin à la fonctionnalité : le workflow par spécification | `prompt_tp/J2-slide042/` |
+| `tp4-equipe.md` | `AGENTS.md` + workflow collaboratif (branche, PR, revue) | `prompt_tp/J2-slide241/` |
+| `tp3-mcp.md` | Brancher un serveur MCP et **prouver** qu'il fonctionne | *(aucun — voir ci-dessous)* |
+| **`preparation-dernier-tp.md`** | **À faire le soir du jour 1** — compte GitHub, invitation, `gh auth login` | **préalable, pas un énoncé** |
 
-*(Les deux premiers exercices de la formation — TP prompting et TP expérimentation
-guidée, Jour 1 — ne travaillent pas sur le code de ce repo. Pour le premier, le cas de
-chaque profil et son prompt de départ sont dans **`apprenant/prompt_tp/J1-slide061/`** ; le reste
-est à l'écran.)*
+> 📗 **`tp3-mcp.md` n'est plus un cas pratique.** Le branchement d'un serveur MCP se fait
+> désormais **en démonstration**, panneau ouvert, parce que c'est là que le mécanisme se voit — y
+> compris quand il échoue. Le fichier reste : **c'est le meilleur pas-à-pas du kit pour refaire le
+> geste chez vous**, et il porte la vérification qui compte, celle qui distingue « l'agent a
+> répondu » de « la prise déclarée a réellement travaillé ».
 
-> 🔑 **`preparation-dernier-tp.md` n'est pas un énoncé, c'est un préalable.** Le dernier cas
-> pratique est le seul où vos travaux se rejoignent **dans un projet en ligne** : il faut que ce
-> projet vous reconnaisse, et ça se prépare la veille. Cinq minutes, et tout fonctionne du
-> premier coup le lendemain.
+> 🔑 **`preparation-dernier-tp.md` est un préalable, et il est bloquant.** Le dernier cas pratique
+> est le seul où vos travaux se rejoignent **dans un projet en ligne** : il faut que ce projet vous
+> reconnaisse. Cinq minutes la veille, et tout fonctionne du premier coup le lendemain. Sans ça,
+> vous perdrez le cas pratique — c'est arrivé.
 
-## Ce que contient une consigne, et ce qu'elle ne contient pas
+## Les trois règles des cas pratiques
 
-**L'objectif et les étapes sont à l'écran**, projetés pendant tout le cas pratique. Les fichiers
-d'ici ne les répètent pas : ils portent ce qui ne se projette pas.
+**① Chacun sur son poste.** Aucun exercice ne suppose que vous soyez deux devant un écran, ni que
+vous voyiez celui d'un voisin.
+
+**② La trace passe par le chat.** Chaque cas pratique se termine par un chiffre ou un nom, posté
+dans le chat de la classe virtuelle.
+
+**③ Chaque énoncé se reprend seul.** Si vous décrochez dix minutes, le `LISEZ-MOI.md` de votre
+dossier dit par où reprendre.
+
+## Ce que contient un énoncé, et ce qu'il ne contient pas
+
+**L'objectif, les étapes et la durée sont à l'écran**, projetés pendant tout le cas pratique. Les
+fichiers d'ici ne les répètent pas : ils portent ce qui ne se projette pas.
 
 - **les prompts, en blocs copiables** — un clic vaut mieux qu'une saisie
 - **la variante de votre rôle**, là où le TP en prévoit une

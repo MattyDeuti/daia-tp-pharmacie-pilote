@@ -22,7 +22,7 @@ Copiez-collez tel quel. **Une phrase, on n'ajoute rien** — pas même le besoin
 Découpe en tâches la mise en place de la traçabilité des stupéfiants.
 ```
 
-➜ L'observateur colle la réponse dans `apprenant/a-supprimer/approche-1-sec.md`, puis on vide la
+➜ Collez la réponse dans `apprenant/a-supprimer/approche-1-sec.md`, puis on vide la
 conversation.
 
 ---

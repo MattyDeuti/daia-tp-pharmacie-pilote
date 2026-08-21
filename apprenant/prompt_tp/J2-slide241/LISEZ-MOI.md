@@ -1,13 +1,16 @@
 # La couche de l'équipe, en quatre briques
 
-*Jour 2, fin d'après-midi. **Le seul cas pratique collectif des deux jours.** Copilot, plus le
-navigateur pour la mise en commun.*
+*Jour 2, fin d'après-midi. **25 minutes.** Le seul cas pratique collectif des deux jours — et
+pourtant chacun travaille sur son poste, avec sa propre branche. Copilot, plus le navigateur pour
+la mise en commun.*
 
-**Un binôme par brique. Prenez celle qui vous tente** — aucune n'exige le métier qui lui a donné
-son nom, et **les deux dernières ne demandent pas une ligne de code**.
+**Votre brique vous est attribuée en séance. Vous n'avez rien à choisir.**
 
-La seule règle de répartition : **les quatre briques doivent être prises**, et un binôme n'en prend
-qu'une.
+C'est délibéré : les quatre doivent être prises, et surtout les sections 2 et 3 de la charte
+doivent être remplies toutes les deux — sinon la fusion à quatre ne démontre plus rien.
+
+Aucune brique n'exige le métier qui lui a donné son nom, et **les deux dernières ne demandent pas
+une ligne de code**.
 
 | Fichier | La brique | La voie | Sa preuve |
 |---|---|---|---|
@@ -16,6 +19,15 @@ qu'une.
 | `brique-3-regles-metier.md` | la section 2 de la charte | **2** — en français | la règle tient face au piège, **et il cite `RM-<prénom>`** |
 | `brique-4-gouvernance.md` | la section 3 de la charte | **2** — en français | il **refuse en citant `RG-<prénom>`** |
 
+## Votre branche existe déjà
+
+**Elle porte votre prénom, et elle a été créée avant la séance.** Vous n'en créez aucune, vous n'en
+choisissez pas le nom.
+
+C'est le garde-fou qui a manqué au pilote : sur neuf personnes, trois seulement avaient réussi à
+publier, et deux s'étaient heurtées à un refus d'accès. Rien de tout ça ne dépend de vous — mais
+**si votre branche n'apparaît pas, dites-le tout de suite**, avant d'avoir écrit quoi que ce soit.
+
 ## Les deux voies, et personne ne corrigera votre choix
 
 - **Voie 1** — vous écrivez le fichier vous-même, parce que vous voulez **voir les champs**
@@ -23,11 +35,6 @@ qu'une.
 
 C'est une préférence, pas une compétence. **Ce que vous choisissez raconte votre rapport à
 l'outil**, et c'est le sujet du débrief.
-
-## Dans le binôme
-
-**Un pilote, un observe et note la preuve.** L'observateur n'est pas un spectateur : c'est lui qui
-pourra dire, à la fin, **si la brique a agi**.
 
 ## ⛔ Ce qui ne compte jamais comme preuve
 
@@ -48,15 +55,34 @@ sauvegarde et publie mon travail
 **Personne ne tape de commande.** L'outil se saisit tout seul de la procédure qui est dans le
 projet — personne ne l'a installée, elle était dans le dossier qu'on vous a donné.
 
-Ce qu'il va faire : une branche dédiée, il vous montre ce qu'il s'apprête à enregistrer, **il
-demande votre validation et il attend**, puis il pousse et propose la mise en commun.
+Ce qu'il va faire : il travaille sur votre branche, il vous montre ce qu'il s'apprête à
+enregistrer, **il demande votre validation et il attend**, puis il pousse et propose la mise en
+commun.
 
 **Ce que vous gardez, c'est la validation. Lisez avant de dire oui : c'est votre porte.**
 
 > **L'adresse du dépôt de destination vous sera donnée en séance.**
+
+## Ce que vous postez dans le chat
+
+**Le nom de votre branche.** Rien d'autre.
+
+C'est la trace du cas pratique : elle prouve que votre travail est parti, elle se lit en un coup
+d'œil, et elle ne demande à personne de partager son écran.
 
 ## Le point de synchronisation
 
 **Tant que les quatre briques ne sont pas publiées, personne ne peut fusionner.** C'est la première
 fois de ces deux jours que vous dépendez les uns des autres — et c'est exactement à ça que sert un
 dépôt partagé.
+
+## Si vous avez décroché dix minutes
+
+Reprenez ici, dans cet ordre, et rien n'est perdu :
+
+1. **Votre brique** est celle qui vous a été attribuée — redemandez-la dans le chat si vous l'avez ratée
+2. **Votre branche** porte votre prénom, elle est déjà là
+3. **Ouvrez le fichier de votre brique** dans ce dossier : il contient le sujet, la demande et la preuve
+4. **Publiez** avec la phrase ci-dessus, et postez le nom de votre branche
+
+Vous n'avez besoin de rien de ce qui s'est dit pendant votre absence.

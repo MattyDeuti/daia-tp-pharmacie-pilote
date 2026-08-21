@@ -4,34 +4,46 @@
 pratique, en haut à droite, sous la durée : `LES PROMPTS À COPIER`. Vous n'avez rien à deviner —
 vous recopiez ce qui est affiché.
 
-Le nom se lit ainsi : `J2-slide177` = **jour 2, slide 177**. C'est le numéro en bas à droite de
-la slide qui lance le cas pratique.
+> Les noms de dossiers sont des **étiquettes stables**. Ils viennent d'anciens numéros de slides et
+> ne les suivent plus : fiez-vous à ce qui est affiché, jamais au numéro en bas de la slide.
 
 ### Jour 1
 
-| Dossier | Le cas pratique | Quand |
-|---|---|---|
-| `J1-slide061/` | Un seul sujet, trois façons de le demander | matin |
-| `J1-slide122/` | Faire produire, ne pas relire, puis constater | avant le déjeuner |
-| `J1-slide162/` | Basculez en mode Agent, et faites-le répondre une fois | début d'après-midi |
-| `J1-slide193/` | Auditer la base existante, chacun depuis son rôle | milieu d'après-midi |
-| `J1-slide209/` | Générer des tests, puis obtenir un plan de reprise | fin d'après-midi |
+| Dossier | Le cas pratique | Durée | Ce que vous postez dans le chat |
+|---|---|---|---|
+| `J1-slide061/` | Un seul sujet, trois façons de le demander | 25 min | le coût des trois approches |
+| `J1-slide122/` | La même demande, deux modes, et ce que chacun coûte | 20 min | vos deux coûts, et leur rapport |
+| `J1-canari/` | Écrivez une règle, et prouvez qu'elle est lue | 25 min | votre formule, et si elle est passée |
+| `J1-slide193/` | Auditer la base existante, chacun depuis son rôle | 45 min | vos défauts trouvés, et combien tenaient à l'autre fichier |
 
 ### Jour 2
 
-| Dossier | Le cas pratique | Quand |
-|---|---|---|
-| `J2-slide042/` | Du besoin à la fonctionnalité : votre propre spécification | fin de matinée |
-| `J2-slide177/` | Ce qu'il voit à l'écran | début d'après-midi |
-| `J2-slide184/` | Demandez votre procédure, et comptez | début d'après-midi |
-| `J2-slide241/` | La couche de l'équipe, en quatre briques | fin d'après-midi |
+| Dossier | Le cas pratique | Durée | Ce que vous postez dans le chat |
+|---|---|---|---|
+| `J2-slide042/` | Du besoin à la fonctionnalité : votre propre spécification | 25 min | le nombre de tâches sans exigence en face |
+| `J2-slide184/` | Demandez votre procédure, et comptez | 30 min | le nom de votre procédure, et si elle part toute seule |
+| `J2-slide241/` | La couche de l'équipe, en quatre briques | 25 min | le nom de votre branche |
 
-**Deux cas pratiques n'ont pas de dossier ici, et c'est normal : ils se font sans outil.**
+**Deux moments n'ont pas de dossier ici, et c'est normal : ils se font sans outil.**
 L'auto-évaluation du début du jour 1 et celle de la clôture. Elles se jouent sur papier, et ce sont
 **les deux moments où ceux qui ne codent pas sont à égalité complète**.
 
 **Si le dossier annoncé n'est pas là, double-cliquez sur « Mettre a jour le TP »** sur le Bureau :
 les prompts évoluent jusqu'au dernier moment.
+
+## Trois règles valables pour les sept
+
+**① Chacun sur son poste.** Aucun cas pratique ne suppose que vous soyez deux devant un écran, ni
+que vous voyiez celui d'un voisin. La formation se donne en visio, avec une partie de la salle
+ensemble et le reste dispersé — les sept exercices sont écrits pour ça.
+
+**② La trace passe par le chat.** Chaque cas pratique se termine par **un chiffre ou un nom**, posté
+dans le chat de la classe virtuelle. C'est ce qui permet de débriefer sans partage d'écran, et c'est
+la seule chose qui est attendue de vous.
+
+**③ Chaque énoncé se reprend seul.** Si vous décrochez dix minutes — un appel, une coupure, un poste
+qui bloque — le fichier `LISEZ-MOI.md` du dossier se termine par ce qu'il faut faire pour reprendre.
+Vous n'aurez besoin de rien de ce qui s'est dit pendant votre absence.
 
 ## Ce que vous trouverez dedans, et ce que vous n'y trouverez pas
 

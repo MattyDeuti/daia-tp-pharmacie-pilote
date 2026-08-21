@@ -7,12 +7,15 @@
 
 ## Comment vous êtes organisés
 
-**Un binôme par brique.** Prenez **celle qui vous tente** — aucune n'exige le métier qui lui a
-donné son nom, et **les deux dernières ne demandent pas une ligne de code**. La seule chose qui
-compte : **les quatre briques doivent être prises**, et un binôme n'en prend qu'une.
+**Une brique chacun, et elle vous est attribuée en séance.** Vous n'avez rien à choisir : les
+quatre doivent être prises, et les sections 2 et 3 de la charte doivent être remplies toutes les
+deux, sinon la fusion à quatre ne démontre plus rien.
 
-Dans le binôme : **un pilote, un observe et note la preuve.** L'observateur n'est pas un
-spectateur — c'est lui qui pourra dire, à la fin, si la brique a agi.
+Aucune brique n'exige le métier qui lui a donné son nom, et **les deux dernières ne demandent pas
+une ligne de code**.
+
+**Chacun sur son poste, et sur sa propre branche** — elle porte votre prénom et elle a été créée
+avant la séance. Vous gardez votre preuve vous-même : personne ne la note à votre place.
 
 **Trois règles pour les quatre briques :**
 
@@ -60,10 +63,10 @@ Relis le fichier AGENTS.md et rends-moi une revue.
 Commence par ce qui va bien, puis ce qui te gêne. Ne modifie rien.
 ```
 
-> **Pourquoi ce fichier-là.** C'est celui que **deux autres binômes sont en train d'écrire** en ce
-> moment même — les sections 2 et 3. Votre relecteur lit la charte de l'équipe, pas un exercice.
-> Et il est en français : **votre observateur peut juger la revue**, et c'est lui qui détient la
-> preuve.
+> **Pourquoi ce fichier-là.** C'est celui que **deux autres personnes sont en train d'écrire** en
+> ce moment même — les sections 2 et 3. Votre relecteur lit la charte de l'équipe, pas un exercice.
+> Et il est en français, court : **n'importe qui peut juger la revue**, y compris quelqu'un qui
+> n'écrit pas de code.
 
 **Votre preuve : il rend une revue, et `AGENTS.md` n'a pas bougé.** Elle ne se lit pas dans sa
 réponse, elle se lit **dans la liste des fichiers modifiés** — le panneau Source Control, à gauche.
@@ -254,7 +257,7 @@ demande votre validation et il attend**, puis il pousse et propose la mise en co
 première fois de ces deux jours que vous dépendez les uns des autres — et c'est exactement à ça
 que sert un dépôt partagé.
 
-Vous relisez la proposition **d'un autre binôme**, pas la vôtre. Vous cherchez une seule chose :
+Vous relisez la proposition **de quelqu'un d'autre**, pas la vôtre. Vous cherchez une seule chose :
 **sa preuve est-elle là ?** Ce n'est pas une revue de code, c'est une revue de preuve.
 
 Puis vous fusionnez.

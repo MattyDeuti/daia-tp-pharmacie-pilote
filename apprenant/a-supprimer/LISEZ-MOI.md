@@ -21,7 +21,7 @@ Quinze secondes, et vous avez les trois côte à côte au moment du bilan.
 | `approche-2-contexte.md` | la réponse à la demande contextualisée |
 | `approche-3-questions.md` | les questions posées par l'outil, **et c'est le plus important** |
 
-Dans un binôme, **c'est l'observateur qui colle**. Le pilote tape, l'observateur garde la trace.
+**Vous collez vous-même, avant chaque remise à zéro.** Personne ne garde la trace à votre place.
 
 ## Quand on le supprime
 

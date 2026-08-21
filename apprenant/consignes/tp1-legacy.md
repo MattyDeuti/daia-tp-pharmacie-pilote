@@ -87,7 +87,7 @@ de l'estimer.
 
 ## La preuve attendue
 
-Vous avez fini le premier temps quand vous pouvez dire trois choses à votre voisin :
+Vous avez fini le premier temps quand vous pouvez dire trois choses, à voix haute ou dans le chat :
 
 1. **un défaut qu'il a trouvé** et que vous n'auriez pas vu seul
 2. **un endroit où il dit ne pas pouvoir se prononcer** — c'est le plus intéressant, et c'est ce

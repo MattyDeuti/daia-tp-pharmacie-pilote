@@ -12,8 +12,8 @@ aucun des quatre, prenez **celui dont vous validez les livrables au quotidien**.
 | `analyste.md` | Analyste | **la couverture** — ce qui manque, pas ce qui est là |
 | `manager.md` | Manager | **ce qui remonte, et ce qui se décide** |
 
-**Personne ne fait le travail d'un autre.** C'est ce qui rendra la confrontation avec votre voisin
-utile, tout à l'heure.
+**Personne ne fait le travail d'un autre.** C'est ce qui rendra la mise en commun utile, tout à
+l'heure : quatre lectures différentes du même audit, et c'est l'écart entre elles qui enseigne.
 
 ## L'audit se produit tout seul. C'est sa LECTURE qui est le travail.
 
@@ -48,6 +48,6 @@ Les quatre suivent le même déroulé, dans le même ordre :
 2. **Lancer l'audit** — deux lignes, identiques pour tous les rôles
 3. **Lire la fiche depuis votre rôle** — c'est là que les quatre fichiers diffèrent
 4. **Annoter** — quatre colonnes, et deux d'entre elles sont l'objectif
-5. **Confronter avec votre voisin**
+5. **Poster votre compte dans le chat** — combien de défauts trouvés, et combien tenaient à l'autre fichier
 
 Puis la liste de ce que vous devez pouvoir montrer à la fin, et un défi bonus si vous finissez tôt.

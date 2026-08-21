@@ -143,7 +143,7 @@ N'écris nulle part ailleurs que dans la section 3.
 ```
 
 > ⚠️ **Cette version marche, et elle vous coûte quelque chose.** C'est **l'interdit d'un autre**.
-> Au débrief, on demandera à votre observateur ce que votre règle disait — et *« celle qui était
+> Au débrief, on relira votre interdit à l'écran — et *« celle qui était
 > écrite dans le fichier »* n'est pas une réponse.
 >
 > **Le vrai exercice était la formulation** : trouver les mots qui ne laissent aucune place à la

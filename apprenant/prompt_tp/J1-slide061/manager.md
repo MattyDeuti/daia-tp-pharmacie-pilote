@@ -23,7 +23,7 @@ Copiez-collez tel quel. **Une phrase, on n'ajoute rien** — pas même la situat
 Fais-moi une synthèse des risques du projet.
 ```
 
-➜ L'observateur colle la réponse dans `apprenant/a-supprimer/approche-1-sec.md`, puis on vide la
+➜ Collez la réponse dans `apprenant/a-supprimer/approche-1-sec.md`, puis on vide la
 conversation.
 
 **Le piège de ce profil : la première réponse a l'air propre, donc on l'accepte.** La question à

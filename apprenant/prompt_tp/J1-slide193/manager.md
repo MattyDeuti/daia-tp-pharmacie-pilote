@@ -80,11 +80,17 @@ qui les lui a donnés ?
 
 ---
 
-## ④ Confronter avec votre voisin
+## ④ Poster votre compte dans le chat
 
-Une seule question :
+Deux nombres, une ligne :
 
-> **« Qu'a-t-il trouvé que vous n'aviez pas vu ? »**
+> **combien de défauts vous avez retenus · combien d'entre eux tenaient à l'AUTRE fichier**
+
+C'est la trace du cas pratique, et c'est elle qui sert au débrief. Le second nombre est le plus
+intéressant des deux : il mesure ce qu'un audit à fichier unique ne pouvait pas voir.
+
+Lisez ceux des autres au passage. La question qui vaut le détour est toujours la même :
+**« qu'ont-ils retenu que je n'avais pas vu ? »**
 
 ---
 
