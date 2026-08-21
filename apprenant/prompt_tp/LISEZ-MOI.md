@@ -4,25 +4,27 @@
 pratique, en haut à droite, sous la durée : `LES PROMPTS À COPIER`. Vous n'avez rien à deviner —
 vous recopiez ce qui est affiché.
 
-> Les noms de dossiers sont des **étiquettes stables**. Ils viennent d'anciens numéros de slides et
-> ne les suivent plus : fiez-vous à ce qui est affiché, jamais au numéro en bas de la slide.
+> **Le nom se lit en deux parties** : `J1-slide169-canari` = jour 1, slide 169, le canari. Le
+> numéro est celui de la slide qui annonce le cas pratique dans le support de la journée, et il
+> est vérifié à chaque livraison — si un jour il ne colle plus, c'est un défaut, pas une
+> approximation. Le nom du dossier est toujours affiché sur la slide : vous n'avez rien à deviner.
 
 ### Jour 1
 
 | Dossier | Le cas pratique | Durée | Ce que vous postez dans le chat |
 |---|---|---|---|
-| `J1-slide061/` | Un seul sujet, trois façons de le demander | 25 min | le coût des trois approches |
-| `J1-slide122/` | La même demande, deux modes, et ce que chacun coûte | 20 min | vos deux coûts, et leur rapport |
-| `J1-canari/` | Écrivez une règle, et prouvez qu'elle est lue | 25 min | votre formule, et si elle est passée |
-| `J1-slide193/` | Auditer la base existante, chacun depuis son rôle | 45 min | vos défauts trouvés, et combien tenaient à l'autre fichier |
+| `J1-slide077-trois-facons-de-demander/` | Un seul sujet, trois façons de le demander | 25 min | le coût des trois approches |
+| `J1-slide126-ask-vs-agent/` | La même demande, deux modes, et ce que chacun coûte | 20 min | vos deux coûts, et leur rapport |
+| `J1-slide169-canari/` | Écrivez une règle, et prouvez qu'elle est lue | 25 min | votre formule, et si elle est passée |
+| `J1-slide193-audit-legacy/` | Auditer la base existante, chacun depuis son rôle | 45 min | vos défauts trouvés, et combien tenaient à l'autre fichier |
 
 ### Jour 2
 
 | Dossier | Le cas pratique | Durée | Ce que vous postez dans le chat |
 |---|---|---|---|
-| `J2-slide042/` | Du besoin à la fonctionnalité : votre propre spécification | 25 min | le nombre de tâches sans exigence en face |
-| `J2-slide184/` | Demandez votre procédure, et comptez | 30 min | le nom de votre procédure, et si elle part toute seule |
-| `J2-slide241/` | La couche de l'équipe, en quatre briques | 25 min | le nom de votre branche |
+| `J2-slide049-specification/` | Du besoin à la fonctionnalité : votre propre spécification | 25 min | le nombre de tâches sans exigence en face |
+| `J2-slide179-votre-procedure/` | Demandez votre procédure, et comptez | 30 min | le nom de votre procédure, et si elle part toute seule |
+| `J2-slide214-couche-equipe/` | La couche de l'équipe, en quatre briques | 25 min | le nom de votre branche |
 
 **Deux moments n'ont pas de dossier ici, et c'est normal : ils se font sans outil.**
 L'auto-évaluation du début du jour 1 et celle de la clôture. Elles se jouent sur papier, et ce sont

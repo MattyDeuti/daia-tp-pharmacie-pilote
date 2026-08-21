@@ -1,6 +1,6 @@
 # TP 2 — Du besoin à la fonctionnalité, sans sauter d'étape
 
-> 📋 **LES PROMPTS DES TROIS PHASES SONT DANS `apprenant/prompt_tp/J2-slide042/`.**
+> 📋 **LES PROMPTS DES TROIS PHASES SONT DANS `apprenant/prompt_tp/J2-slide049-specification/`.**
 > Ce fichier-ci porte la discipline, les portes et la preuve attendue ; les demandes à copier sont
 > là-bas, dans `les-trois-phases.md`.
 

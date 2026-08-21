@@ -6,9 +6,9 @@ ceux qui veulent le détail ou qui reprennent après coup.
 
 | Fichier | Ce que ça développe | Le dossier qui fait foi |
 |---|---|---|
-| `tp1-legacy.md` | Auditer le legacy, puis générer et **exécuter** des tests | `prompt_tp/J1-slide193/` |
-| `tp2-spec.md` | Du besoin à la fonctionnalité : le workflow par spécification | `prompt_tp/J2-slide042/` |
-| `tp4-equipe.md` | `AGENTS.md` + workflow collaboratif (branche, PR, revue) | `prompt_tp/J2-slide241/` |
+| `tp1-legacy.md` | Auditer le legacy, puis générer et **exécuter** des tests | `prompt_tp/J1-slide193-audit-legacy/` |
+| `tp2-spec.md` | Du besoin à la fonctionnalité : le workflow par spécification | `prompt_tp/J2-slide049-specification/` |
+| `tp4-equipe.md` | `AGENTS.md` + workflow collaboratif (branche, PR, revue) | `prompt_tp/J2-slide214-couche-equipe/` |
 | `tp3-mcp.md` | Brancher un serveur MCP et **prouver** qu'il fonctionne | *(aucun — voir ci-dessous)* |
 | **`preparation-dernier-tp.md`** | **À faire le soir du jour 1** — compte GitHub, invitation, `gh auth login` | **préalable, pas un énoncé** |
 

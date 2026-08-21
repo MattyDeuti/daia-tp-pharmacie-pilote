@@ -48,7 +48,7 @@ Vous fabriquez un agent dont le métier est de relire, et **rien d'autre**.
 >
 > **Si vous calez, demandez-le à l'agent dans le chat** — mais essayez d'abord. Cinq minutes à
 > chercher un champ valent mieux qu'un fichier correct dont vous ne sauriez rien dire.
-> *(La demande toute prête est à la fin de votre fiche, dans `apprenant/prompt_tp/J2-slide241/`.)*
+> *(La demande toute prête est à la fin de votre fiche, dans `apprenant/prompt_tp/J2-slide214-couche-equipe/`.)*
 
 Il doit porter **deux choses**, et ce sont elles qu'on regardera.
 
@@ -111,7 +111,7 @@ taperiez dans deux mois**, sans y penser et sans connaître le nom du fichier.
 > 14h02, vous avez déjà `jeu-de-tests` dans ce projet : un nom distinct évite de l'écraser, **et
 > vous saurez laquelle des deux a servi.**
 
-> 🆘 **La demande complète est à la fin de votre fiche**, dans `apprenant/prompt_tp/J2-slide241/`. N'y allez
+> 🆘 **La demande complète est à la fin de votre fiche**, dans `apprenant/prompt_tp/J2-slide214-couche-equipe/`. N'y allez
 > qu'après avoir réécrit votre description une fois.
 
 Puis, pour la déclencher — **sans jamais la nommer, et sans rien ajouter** :
@@ -176,7 +176,7 @@ pas que c'est **la vôtre** qui a agi. **Votre formule maison, si.**
 ⛔ **Ce qui ne compte pas :** lui demander s'il a bien lu la charte. On ne prend pas un agent à
 témoin de sa propre obéissance.
 
-> 🆘 **Une règle toute rédigée est à la fin de votre fiche**, dans `apprenant/prompt_tp/J2-slide241/`. N'y
+> 🆘 **Une règle toute rédigée est à la fin de votre fiche**, dans `apprenant/prompt_tp/J2-slide214-couche-equipe/`. N'y
 > allez qu'après un essai.
 
 ---
