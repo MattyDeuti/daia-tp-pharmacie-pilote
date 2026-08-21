@@ -7,6 +7,11 @@
 Vous allez écrire **une seule règle** dans la charte du projet, puis vérifier **par vous-même**
 qu'elle a été chargée — sans jamais demander à l'agent s'il l'a lue.
 
+> 🐤 **Pourquoi « canari ».** Dans les mines, on descendait avec un canari. Tant qu'il chantait,
+> l'air était bon — **c'est son silence qui était le signal, pas son chant.** Votre formule joue le
+> même rôle : ce qui vous renseigne, ce n'est pas ce que l'agent répond, c'est **l'absence** de votre
+> formule. Vous le retrouverez demain, appliqué à autre chose.
+
 ## Il n'y a pas de fichier par profil ici
 
 Et c'est volontaire : **la règle est la vôtre.** Personne ne vous la donne, parce que c'est
