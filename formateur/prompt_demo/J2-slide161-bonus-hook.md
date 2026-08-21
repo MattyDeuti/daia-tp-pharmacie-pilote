@@ -1,6 +1,6 @@
 # Bonus · Un déclencheur, chez Copilot
 
-*Jour 2, module 6, après la slide 153 · **deux minutes** · Copilot, en mode agent*
+*Jour 2, module 6, après la slide 161 · **deux minutes** · Copilot, en mode agent*
 
 > **La carte d'identité dit « le bouton d'audit d'hier en était un — c'était Kiro ».**
 > Cette démo donne l'équivalent côté Copilot, pour que la brique 4 ne reste pas une slide.
@@ -66,7 +66,7 @@ Combien de methodes publiques y a-t-il dans src/main/java/GestionStock.java ?
 | **Le champ de saisie est resté vide** | c'est le dessin de la carte d'identité, en vrai |
 
 **La phrase à dire :** « Personne n'a rien tapé. Le jour où on vous demande ce que la machine a
-touché, la réponse existe déjà. » — c'est la carte « il laisse une trace » de la slide 156.
+touché, la réponse existe déjà. » — c'est la carte « il laisse une trace » de la slide 163.
 
 ---
 
@@ -99,7 +99,7 @@ mise en commun.
 | `Stop` | l'agent s'arrête |
 
 **Aucun n'est un événement fichier.** Ce sont tous des moments de la **session de l'agent** —
-c'est la phrase qui tranche de la slide 155 : *Kiro déclenche sur ce que VOUS faites, Copilot sur
+c'est la phrase qui tranche de la slide 163 : *Kiro déclenche sur ce que VOUS faites, Copilot sur
 ce que l'AGENT fait.*
 
 ### Ce que la commande peut être
@@ -126,7 +126,7 @@ infléchir la suite :
 Les codes de sortie comptent aussi : `0` = la sortie est lue · `2` = erreur bloquante montrée au
 modèle · tout autre = simple avertissement.
 
-**C'est ce qui rend les quatre cartes de la slide 155 possibles** — refuser avant d'agir, ne pas
+**C'est ce qui rend les quatre cartes de la slide 163 possibles** — refuser avant d'agir, ne pas
 partir sans les tests, laisser une trace, démarrer renseigné.
 
 ---
@@ -138,7 +138,7 @@ partir sans les tests, laisser une trace, démarrer renseigné.
 terminé, arrêt. Pas la sauvegarde, pas le disque.
 
 > ⛔ **Ne dites pas que Copilot sait déclencher à la sauvegarde.** Il ne sait pas, et quelqu'un
-> le cherchera en rentrant. C'est déjà écrit dans votre note orateur de la slide 156.
+> le cherchera en rentrant. C'est déjà écrit dans votre note orateur de la slide 163.
 
 **② Le filtre déclaratif ne marche pas.** La doc est explicite : les `matcher` sont analysés puis
 **ignorés**, le déclencheur part sur **tous** les appels d'outil. Si vous voulez ne réagir qu'à
@@ -152,7 +152,7 @@ pas une IA sur ce déclencheur** : il partirait à chaque appel d'outil.
 > **La question qui viendra, et la réponse :** « Est-ce qu'on peut lancer un sous-agent
 > automatiquement à chaque fichier créé ? » — Non, et vous n'en voulez pas. Le déclencheur part
 > sur **chaque** appel d'outil : ce serait un sous-agent par lecture de fichier. C'est votre
-> slide 157, mot pour mot : *un déclencheur dont l'action est une IA, c'est une facture à chaque
+> slide 164, mot pour mot : *un déclencheur dont l'action est une IA, c'est une facture à chaque
 > Ctrl+S.*
 
 ---

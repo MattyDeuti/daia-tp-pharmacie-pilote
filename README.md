@@ -36,7 +36,8 @@ allez travailler, et la configuration que vos outils lisent.
 | `src/main/java/GestionStock.java` | Le code legacy (701 lignes, Java + SQL) |
 | `db/schema_extensions.sql` | Le schéma de base de données associé |
 | `src/test/java/` | Vide pour l'instant : **c'est vous** (et votre IA) qui le remplirez |
-| `formateur/` | Le matériel du formateur — les prompts de ses démonstrations, si vous voulez les rejouer |
+| `formateur/prompt_demo/` | Les prompts des démonstrations du formateur, si vous voulez les rejouer |
+| `formateur/demo-index/` | **Le `AGENTS.md` complet de la dernière démonstration** — le meilleur modèle du kit si vous écrivez le vôtre |
 
 ## La couche : ce qui survit au prompt
 
@@ -53,7 +54,9 @@ charge tout seul.
 | `.vscode/mcp.json` | **Les accès** : les prises qu'on branche à l'assistant | quand il a besoin de l'outil |
 
 `AGENTS.md` et le dossier des agents sont **volontairement à trous** : ce sont eux que vous
-remplirez pendant le TP « la couche de l'équipe ».
+remplirez pendant le TP « la couche de l'équipe ». Un seul agent s'y trouve déjà,
+`traducteur-metier.agent.md` — celui du formateur. **Ouvrez-le : c'est un agent réel, écrit avec
+les champs réels**, et c'est le plus court chemin pour voir à quoi ressemble la chose.
 
 ## Brancher un accès (MCP)
 

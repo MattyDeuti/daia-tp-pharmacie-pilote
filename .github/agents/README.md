@@ -1,6 +1,11 @@
 # Les agents du projet
 
-Ce dossier est **volontairement vide** : c'est vous qui allez le remplir pendant le TP.
+Ce dossier attend **le vôtre**, et c'est vous qui allez l'écrire pendant le TP.
+
+Un seul fichier s'y trouve déjà : `traducteur-metier.agent.md`, celui du formateur — il sert à
+la démonstration de fin de jour 2. **Il fait un tout autre métier que le vôtre**, mais c'est un
+agent réel, écrit avec les champs réels. Ouvrez-le : c'est le plus court chemin pour voir à quoi
+ressemble la chose avant d'en écrire une.
 
 ## Ce qu'on y range
 
@@ -76,8 +81,13 @@ C'est le réglage à garder tant que vous n'avez pas une raison de faire autreme
 > faute de syntaxe : c'est un **champ réel mal réglé** — le nom, ou la visibilité. On ne cherche
 > pas une virgule, on relit la liste ci-dessus.
 
-## Un exemple à lire
+## Deux exemples à lire
 
-Le dossier voisin `.github/skills/git-workflow/` contient une **skill** déjà écrite. Ce n'est
-pas un agent, mais c'est le même genre d'objet : un fichier de texte, versionné dans le dépôt,
-que l'assistant charge quand il en a besoin. Ouvrez-le pour voir à quoi ça ressemble.
+**`traducteur-metier.agent.md`, ici même.** Un agent réel, en lecture seule, avec ses cinq champs
+remplis. Regardez surtout deux choses : la `description`, qui dit **quand** s'en servir et pas
+seulement ce qu'il fait, et le champ des droits, qui l'empêche par construction de modifier quoi
+que ce soit.
+
+**`.github/skills/git-workflow/SKILL.md`, le dossier voisin.** Ce n'est pas un agent, mais c'est le
+même genre d'objet : un fichier de texte, versionné dans le dépôt, que l'assistant charge quand il
+en a besoin. C'est celui qui fera votre `sauvegarde et publie mon travail`.

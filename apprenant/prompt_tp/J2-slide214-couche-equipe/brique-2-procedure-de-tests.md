@@ -16,6 +16,10 @@ Un dossier et un fichier :
 > 📍 **Le projet en contient déjà un exemplaire, à lire :** `.github/skills/git-workflow/SKILL.md`.
 > C'est celui qui fera votre `sauvegarde et publie mon travail` tout à l'heure. Même forme, même
 > frontmatter — c'est votre modèle.
+>
+> *(Il y en a une seconde dans le dossier, `resume-des-modifications`. Ne la prenez pas pour
+> modèle : elle appartient au formateur, et sa `description` est volontairement écrite pour ne
+> PAS se déclencher toute seule.)*
 
 **Le champ qui décide de tout, c'est la `description`.** C'est **le seul texte que l'outil lit**
 avant de choisir d'ouvrir votre procédure. Mal écrite, elle ne partira jamais toute seule — et

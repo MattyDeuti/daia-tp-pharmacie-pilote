@@ -1,6 +1,6 @@
 # Démo 7 · Brancher un accès, et le prouver
 
-*Jour 2, 13h45 → 13h54 · slide 170 · Copilot*
+*Jour 2, 13h45 → 13h54 · slide 175 · Copilot*
 
 ---
 

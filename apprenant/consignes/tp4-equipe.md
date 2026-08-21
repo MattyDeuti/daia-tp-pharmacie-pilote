@@ -83,8 +83,14 @@ Aucune commande à taper, rien à savoir de Git.
 ### 🟥 Testeur / QA — *voie 2* — la skill qui génère les tests
 
 Vous fabriquez une **skill** — une procédure packagée — dans `.github/skills/tests-de-classe/SKILL.md`.
-**Le projet en contient déjà un exemplaire à lire :** `.github/skills/git-workflow/SKILL.md`, celui
-qui fera votre publication tout à l'heure. C'est votre modèle.
+**Le projet en contient déjà deux, à lire :** `.github/skills/git-workflow/SKILL.md`, celui qui
+fera votre publication tout à l'heure — **c'est votre modèle** — et
+`.github/skills/resume-des-modifications/SKILL.md`, celle du formateur.
+
+> **Comparez leurs deux `description`, ça vaut le détour.** La première dit **quand** s'en
+> servir, avec les mots qu'on emploie vraiment : elle part toute seule. La seconde dit seulement
+> **ce qu'elle fait** : elle ne part jamais toute seule, et c'est assumé — un autre fichier la
+> désigne. **C'est exactement l'écart que votre brique doit franchir.**
 
 **Il n'y a pas de texte tout prêt ici, et c'est voulu.** Le squelette, et le reste est à vous :
 

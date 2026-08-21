@@ -1,6 +1,6 @@
 # Démo 5 · Mémoire et coûts, en live
 
-*Jour 2, 11h08 → 11h35 · slide 94 · Copilot*
+*Jour 2, 11h08 → 11h35 · slide 95 · Copilot*
 
 ---
 
