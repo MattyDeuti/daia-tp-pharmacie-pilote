@@ -1,5 +1,7 @@
 # Démo 1 · Un besoin, deux outils
 
+> **MODE : le mode par défaut du panneau**, dans les deux outils. La démo porte sur les surfaces, pas sur les modes.
+
 *Jour 1, 10h32 → 10h57 · slide 72 · Copilot puis Kiro*
 
 ---
@@ -8,27 +10,19 @@
 
 Ce ne sont pas des demandes, ce sont des raccourcis clavier.
 
-```
-Ctrl + Alt + I
-```
-
-Si le raccourci ne prend pas :
-
-```
-Ctrl + Shift + P   →   Chat: Focus on Chat View
-```
-
-Et la palette, pour montrer qu'une même marque a plusieurs surfaces :
-
-```
-Ctrl + Shift + P   →   Copilot
-```
+| Le geste | Ce qu'il ouvre |
+|---|---|
+| **`Ctrl + Alt + I`** | le panneau de discussion |
+| **`Ctrl + Shift + P`** → **`Chat: Focus on Chat View`** | le même panneau, si le raccourci ne prend pas |
+| **`Ctrl + Shift + P`** → **`Copilot`** | la palette — une même marque a plusieurs surfaces |
 
 ---
 
 ## Bloc 3 · le même besoin, dans les deux outils
 
 **À coller dans Copilot, puis dans Kiro. Le même texte, sans rien changer.**
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Je veux ajouter un module de gestion des périmés à notre application
@@ -42,12 +36,7 @@ une dizaine de questions pour cerner le besoin.
 
 Deux chemins à l'écran, rien à taper.
 
-```
-Copilot   →   barre de statut, en bas à droite   →   icône Copilot
-              →   « Credits X % used »
-```
-
-```
-Kiro      →   barre du bas du panneau
-              →   compteur « Kiro Free X / 50 »
-```
+| Outil | Où regarder | Ce qui s'affiche |
+|---|---|---|
+| **Copilot** | barre de statut, en bas à droite → icône Copilot | « Credits X % used » |
+| **Kiro** | barre du bas du panneau | compteur « Kiro Free X / 50 » |

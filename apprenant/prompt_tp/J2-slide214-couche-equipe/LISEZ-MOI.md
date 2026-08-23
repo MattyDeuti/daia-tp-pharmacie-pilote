@@ -1,5 +1,7 @@
 # La couche de l'équipe, en quatre briques
 
+> **MODE : AGENT** · le sélecteur, en haut du panneau Copilot
+
 *Jour 2, fin d'après-midi. **25 minutes.** Le seul cas pratique collectif des deux jours — et
 pourtant chacun travaille sur son poste, avec sa propre branche. Copilot, plus le navigateur pour
 la mise en commun.*
@@ -47,6 +49,8 @@ a le sien, et il est écrit dans son fichier.
 ## Le geste commun aux quatre — publier
 
 Quand votre brique est prête **et prouvée**, une seule phrase, la même pour tout le monde :
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 sauvegarde et publie mon travail

@@ -1,5 +1,7 @@
 # Manager — la procédure qui rédige une synthèse de comité
 
+> **MODE : AGENT** · le sélecteur, en haut du panneau Copilot
+
 **Ce que vous fabriquez :** une procédure nommée `synthese-comite`, qui produit **toujours le même
 format de note** — quinze lignes, la dette, l'effort, la décision demandée.
 
@@ -9,6 +11,8 @@ format de note** — quinze lignes, la dette, l'effort, la décision demandée.
 ---
 
 ## ⓪ Une conversation neuve
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 /clear
@@ -21,6 +25,8 @@ format de note** — quinze lignes, la dette, l'effort, la décision demandée.
 **Il n'y a pas de texte à copier ici.** Le nom de la procédure est imposé, son cahier des
 charges aussi. **Les deux lignes du milieu, c'est vous qui les écrivez** — et ce sont elles
 qui décident de tout.
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Crée une skill nommée %s.
@@ -73,6 +79,8 @@ procédure que vous venez de déposer.
 
 ## ③ Déclenchez-la **sans la nommer**
 
+**📋 À COLLER DANS LE PANNEAU**
+
 ```
 Fais-moi la synthèse de l'état du fichier GestionStock.java.
 ```
@@ -93,6 +101,8 @@ aller la chercher tout seul.
 | « skill appliquée » dans le chat | ⛔ **Ça ne prouve rien** |
 
 **Si le marqueur manque**, une seule reprise autorisée :
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Refais cette synthèse en utilisant la skill synthese-comite.
@@ -131,6 +141,8 @@ genre de nombre qui, une fois en comité, devient un engagement.
 
 Inscrivez la parade **dans la procédure**, pour qu'elle vaille pour toutes vos synthèses futures :
 
+**📋 À COLLER DANS LE PANNEAU**
+
 ```
 Modifie la skill synthese-comite pour qu'elle écrive [à compléter]
 à la place de tout chiffre qu'on ne lui a pas fourni, au lieu de
@@ -152,9 +164,7 @@ Depuis la démonstration de tout à l'heure, chaque appel d'outil vous demande v
 
 ### Le geste
 
-```
-Ctrl + Maj + P   →   Chat: Manage Tool Approval
-```
+**`Ctrl + Maj + P`** → **`Chat: Manage Tool Approval`**
 
 La liste des outils s'ouvre, **groupés par serveur**. Dépliez `playwright` : vous pouvez cocher
 outil par outil, ou cocher le serveur entier pour tout accorder d'un coup.

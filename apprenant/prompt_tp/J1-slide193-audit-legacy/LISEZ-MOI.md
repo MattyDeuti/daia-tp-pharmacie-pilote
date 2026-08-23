@@ -1,5 +1,7 @@
 # Auditer la base existante, chacun depuis son rôle
 
+> **MODE : AGENT** · le sélecteur, en haut du panneau Copilot
+
 *Jour 1, milieu d'après-midi. Chacun sur son poste. **Copilot en mode Agent.***
 
 Un fichier par rôle. **Ouvrez celui du vôtre, et un seul.** Si vous ne vous reconnaissez dans

@@ -1,11 +1,15 @@
 # Manager — ce qui remonte et ce qui se décide
 
+> **MODE : AGENT** · le sélecteur, en haut du panneau Copilot
+
 **Votre rôle dans ce cas pratique :** déterminer **ce qui remonte à un comité, et ce qui s'y
 décide**.
 
 ---
 
 ## ⓪ Une conversation neuve
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 /clear
@@ -19,6 +23,8 @@ qui vient du fichier.
 ## ① Lancer l'audit
 
 Copiez ces **deux lignes** dans le panneau, telles quelles.
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 #GestionStock.java
@@ -47,6 +53,8 @@ votre matière.
 ---
 
 ## ② Lire la fiche depuis votre rôle
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Reformule cette fiche d'audit en cinq lignes pour un comité qui n'est
@@ -112,6 +120,8 @@ Lisez ceux des autres au passage. La question qui vaut le détour est toujours l
 
 Lancez le même audit sur l'autre fichier du projet :
 
+**📋 À COLLER DANS LE PANNEAU**
+
 ```
 #schema_extensions.sql
 Audite ce fichier avec la même grille que le précédent. Puis
@@ -123,6 +133,8 @@ seconde ne peut pas voir, et inversement ?
 
 Vous venez de taper cette demande **une fois**. De quoi auriez-vous besoin pour la relancer la
 semaine prochaine sans la retaper ?
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Fabrique-moi, dans ce projet, de quoi relancer cet audit sans avoir

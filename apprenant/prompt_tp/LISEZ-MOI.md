@@ -1,5 +1,7 @@
 # `apprenant/prompt_tp/` — les prompts à copier-coller
 
+> **Fiche de cadrage — aucun prompt à coller ici.**
+
 **Un sous-dossier par cas pratique**, et **son nom est écrit sur la slide** qui annonce le cas
 pratique, en haut à droite, sous la durée : `LES PROMPTS À COPIER`. Vous n'avez rien à deviner —
 vous recopiez ce qui est affiché.
@@ -32,6 +34,25 @@ L'auto-évaluation du début du jour 1 et celle de la clôture. Elles se jouent 
 
 **Si le dossier annoncé n'est pas là, double-cliquez sur « Mettre a jour le TP »** sur le Bureau :
 les prompts évoluent jusqu'au dernier moment.
+
+## Comment repérer un prompt, dans n'importe quel fichier
+
+**Sous le titre, un bandeau dit dans quel mode il faut être.** Il vaut pour tout le fichier, sauf
+quand un prompt indique le sien.
+
+**Et un bloc de code veut dire une seule chose : ça se copie.** Il s'affiche en vert, et le
+marqueur juste au-dessus dit où ça va.
+
+| Le marqueur | Où ça va |
+|---|---|
+| **📋 À COLLER DANS LE PANNEAU** | le panneau de discussion de l'assistant |
+| **📝 À ÉCRIRE DANS LE FICHIER** | un fichier du projet, que vous modifiez vous-même |
+| **🌐 À OUVRIR DANS LE NAVIGATEUR** | une adresse |
+| **⌨️ À TAPER DANS LE TERMINAL** | une commande |
+
+**Tout le reste n'est jamais dans un bloc** : un raccourci clavier, un chemin à suivre à l'écran,
+une ligne que vous devez seulement voir apparaître — c'est en gras, ou dans un tableau.
+**Rien à copier hors des blocs verts.**
 
 ## Trois règles valables pour les sept
 

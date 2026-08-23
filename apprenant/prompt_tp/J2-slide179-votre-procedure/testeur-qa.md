@@ -1,11 +1,15 @@
 # Testeur ou QA — la procédure qui écrit trois cas par méthode
 
+> **MODE : AGENT** · le sélecteur, en haut du panneau Copilot
+
 **Ce que vous fabriquez :** une procédure nommée `jeu-de-tests`, qui produit **exactement trois cas
 par méthode publique** — jamais deux, jamais dix.
 
 ---
 
 ## ⓪ Une conversation neuve
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 /clear
@@ -18,6 +22,8 @@ par méthode publique** — jamais deux, jamais dix.
 **Il n'y a pas de texte à copier ici.** Le nom de la procédure est imposé, son cahier des
 charges aussi. **Les deux lignes du milieu, c'est vous qui les écrivez** — et ce sont elles
 qui décident de tout.
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Crée une skill nommée %s.
@@ -70,6 +76,8 @@ procédure que vous venez de déposer.
 
 ## ③ Déclenchez-la **sans la nommer**
 
+**📋 À COLLER DANS LE PANNEAU**
+
 ```
 Écris les tests de la classe GestionStock.
 ```
@@ -93,6 +101,8 @@ la chercher tout seul.
 > qui rend le piège dangereux : rien dans la qualité du livrable ne vous alerte.
 
 **Si le marqueur manque**, une seule reprise autorisée :
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Refais ces tests en utilisant la skill jeu-de-tests.
@@ -126,6 +136,8 @@ correcte fonctionne n'est pas un cas d'erreur — et c'est fréquent.
 
 **Généré n'est pas vert.** Vous avez des tests ; personne ne les a vus passer.
 
+**📋 À COLLER DANS LE PANNEAU**
+
 ```
 Exécute ces tests et montre-moi la sortie complète, sans la résumer.
 ```
@@ -144,9 +156,7 @@ Depuis la démonstration de tout à l'heure, chaque appel d'outil vous demande v
 
 ### Le geste
 
-```
-Ctrl + Maj + P   →   Chat: Manage Tool Approval
-```
+**`Ctrl + Maj + P`** → **`Chat: Manage Tool Approval`**
 
 La liste des outils s'ouvre, **groupés par serveur**. Dépliez `playwright` : vous pouvez cocher
 outil par outil, ou cocher le serveur entier pour tout accorder d'un coup.

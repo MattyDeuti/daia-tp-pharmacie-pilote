@@ -1,5 +1,7 @@
 # Votre règle ne ressort pas : six causes, dans l'ordre
 
+> **MODE : AGENT** · le sélecteur, en haut du panneau Copilot
+
 **Les six ont été rencontrées en séance.** Aucune n'est mystérieuse, et les connaître, c'est savoir
 diagnostiquer n'importe quelle charte qui ne prend pas — pas seulement celle d'aujourd'hui.
 
@@ -13,6 +15,8 @@ Regardez-les dans cet ordre : les deux premières règlent la majorité des cas.
 
 Une phrase polie — « merci de commencer tes réponses par… » — est comprise comme une préférence.
 Écrivez-la comme une obligation :
+
+**📝 À ÉCRIRE DANS LE FICHIER**
 
 ```
 Règle obligatoire : tu devras commencer chacune de tes réponses par « … ».

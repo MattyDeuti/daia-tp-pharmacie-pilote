@@ -1,5 +1,7 @@
 # Démo 5 · Mémoire et coûts, en live
 
+> **MODE : AGENT** · le sélecteur, en haut du panneau Copilot
+
 *Jour 2, 11h08 → 11h35 · slide 95 · Copilot*
 
 ---
@@ -9,11 +11,7 @@
 Rien à taper : **la pastille de pourcentage**, en bas à droite de la zone de saisie du chat. On la
 survole ou on clique dessus.
 
-Le bouton du geste en direct est dans la même zone :
-
-```
-Configure Tools
-```
+Le bouton du geste en direct est dans la même zone : **« Configure Tools »**.
 
 > **Recocher tout de suite après.** C'est un réglage global, et le cas pratique de 13h45 a besoin
 > des deux prises.
@@ -25,17 +23,15 @@ Configure Tools
 **En mode agent.** Ce texte doit produire un fichier : c'est ce fichier qu'on retrouve intact au
 bloc 5.
 
+**📋 À COLLER DANS LE PANNEAU**
+
 ```
 Audite le fichier de gestion de stock du projet et écris ton rapport
 dans fiches/audit-m5.md : les risques que tu vois, classés du plus
 grave au moins grave, en français, avec le numéro de ligne pour chacun.
 ```
 
-Puis relire la jauge :
-
-```
-Barre de statut, en bas à droite   →   icône de l'outil   →   « Credits X % used »
-```
+Puis relire la jauge : **barre de statut, en bas à droite** → **icône de l'outil** → « Credits X % used ».
 
 ---
 
@@ -53,11 +49,15 @@ Jeter le bureau — bouton de nouvelle session, rien à taper.
 
 Tasser, et garder :
 
+**📋 À COLLER DANS LE PANNEAU**
+
 ```
 /compact
 ```
 
 Tasser en choisissant ce qu'on garde :
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 /compact garde les décisions d'architecture

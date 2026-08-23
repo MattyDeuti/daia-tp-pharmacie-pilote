@@ -1,5 +1,7 @@
 # Testeur ou QA — votre cas
 
+> **MODE : le mode par défaut du panneau.** Vous n'avez rien à changer.
+
 **Le sujet :** la règle de péremption des lots, à couvrir de cas de test.
 
 La règle, telle que le métier l'a formulée :
@@ -15,6 +17,8 @@ cas d'échec apparaissent**, et sur quelle question posée.
 ## ① Le prompt sec — *fourni*
 
 Copiez-collez tel quel. **Une phrase, on n'ajoute rien** — pas même la règle ci-dessus.
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Écris des cas de test pour la vente de produits en pharmacie.

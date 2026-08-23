@@ -1,5 +1,7 @@
 # Démo 9 · L'index, montré pour de vrai
 
+> **MODE : AGENT** · session neuve, à la racine du kit
+
 *Jour 2, fin d'après-midi · slide 227 · **Gemini 3.5 Flash**, session neuve, à la racine du kit ·
 repli : Sonnet, même projet, même fichier*
 
@@ -27,6 +29,8 @@ La phrase à lire à voix haute, elle est écrite dans le fichier :
 
 **Une question quelconque. C'est tout l'intérêt : on ne demande rien de spécial.**
 
+**📋 À COLLER DANS LE PANNEAU**
+
 ```
 Bonjour. En deux phrases, ce projet sert à quoi ?
 ```
@@ -41,6 +45,8 @@ pendant deux jours.
 ## Temps 3 · la demande banale
 
 **Le sommet de la démonstration. Cette phrase se colle telle quelle, sans un mot de plus.**
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Fais le point sur ce qui a changé, et prépare-moi de quoi le présenter
@@ -68,6 +74,8 @@ se tait.
 
 **Annoncer AVANT de l'envoyer qu'on attend que rien ne se déclenche.** Sinon la salle croit à un
 raté.
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Il faut qu'on migre la base vers un autre moteur. Par où on commence ?
@@ -97,11 +105,15 @@ C'est ça, la bascule, et ils l'ont déjà vécue sans la nommer.
 
 **Montrer la jauge de contexte AVANT.** Sans le chiffre à l'écran, le moment ne prouve rien.
 
+**📋 À COLLER DANS LE PANNEAU**
+
 ```
 /clear
 ```
 
 **Montrer la jauge APRÈS.** Puis recoller **exactement** la demande du temps 3, mot pour mot :
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Fais le point sur ce qui a changé, et prépare-moi de quoi le présenter
@@ -115,7 +127,9 @@ avec une fraction du contexte.
 
 ## Après — désarmer, tout de suite
 
-```powershell
+**⌨️ À TAPER DANS LE TERMINAL**
+
+```
 git checkout -- AGENTS.md
 git status
 ```

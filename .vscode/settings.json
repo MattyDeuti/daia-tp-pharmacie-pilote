@@ -9,5 +9,29 @@
   //
   // On le versionne donc dans le dépôt, comme mcp.json, pour que le comportement
   // ne dépende ni de la version installée ni des réglages personnels du poste.
-  "chat.useAgentsMdFile": true
+  "chat.useAgentsMdFile": true,
+
+  // Dans apprenant/prompt_tp/ et formateur/prompt_demo/, un bloc de code veut dire
+  // une seule chose : ça se copie. Tout ce qui ne se colle pas — raccourcis clavier,
+  // chemins à l'écran, sorties système — est sorti des clôtures et passé en gras ou
+  // en tableau. C'est cette règle-là qui rend la couleur ci-dessous sans exception.
+  //
+  // On colore donc en vert le contenu de tous les blocs de code des fichiers
+  // markdown : dans ces deux dossiers, « bloc vert » = « à copier ». Le repère tient
+  // dans l'éditeur brut — c'est là que les participants lisent, aucun aperçu markdown
+  // n'est demandé nulle part dans le kit.
+  //
+  // Les marqueurs 📋 📝 🌐 ⌨️ au-dessus de chaque bloc disent la destination, et ils
+  // tiennent tout seuls si ce réglage ne prend pas sur un poste.
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "markup.fenced_code.block.markdown",
+          "markup.raw.block.markdown"
+        ],
+        "settings": { "foreground": "#2EA043" }
+      }
+    ]
+  }
 }

@@ -1,5 +1,7 @@
 # Développeur — votre cas
 
+> **MODE : AGENT** · le sélecteur, en haut du panneau Copilot
+
 **Une méthode du stock pharmacie, à faire réécrire en une seule demande.**
 
 **Avant de coller :** vérifiez que vous êtes bien en **mode Agent**, pas en mode conseil. C'est le
@@ -10,6 +12,8 @@ sélecteur en haut du panneau.
 ## La demande
 
 Copiez le bloc entier, tel quel. **Ne le retapez pas** : il contient un chemin de fichier.
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Réécris proprement la méthode enregistrerReception du fichier
@@ -51,6 +55,8 @@ fichier fait réellement.
 ## Le défi bonus — *si vous avez fini, et seulement après avoir ouvert l'artefact*
 
 Même conversation, une phrase de plus :
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Relis le fichier que tu viens de créer et dis-moi ce que tu changerais.

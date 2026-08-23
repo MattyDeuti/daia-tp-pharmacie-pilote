@@ -1,5 +1,7 @@
 # La triche
 
+> **MODE : AGENT** · le sélecteur, en haut du panneau Copilot
+
 *À n'ouvrir que si votre procédure ne part pas — et pas avant d'avoir essayé avec vos mots.*
 
 ---
@@ -44,6 +46,8 @@ quand même, la preuve est simplement moins individuelle.
 
 ### 🟦 Développeur — `audit-legacy`
 
+**📋 À COLLER DANS LE PANNEAU**
+
 ```
 Crée une skill nommée audit-legacy dans le fichier
 .github/skills/audit-legacy/SKILL.md, sur le modèle de
@@ -60,6 +64,8 @@ Fais-lui commencer chaque livrable par la ligne exacte CANARI-PRENOM.
 
 ### 🟥 Testeur / QA — `jeu-de-tests`
 
+**📋 À COLLER DANS LE PANNEAU**
+
 ```
 Crée une skill nommée jeu-de-tests dans le fichier
 .github/skills/jeu-de-tests/SKILL.md, sur le modèle de
@@ -75,6 +81,8 @@ Fais-lui commencer chaque livrable par la ligne exacte CANARI-PRENOM.
 
 ### 🟨 Analyste — `demande-utilisateur`
 
+**📋 À COLLER DANS LE PANNEAU**
+
 ```
 Crée une skill nommée demande-utilisateur dans le fichier
 .github/skills/demande-utilisateur/SKILL.md, sur le modèle de
@@ -89,6 +97,8 @@ Fais-lui commencer chaque livrable par la ligne exacte CANARI-PRENOM.
 ```
 
 ### 🟩 Manager — `synthese-comite`
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Crée une skill nommée synthese-comite dans le fichier

@@ -1,5 +1,7 @@
 # Analyste — la procédure qui rédige une demande utilisateur
 
+> **MODE : AGENT** · le sélecteur, en haut du panneau Copilot
+
 **Ce que vous fabriquez :** une procédure nommée `demande-utilisateur`, qui rédige **toujours au
 même format** — « en tant que, je veux, afin de », suivi des critères d'acceptation.
 
@@ -9,6 +11,8 @@ même format** — « en tant que, je veux, afin de », suivi des critères d'ac
 ---
 
 ## ⓪ Une conversation neuve
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 /clear
@@ -21,6 +25,8 @@ même format** — « en tant que, je veux, afin de », suivi des critères d'ac
 **Il n'y a pas de texte à copier ici.** Le nom de la procédure est imposé, son cahier des
 charges aussi. **Les deux lignes du milieu, c'est vous qui les écrivez** — et ce sont elles
 qui décident de tout.
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Crée une skill nommée %s.
@@ -73,6 +79,8 @@ procédure que vous venez de déposer.
 
 ## ③ Déclenchez-la **sans la nommer**
 
+**📋 À COLLER DANS LE PANNEAU**
+
 ```
 Rédige la demande pour une alerte quand un lot approche de sa date
 de péremption.
@@ -94,6 +102,8 @@ aller la chercher tout seul.
 | « skill appliquée » dans le chat | ⛔ **Ça ne prouve rien** |
 
 **Si le marqueur manque**, une seule reprise autorisée :
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Refais cette demande en utilisant la skill demande-utilisateur.
@@ -129,6 +139,8 @@ jours.** Regardez s'il a choisi un nombre tout seul — et lequel. Personne ne l
 
 Ajoutez la parade d'hier **dans la procédure elle-même**, et pas dans la demande :
 
+**📋 À COLLER DANS LE PANNEAU**
+
 ```
 Modifie la skill demande-utilisateur pour qu'elle écrive [à compléter]
 partout où une valeur chiffrée serait nécessaire mais n'a pas été
@@ -150,9 +162,7 @@ Depuis la démonstration de tout à l'heure, chaque appel d'outil vous demande v
 
 ### Le geste
 
-```
-Ctrl + Maj + P   →   Chat: Manage Tool Approval
-```
+**`Ctrl + Maj + P`** → **`Chat: Manage Tool Approval`**
 
 La liste des outils s'ouvre, **groupés par serveur**. Dépliez `playwright` : vous pouvez cocher
 outil par outil, ou cocher le serveur entier pour tout accorder d'un coup.

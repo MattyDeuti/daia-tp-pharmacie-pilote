@@ -1,5 +1,7 @@
 # Brique 3 — les règles métier, en français, dans la charte
 
+> **MODE : AGENT** · le sélecteur, en haut du panneau Copilot
+
 *Voie 2. **Zéro ligne de code, du début à la fin.***
 
 **Ce que vous fabriquez :** la **section 2** du fichier de charte du projet — les règles que
@@ -15,6 +17,8 @@ l'agent devra respecter, écrites en français, par vous.
 
 **Il n'y a pas de texte à copier ici, et c'est voulu.** Le squelette est à l'écran ; **la règle,
 c'est vous.**
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Dans le fichier AGENTS.md, section 2 « Règles métier », ajoute notre règle.
@@ -70,6 +74,8 @@ a glissé un mot qui se discute, reformulez maintenant.
 ## ② La demande piège — et c'est ça, votre preuve
 
 **Ne lui demandez jamais s'il a lu la charte.** Tendez-lui le piège :
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Ajoute une méthode qui enregistre une sortie de stock de morphine.
@@ -133,6 +139,8 @@ salle ne peut faire à votre place.
 rattrapage qui enseigne**, et c'est même exactement la compétence que cette brique travaille.
 
 **Remplacez `<mon prénom>` par le vôtre** avant de coller.
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Dans le fichier AGENTS.md, section 2 « Règles métier », ajoute notre règle.

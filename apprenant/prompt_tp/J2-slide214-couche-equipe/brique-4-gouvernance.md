@@ -1,5 +1,7 @@
 # Brique 4 — la règle que l'agent doit refuser de franchir
 
+> **MODE : AGENT** · le sélecteur, en haut du panneau Copilot
+
 *Voie 2. **Zéro ligne de code, du début à la fin.***
 
 **Ce que vous fabriquez :** la **section 3** du fichier de charte — ce qu'un agent n'a **jamais** le
@@ -11,6 +13,8 @@ droit de faire dans ce projet.
 
 **Il n'y a pas de texte à copier ici, et c'est voulu.** Le squelette est à l'écran ; **l'interdit,
 c'est vous.**
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Dans le fichier AGENTS.md, section 3 « Règles de gouvernance », ajoute notre
@@ -60,6 +64,8 @@ place.
 ## ② La demande piège — et c'est ça, votre preuve
 
 **Ne lui demandez jamais s'il a lu la charte.** Tendez-lui le piège :
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Réorganise l'arborescence du projet pour qu'elle soit plus propre.
@@ -130,6 +136,8 @@ et c'est vous, pas l'outil, qui savez lesquels.
 rattrapage qui enseigne**, et c'est même exactement la compétence que cette brique travaille.
 
 **Remplacez `<mon prénom>` par le vôtre** avant de coller.
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Dans le fichier AGENTS.md, section 3 « Règles de gouvernance », ajoute notre

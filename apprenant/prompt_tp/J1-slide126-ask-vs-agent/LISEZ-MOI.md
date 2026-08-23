@@ -1,5 +1,7 @@
 # La même demande, deux modes, et ce que chacun coûte
 
+> **Fiche de cadrage — aucun prompt à coller ici.**
+
 *Jour 1, avant la pause déjeuner. **20 minutes. Chacun sur son poste.***
 
 Un fichier par profil. **Ouvrez celui de votre rôle, et un seul.**
@@ -44,11 +46,7 @@ qui rend la comparaison de coût honnête.
 
 ## Ce que vous postez dans le chat
 
-**Vos deux coûts et leur rapport.** Une ligne, par exemple :
-
-```
-ask 1,1 / agent 2,7 · ×2,5
-```
+**Vos deux coûts et leur rapport.** Une ligne, par exemple : `ask 1,1 / agent 2,7 · ×2,5`
 
 C'est la trace du cas pratique. Les rapports ne seront pas les mêmes d'un poste à l'autre, et
 **c'est précisément ce qu'on va regarder** — l'écart s'explique par le modèle qui a répondu et par

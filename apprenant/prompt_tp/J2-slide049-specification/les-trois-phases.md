@@ -1,5 +1,7 @@
 # Les trois phases, les trois portes
 
+> **MODE : AGENT** · le sélecteur, en haut du panneau Copilot
+
 **Une seule personne tape à la fois, et ce n'est pas toujours la même.**
 
 ---
@@ -25,6 +27,8 @@
 
 ## ⓪ Une conversation neuve
 
+**📋 À COLLER DANS LE PANNEAU**
+
 ```
 /clear
 ```
@@ -37,6 +41,8 @@ Puis **créez un dossier `spec/`** à la racine du projet.
 
 **Tout est dans le bloc ci-dessous, le besoin compris.** Un seul copier-coller, rien à aller
 chercher ailleurs.
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Nous voulons ajouter au projet un module d'alertes de péremption,
@@ -101,6 +107,8 @@ Au premier jet, il a écrit d'abord. Cette fois, **il demande d'abord.**
 
 **Une conversation neuve d'abord** (`/clear`), puis :
 
+**📋 À COLLER DANS LE PANNEAU**
+
 ```
 Nous voulons ajouter au projet un module d'alertes de péremption,
 moderne, qui coexiste avec le code existant sans en dépendre.
@@ -148,6 +156,8 @@ votre place** — ce n'est pas une question technique, c'est une règle de votre
 
 **Répondez à tout dans un seul message**, et ajoutez la mise en quarantaine à la fin :
 
+**📋 À COLLER DANS LE PANNEAU**
+
 ```
 Voilà mes réponses :
 1. …
@@ -179,6 +189,8 @@ Tout ce qui n'en vient pas est une décision qu'il a reprise à son compte. Elle
 
 **Comparez aussi les deux nombres** — ceux du premier jet, et ceux de maintenant.
 
+**📋 À COLLER DANS LE PANNEAU**
+
 ```
 J'ai relu les exigences, elles sont validées. Passe au temps 2.
 ```
@@ -190,6 +202,8 @@ J'ai relu les exigences, elles sont validées. Passe au temps 2.
 ## ③ Phase 2 · le COMMENT
 
 **Ce n'est pas la même personne qui tient cette porte.**
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Temps 2. À partir de spec/exigences.md uniquement, écris
@@ -216,6 +230,8 @@ aucun fichier existant. N'écris aucun code. Arrête-toi là.
 trois. Quarante secondes.
 
 #### ① Demandez la traçabilité, dans un message à elle
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Reprends spec/conception.md. Pour chaque décision, dis à quelle
@@ -251,6 +267,8 @@ c'est vous qui choisissez :
 
 Puis :
 
+**📋 À COLLER DANS LE PANNEAU**
+
 ```
 Conception validée. Passe aux tâches.
 ```
@@ -260,6 +278,8 @@ Conception validée. Passe aux tâches.
 ## ④ Phase 3 · les TÂCHES
 
 **Troisième personne.**
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Temps 3. À partir de spec/exigences.md et spec/conception.md, écris
@@ -273,6 +293,8 @@ message, à la porte.
 ### 🚪 La porte 3 — et c'est la plus facile à tenir sans lire de code
 
 #### ① Demandez les renvois
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Reprends spec/taches.md. Pour chaque tâche, cite les numéros des
@@ -302,6 +324,8 @@ l'exigence 1 n'a que cinq critères. **Tracé n'est pas vrai.** Un renvoi se sui
 ## ⑤ Une tâche, une seule
 
 **Pas le bouton qui lance tout.**
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Implémente la tâche 1, et elle seule. Montre-moi ce que tu vas écrire

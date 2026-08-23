@@ -1,5 +1,7 @@
 # Demandez votre procédure, et comptez
 
+> **MODE : AGENT** · le sélecteur, en haut du panneau Copilot
+
 *Jour 2, début d'après-midi, juste après le cas pratique de l'écran. Chacun sur son poste.
 **Copilot en mode Agent.***
 
@@ -35,9 +37,7 @@ Ils sont **à la fin de votre fichier de rôle**. Le premier fait écrire une pa
 procédure elle-même. Le second ne se tape pas dans le chat : c'est un **réglage**, et c'est de la
 gouvernance.
 
-```
-Ctrl + Maj + P   →   Chat: Manage Tool Approval
-```
+**`Ctrl + Maj + P`** → **`Chat: Manage Tool Approval`**
 
 Vous y décidez **quels appels d'outils passent tout seuls et lesquels vous demandent**. Ce qu'on
 vous demandera ensuite n'est pas votre réglage : c'est **votre raison**.
@@ -45,6 +45,8 @@ vous demandera ensuite n'est pas votre réglage : c'est **votre raison**.
 ## Le canari, et c'est tout l'exercice
 
 Chaque demande se termine par la même ligne :
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Fais-lui commencer chaque livrable par la ligne exacte CANARI-PRENOM.

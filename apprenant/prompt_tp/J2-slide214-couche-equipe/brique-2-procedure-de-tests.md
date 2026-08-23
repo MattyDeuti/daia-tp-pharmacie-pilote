@@ -1,5 +1,7 @@
 # Brique 2 — la skill qui génère les tests
 
+> **MODE : AGENT** · le sélecteur, en haut du panneau Copilot
+
 *Voie 2. **Vous la demandez en français**, puis vous relisez ce qu'il a écrit.*
 
 **Ce que vous fabriquez :** une **skill** — c'est-à-dire une procédure packagée, celle qu'on sort
@@ -7,11 +9,7 @@ quand la tâche l'exige — que l'outil ira chercher **tout seul**, sans que per
 
 ## Ce que c'est, concrètement
 
-Un dossier et un fichier :
-
-```
-.github/skills/tests-de-classe/SKILL.md
-```
+Un dossier et un fichier : **`.github/skills/tests-de-classe/SKILL.md`**
 
 > 📍 **Le projet en contient déjà un exemplaire, à lire :** `.github/skills/git-workflow/SKILL.md`.
 > C'est celui qui fera votre `sauvegarde et publie mon travail` tout à l'heure. Même forme, même
@@ -31,6 +29,8 @@ vous le verrez à l'étape ③, qui la déclenche sans la nommer.
 
 **Il n'y a pas de texte à copier ici, et c'est voulu.** Le squelette est à l'écran ; le reste,
 c'est vous.
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Crée une skill nommée tests-de-classe, sur le modèle de
@@ -102,15 +102,15 @@ mots que **vous** emploieriez naturellement, elle ne se déclenchera pas.
 **Ne sautez pas cette étape.** Tant que la fenêtre n'a pas été rechargée, l'outil n'a pas vu la
 skill que vous venez de déposer.
 
-```
-Ctrl + Maj + P   →   Developer: Reload Window
-```
+**`Ctrl + Maj + P`** → **`Developer: Reload Window`**
 
 ---
 
 ## ③ Déclenchez-la **sans la nommer**
 
 C'est tout le test :
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 #GestionStock.java Génère les tests de la méthode enregistrerReception.
@@ -167,6 +167,8 @@ Puis la phrase commune : `sauvegarde et publie mon travail`
 
 **Généré n'est pas vert.** Vous avez des tests ; personne ne les a vus passer.
 
+**📋 À COLLER DANS LE PANNEAU**
+
 ```
 Exécute ces tests et montre-moi la sortie complète, sans la résumer.
 ```
@@ -184,6 +186,8 @@ description une fois : **c'est le rattrapage qui enseigne.** Le filet est là po
 reste bloqué, pas pour éviter l'essai.
 
 **Remplacez `<mon prénom>` par le vôtre** avant de coller.
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Crée une skill nommée tests-de-classe, dans .github/skills/, sur le

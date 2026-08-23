@@ -1,5 +1,7 @@
 # Analyste — votre cas
 
+> **MODE : le mode par défaut du panneau.** Vous n'avez rien à changer.
+
 **Le sujet :** la traçabilité des stupéfiants, à découper en tâches exploitables.
 
 Le besoin, tel qu'il arrive :
@@ -17,6 +19,8 @@ manquait s'est vu.
 ## ① Le prompt sec — *fourni*
 
 Copiez-collez tel quel. **Une phrase, on n'ajoute rien** — pas même le besoin ci-dessus.
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Découpe en tâches la mise en place de la traçabilité des stupéfiants.

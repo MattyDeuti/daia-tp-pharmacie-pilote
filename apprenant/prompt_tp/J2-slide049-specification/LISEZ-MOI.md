@@ -1,5 +1,7 @@
 # Du besoin à la fonctionnalité : votre propre spécification
 
+> **MODE : AGENT** · le sélecteur, en haut du panneau Copilot
+
 *Jour 2, fin de matinée. **En groupe, autour d'un seul écran.** Copilot en mode Agent.*
 
 **Un seul fichier ici, et c'est volontaire.** Ce cas pratique ne se fait pas chacun dans son coin :

@@ -1,5 +1,7 @@
 # Bonus · Un déclencheur, chez Copilot
 
+> **MODE : AGENT** · le sélecteur, en haut du panneau Copilot
+
 *Jour 2, module 6, après la slide 161 · **deux minutes** · Copilot, en mode agent*
 
 > **La carte d'identité dit « le bouton d'audit d'hier en était un — c'était Kiro ».**
@@ -25,11 +27,7 @@
 
 ## ① Armer, devant eux
 
-Ouvrez `.github/hooks/journal-agent.json` et **retirez `_DESARME` du nom de la clé** :
-
-```
-"hooks_DESARME": {        →        "hooks": {
-```
+Ouvrez `.github/hooks/journal-agent.json` et **retirez `_DESARME` du nom de la clé** : `"hooks_DESARME":` devient `"hooks":`.
 
 Sauvegardez, puis **rechargez la fenêtre** — `Ctrl + Maj + P` → `Developer: Reload Window`.
 
@@ -43,6 +41,8 @@ Sauvegardez, puis **rechargez la fenêtre** — `Ctrl + Maj + P` → `Developer:
 Une demande banale suffit — le déclencheur n'écoute pas ce que vous dites, il écoute ce que
 **l'agent fait** :
 
+**📋 À COLLER DANS LE PANNEAU**
+
 ```
 Combien de methodes publiques y a-t-il dans src/main/java/GestionStock.java ?
 ```
@@ -51,13 +51,13 @@ Combien de methodes publiques y a-t-il dans src/main/java/GestionStock.java ?
 
 ## ③ La preuve
 
-**Un fichier `journal-agent.txt` apparaît à la racine du projet.** Ouvrez-le :
+**Un fichier `journal-agent.txt` apparaît à la racine du projet.** Ouvrez-le — une ligne par outil appelé, dans l'ordre :
 
-```
-14:22:07   read_file                    GestionStock.java
-14:22:08   grep_search
-14:22:09   read_file                    GestionStock.java
-```
+| Heure | Outil appelé | Sur quoi |
+|---|---|---|
+| `14:22:07` | `read_file` | `GestionStock.java` |
+| `14:22:08` | `grep_search` | |
+| `14:22:09` | `read_file` | `GestionStock.java` |
 
 | Ce qu'on montre | Ce que ça prouve |
 |---|---|

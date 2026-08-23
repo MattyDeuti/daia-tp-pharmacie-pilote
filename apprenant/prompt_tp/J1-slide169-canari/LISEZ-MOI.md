@@ -1,5 +1,7 @@
 # Écrivez une règle, et prouvez qu'elle est lue
 
+> **MODE : AGENT** · le sélecteur, en haut du panneau Copilot
+
 *Jour 1, milieu d'après-midi. **25 minutes. Chacun sur son poste. Copilot en mode Agent.***
 
 **C'est le cas pratique le plus rentable de la journée**, et il ne demande aucun code.

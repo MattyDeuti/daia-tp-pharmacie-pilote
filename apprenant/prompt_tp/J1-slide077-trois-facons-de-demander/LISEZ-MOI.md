@@ -1,5 +1,7 @@
 # Un seul sujet, trois façons de le demander
 
+> **Fiche de cadrage — aucun prompt à coller ici.**
+
 *Jour 1, matin. **25 minutes. Chacun sur son poste.***
 
 Un fichier par profil. **Ouvrez celui de votre rôle, et un seul.**

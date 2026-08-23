@@ -1,5 +1,7 @@
 # Manager — votre cas
 
+> **MODE : le mode par défaut du panneau.** Vous n'avez rien à changer.
+
 **Le sujet :** une synthèse de risque **en dix lignes**, destinée à un comité de pilotage.
 **Aucune ligne de code dans ce cas.**
 
@@ -18,6 +20,8 @@ l'outil a-t-il demandé **qui décide**, et **quelle décision est attendue** ?
 ## ① Le prompt sec — *fourni*
 
 Copiez-collez tel quel. **Une phrase, on n'ajoute rien** — pas même la situation ci-dessus.
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Fais-moi une synthèse des risques du projet.

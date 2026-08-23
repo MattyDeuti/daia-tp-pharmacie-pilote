@@ -1,11 +1,15 @@
 # Développeur — la procédure d'audit d'un fichier ancien
 
+> **MODE : AGENT** · le sélecteur, en haut du panneau Copilot
+
 **Ce que vous fabriquez :** une procédure nommée `audit-legacy`, qui rend **toujours le même
 rapport, dans le même ordre**, sur n'importe quel fichier ancien.
 
 ---
 
 ## ⓪ Une conversation neuve
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 /clear
@@ -18,6 +22,8 @@ rapport, dans le même ordre**, sur n'importe quel fichier ancien.
 **Il n'y a pas de texte à copier ici.** Le nom de la procédure est imposé, son cahier des
 charges aussi. **Les deux lignes du milieu, c'est vous qui les écrivez** — et ce sont elles
 qui décident de tout.
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Crée une skill nommée %s.
@@ -71,6 +77,8 @@ procédure que vous venez de déposer.
 
 C'est le test, et c'est là que ça se joue :
 
+**📋 À COLLER DANS LE PANNEAU**
+
 ```
 Audite le fichier GestionStock.java.
 ```
@@ -91,6 +99,8 @@ l'outil doit aller la chercher tout seul.
 | « skill appliquée » écrit dans le chat | ⛔ **Ça ne prouve rien.** Une IA qui dit avoir lu n'a rien prouvé |
 
 **Si le marqueur manque**, une seule reprise autorisée : nommez la procédure explicitement.
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Refais cet audit en utilisant la skill audit-legacy.
@@ -113,6 +123,8 @@ Et **notez que la première fois n'a pas marché** — c'est ça qu'on va compte
 
 **Relancez la même procédure sur l'autre fichier du projet :**
 
+**📋 À COLLER DANS LE PANNEAU**
+
 ```
 Audite le fichier db/schema_extensions.sql.
 ```
@@ -132,9 +144,7 @@ Depuis la démonstration de tout à l'heure, chaque appel d'outil vous demande v
 
 ### Le geste
 
-```
-Ctrl + Maj + P   →   Chat: Manage Tool Approval
-```
+**`Ctrl + Maj + P`** → **`Chat: Manage Tool Approval`**
 
 La liste des outils s'ouvre, **groupés par serveur**. Dépliez `playwright` : vous pouvez cocher
 outil par outil, ou cocher le serveur entier pour tout accorder d'un coup.

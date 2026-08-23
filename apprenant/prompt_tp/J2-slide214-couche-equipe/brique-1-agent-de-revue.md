@@ -1,5 +1,7 @@
 # Brique 1 — un relecteur en lecture seule
 
+> **MODE : AGENT** · le sélecteur, en haut du panneau Copilot — *mais l'étape ① s'écrit à la main, sans le panneau.*
+
 *Voie 1. **Vous écrivez son fichier vous-même**, à la main, dans le dossier des agents du projet.*
 
 **Ce que vous fabriquez :** un agent dont le métier est de **relire, et rien d'autre**.
@@ -53,6 +55,8 @@ il ne remplit pas.**
 
 Une fois l'agent en place, **c'est la seule phrase que vous tapez**. Tout le reste est dans son
 fichier — c'est précisément ce qui fait la différence entre un agent et un prompt.
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Relis le fichier AGENTS.md et rends-moi une revue.
@@ -109,6 +113,8 @@ Puis la phrase commune : `sauvegarde et publie mon travail`
 **Lâchez votre agent de revue sur votre propre travail de l'après-midi** : la procédure que vous
 avez écrite au cas pratique de 14h02.
 
+**📋 À COLLER DANS LE PANNEAU**
+
 ```
 Relis le fichier .github/skills/<ma-procédure>/SKILL.md et rends-moi une revue.
 Commence par ce qui va bien, puis ce qui te gêne. Ne modifie rien.
@@ -129,6 +135,8 @@ dont vous ne sauriez rien dire — c'est tout le sens de la voie 1.
 
 Mais si le temps passe, **voici la demande à coller**. Elle est écrite pour que l'agent aille lire
 le format **dans le projet** au lieu de l'inventer :
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Crée un agent de revue dans ce projet. Le format exact des agents est décrit

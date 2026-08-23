@@ -1,5 +1,7 @@
 # Testeur ou QA — votre cas
 
+> **MODE : AGENT** · le sélecteur, en haut du panneau Copilot
+
 **Des cas de test à faire écrire dans un fichier, sans les relire.**
 
 **Avant de coller :** vérifiez que vous êtes bien en **mode Agent**, pas en mode conseil. C'est le
@@ -10,6 +12,8 @@ sélecteur en haut du panneau.
 ## La demande
 
 Copiez le bloc entier, tel quel. **Ne le retapez pas** : il contient un chemin de fichier.
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Génère les tests unitaires de la méthode validerDatePeremption du fichier
@@ -50,6 +54,8 @@ Puis la question du jour, et prenez le temps de vous la poser sérieusement :
 ## Le défi bonus — *si vous avez fini, et seulement après avoir ouvert l'artefact*
 
 Même conversation, une phrase de plus :
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Relis le fichier que tu viens de créer et dis-moi ce que tu changerais.

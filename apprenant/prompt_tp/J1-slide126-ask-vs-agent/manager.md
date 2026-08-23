@@ -1,5 +1,7 @@
 # Manager — votre cas
 
+> **MODE : AGENT** · le sélecteur, en haut du panneau Copilot
+
 **Un compte rendu de dette technique à faire écrire dans un fichier.**
 
 **Votre cas ne part d'aucun fichier existant, et vous n'ouvrirez aucune ligne de code.** Le geste
@@ -14,6 +16,8 @@ sélecteur en haut du panneau.
 ## La demande
 
 Copiez le bloc entier, tel quel.
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Contexte : je pilote la reprise d'un module de gestion de stock en pharmacie,
@@ -40,6 +44,8 @@ Relevez la jauge de consommation.
 
 **Votre geste à vous.** Dans la même conversation, demandez-lui :
 
+**📋 À COLLER DANS LE PANNEAU**
+
 ```
 Montre-moi la liste des fichiers que tu as touchés.
 ```
@@ -61,6 +67,8 @@ Ouvrez ensuite le compte rendu et posez-vous deux questions :
 ## Le défi bonus — *si vous avez fini, et seulement après avoir ouvert l'artefact*
 
 Même conversation, une phrase de plus :
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Relis le fichier que tu viens de créer et dis-moi ce que tu changerais.

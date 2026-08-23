@@ -1,5 +1,7 @@
 # Les prompts des démonstrations
 
+> **Fiche de cadrage — aucun prompt à coller ici.**
+
 **Tout ce qui est tapé à l'écran pendant les démonstrations des deux jours, prêt à copier.**
 
 Ce dossier ne contient **que le texte des demandes** — pas le déroulé, pas les réponses attendues.
@@ -60,3 +62,15 @@ sur une slide à recopier à la main.
 **Ils se collent tels quels.** Les précisions qui ont l'air superflues — le chemin complet d'un
 fichier, le nom d'un serveur, un marqueur à écrire en tête de rapport — sont là parce que sans
 elles le résultat change. C'est vrai pour vous comme pour la démonstration.
+
+## Le bandeau, et les quatre marqueurs
+
+Chaque fiche s'ouvre sur **un bandeau qui dit dans quel mode il faut être**, juste sous le titre.
+
+**Et dans ces fiches, un bloc de code veut dire une seule chose : ça se copie.** Il s'affiche en
+vert, et le marqueur au-dessus dit où ça va — **📋** le panneau · **📝** un fichier du projet ·
+**🌐** le navigateur · **⌨️** le terminal.
+
+**Ce qui ne se copie pas n'est plus dans un bloc** : les raccourcis clavier sont en gras, les
+chemins à l'écran et les sorties système sont en tableau. En séance, on ne cherche plus le prompt
+au milieu du texte — **c'est le seul vert de la page**.

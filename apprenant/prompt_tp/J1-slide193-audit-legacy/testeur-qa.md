@@ -1,11 +1,15 @@
 # Testeur ou QA — ce qui serait testable
 
+> **MODE : AGENT** · le sélecteur, en haut du panneau Copilot
+
 **Votre rôle dans ce cas pratique :** déterminer **ce qui serait testable** dans ce que l'audit a
 trouvé, et comment.
 
 ---
 
 ## ⓪ Une conversation neuve
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 /clear
@@ -19,6 +23,8 @@ qui vient du fichier.
 ## ① Lancer l'audit
 
 Copiez ces **deux lignes** dans le panneau, telles quelles.
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 #GestionStock.java
@@ -44,6 +50,8 @@ terme technique. Ne corrige rien, et ne propose pas de le faire.
 ---
 
 ## ② Lire la fiche depuis votre rôle
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Parmi les défauts de cette fiche, lesquels sais-tu reproduire par un
@@ -103,6 +111,8 @@ Lisez ceux des autres au passage. La question qui vaut le détour est toujours l
 
 Lancez le même audit sur l'autre fichier du projet :
 
+**📋 À COLLER DANS LE PANNEAU**
+
 ```
 #schema_extensions.sql
 Audite ce fichier avec la même grille que le précédent. Puis
@@ -114,6 +124,8 @@ seconde ne peut pas voir, et inversement ?
 
 Vous venez de taper cette demande **une fois**. De quoi auriez-vous besoin pour la relancer la
 semaine prochaine sans la retaper ?
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Fabrique-moi, dans ce projet, de quoi relancer cet audit sans avoir

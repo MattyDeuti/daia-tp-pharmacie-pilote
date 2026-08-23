@@ -1,5 +1,7 @@
 # Démo 6 · La brigade
 
+> **MODE : AGENT** · le sélecteur, en haut du panneau Copilot
+
 *Jour 2, 13h05 → 13h10 · slide 131 · Copilot, en mode agent, session neuve*
 
 > **C'est le texte le plus long des deux jours — vingt-deux lignes.** Il se colle en une fois
@@ -8,6 +10,8 @@
 ---
 
 ## Bloc 1 · la demande, en une fois
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Sur ce projet de gestion de stock pharmacie, constitue une brigade de
@@ -52,6 +56,8 @@ Ne me demande rien.
 
 ### Message 1
 
+**📋 À COLLER DANS LE PANNEAU**
+
 ```
 Sur ce projet de gestion de stock pharmacie, constitue une brigade de
 sous-agents et lance-les EN PARALLÈLE, pas l'un après l'autre.
@@ -72,6 +78,8 @@ le commence par son marqueur.
 ```
 
 ### Message 2
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Quand les trois ont fini, un quatrième lit ces trois rapports et écrit
@@ -94,6 +102,8 @@ tâche**. C'est la réponse concrète à qui vous impose le mode automatique.
 ### Le geste
 
 **Lancez la conversation sur un petit modèle**, puis collez :
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Lance un sous-agent avec GPT-5 mini pour compter le nombre de methodes

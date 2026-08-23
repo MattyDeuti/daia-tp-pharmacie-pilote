@@ -1,5 +1,7 @@
 # Développeur — votre cas
 
+> **MODE : le mode par défaut du panneau.** Vous n'avez rien à changer.
+
 **Le sujet :** la méthode qui enregistre une réception de marchandises dans le code legacy du
 projet — `enregistrerReception`, au début de `src/main/java/GestionStock.java`.
 
@@ -11,6 +13,8 @@ méthode » ne désigne rien.
 ## ① Le prompt sec — *fourni*
 
 Copiez-collez tel quel. **Une phrase, on n'ajoute rien.**
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Refactorise cette méthode d'enregistrement de réception de marchandises.

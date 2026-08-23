@@ -1,5 +1,7 @@
 # Analyste — votre cas
 
+> **MODE : AGENT** · le sélecteur, en haut du panneau Copilot
+
 **Une note de cadrage à faire écrire dans un fichier du projet.**
 
 **Votre cas ne part d'aucun fichier existant.** Vous n'avez rien à ouvrir avant de commencer, et
@@ -13,6 +15,8 @@ sélecteur en haut du panneau.
 ## La demande
 
 Copiez le bloc entier, tel quel.
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Contexte : pharmacie, application de gestion de stock existante. Obligation
@@ -56,6 +60,8 @@ demandant si une règle y est **affirmée** alors qu'elle réapparaît plus bas 
 ## Le défi bonus — *si vous avez fini, et seulement après avoir ouvert l'artefact*
 
 Même conversation, une phrase de plus :
+
+**📋 À COLLER DANS LE PANNEAU**
 
 ```
 Relis le fichier que tu viens de créer et dis-moi ce que tu changerais.
