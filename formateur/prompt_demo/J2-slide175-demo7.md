@@ -32,7 +32,7 @@ http://localhost:8000
 **📋 À COLLER DANS LE PANNEAU**
 
 ```
-prend une capture d'ecran de "C:\Work\daia-tp-pharmacie\web\index.html"
+prend une capture d'ecran de http://localhost:8000
 et décris-moi ce que tu vois.
 ```
 

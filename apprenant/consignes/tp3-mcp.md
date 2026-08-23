@@ -23,7 +23,7 @@ Repli si l'indicateur n'apparaît pas :  Ctrl + Shift + P  →  « MCP »
 ## ② La demande
 
 ```
-prend une capture d'ecran de "C:\Work\daia-tp-pharmacie\web\index.html"
+prend une capture d'ecran de http://localhost:8000
 et dis-moi ce qui ne va pas sur cet écran.
 ```
 

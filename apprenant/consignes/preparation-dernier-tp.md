@@ -94,7 +94,7 @@ Vous devez voir **deux lignes** contenant `daia-tp-pharmacie-pilote`.
 
 | Ce que vous voyez | Ce que ça veut dire | Quoi faire |
 |---|---|---|
-| `fatal: not a git repository` | vous n'êtes pas dans le dossier du projet | `cd C:\Work\daia-tp-pharmacie` puis recommencez |
+| `fatal: not a git repository` | le terminal n'est pas dans le dossier du projet | dans VS Code, vérifiez que l'explorateur affiche bien `DAIA-TP-PHARMACIE-PILOTE` tout en haut, puis rouvrez un terminal |
 | `You are not logged into any GitHub hosts` | l'étape ③ n'est pas faite ou n'a pas abouti | refaites `gh auth login` |
 | `gh` n'est pas reconnu | l'outil manque sur ce poste | **signalez-le au formateur**, ne cherchez pas à l'installer |
 | `git remote -v` affiche autre chose que `-pilote` | votre projet pointe sur le mauvais dépôt | voir la commande ci-dessous |

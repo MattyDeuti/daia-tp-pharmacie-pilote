@@ -2,7 +2,7 @@
   "mcpServers": {
     "filesystem": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-filesystem", "C:\\Work\\daia-tp-pharmacie"],
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "${workspaceFolder}"],
       "disabled": false,
       "autoApprove": []
     },

@@ -1,4 +1,12 @@
-﻿# Met le kit de TP a jour, ou le remet a la version officielle du depot.
+﻿# ⚠ OBSOLETE DEPUIS LE 23/08 — NE PLUS INSTALLER SUR L'IMAGE.
+# Les participants clonent desormais le depot eux-memes dans un dossier du Bureau
+# (apprenant/00-pour_commencer/PREMIERE-ETAPE.md, etape 3). Le chemin C:\Work\daia-tp-pharmacie
+# ci-dessous n'est donc plus celui sur lequel ils travaillent : lancer ce script creerait
+# une SECONDE copie du kit, et c'est exactement la confusion qu'on veut eviter en salle.
+# Mettre a jour = git pull. Repartir de zero = un nouveau dossier, et on reclone.
+# Conserve pour memoire, et parce qu'il redeviendrait utile si l'image etait refaite.
+#
+# Met le kit de TP a jour, ou le remet a la version officielle du depot.
 # Appele par les deux raccourcis du Bureau :
 #
 #   « Mettre a jour le TP »            -> sans option

@@ -32,8 +32,13 @@ vous recopiez ce qui est affiché.
 L'auto-évaluation du début du jour 1 et celle de la clôture. Elles se jouent sur papier, et ce sont
 **les deux moments où ceux qui ne codent pas sont à égalité complète**.
 
-**Si le dossier annoncé n'est pas là, double-cliquez sur « Mettre a jour le TP »** sur le Bureau :
-les prompts évoluent jusqu'au dernier moment.
+**Si le dossier annoncé n'est pas là**, mettez le projet à jour — dans le terminal de VS Code :
+
+```
+git pull
+```
+
+Les prompts évoluent jusqu'au dernier moment.
 
 ## Comment repérer un prompt, dans n'importe quel fichier
 

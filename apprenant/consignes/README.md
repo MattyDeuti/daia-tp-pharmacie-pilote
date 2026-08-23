@@ -47,5 +47,5 @@ fichiers d'ici ne les répètent pas : ils portent ce qui ne se projette pas.
 
 ## Si un prompt a changé depuis l'impression de votre mémoire
 
-Les consignes évoluent jusqu'au dernier moment. **Double-cliquez sur « Mettre a jour le TP »**,
+Les consignes évoluent jusqu'au dernier moment. **Tapez `git pull` dans le terminal de VS Code**,
 sur le Bureau : vous récupérez la dernière version en trois secondes.
