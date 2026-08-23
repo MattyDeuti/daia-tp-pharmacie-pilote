@@ -14,8 +14,9 @@ deux, sinon la fusion à quatre ne démontre plus rien.
 Aucune brique n'exige le métier qui lui a donné son nom, et **les deux dernières ne demandent pas
 une ligne de code**.
 
-**Chacun sur son poste, et sur sa propre branche** — elle porte votre prénom et elle a été créée
-avant la séance. Vous gardez votre preuve vous-même : personne ne la note à votre place.
+**Chacun sur son poste, et sur sa propre branche** — vous n'avez ni à la créer ni à la nommer :
+l'outil s'en charge au moment de publier. Vous gardez votre preuve vous-même : personne ne la
+note à votre place.
 
 **Trois règles pour les quatre briques :**
 
@@ -249,13 +250,15 @@ sauvegarde et publie mon travail
 L'outil se saisit tout seul de la procédure qui est dans le dépôt — **personne ne l'a installée,
 elle était dans le dossier qu'on vous a donné.**
 
-Ce qu'il va faire : une branche dédiée, il vous montre ce qu'il s'apprête à enregistrer, **il
-demande votre validation et il attend**, puis il pousse et propose la mise en commun.
+Ce qu'il va faire : il crée votre branche et s'y place — `travail-<votre identifiant GitHub>` —
+il vous montre ce qu'il s'apprête à enregistrer, **il demande votre validation et il attend**,
+puis il pousse et propose la mise en commun.
 
 **Ce que vous gardez, c'est la validation.** Lisez avant de dire oui : c'est votre porte.
 
-> **L'adresse du dépôt de destination vous sera donnée en séance** : elle dépend des comptes avec
-> lesquels vous vous êtes connectés ce matin.
+> **Le dépôt de destination est déjà celui de votre projet**, vous n'avez aucune adresse à saisir.
+> La seule chose qui doit être vraie, c'est que vous soyez connecté à GitHub — sinon l'outil
+> s'arrête avant d'avoir rien fait et vous dit quoi lancer.
 
 ## ④ Relire, puis fusionner
 

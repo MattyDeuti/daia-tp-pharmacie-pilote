@@ -21,14 +21,16 @@ une ligne de code**.
 | `brique-3-regles-metier.md` | la section 2 de la charte | **2** — en français | la règle tient face au piège, **et il cite `RM-<prénom>`** |
 | `brique-4-gouvernance.md` | la section 3 de la charte | **2** — en français | il **refuse en citant `RG-<prénom>`** |
 
-## Votre branche existe déjà
+## Votre branche, vous n'avez pas à vous en occuper
 
-**Elle porte votre prénom, et elle a été créée avant la séance.** Vous n'en créez aucune, vous n'en
-choisissez pas le nom.
+**Vous n'en créez aucune et vous n'en choisissez pas le nom.** Au moment de publier, l'outil la
+crée pour vous et la nomme `travail-<votre identifiant GitHub>` — donc un nom unique, qui dit à
+qui appartient le travail. Vous n'avez aucune commande à taper.
 
-C'est le garde-fou qui a manqué au pilote : sur neuf personnes, trois seulement avaient réussi à
-publier, et deux s'étaient heurtées à un refus d'accès. Rien de tout ça ne dépend de vous — mais
-**si votre branche n'apparaît pas, dites-le tout de suite**, avant d'avoir écrit quoi que ce soit.
+**La seule chose qui doit être vraie, c'est que vous soyez connecté à GitHub.** Si vous ne l'êtes
+pas, l'outil s'arrêtera avant d'avoir rien fait et vous dira quoi lancer. C'est ce qui a manqué au
+pilote : sur neuf personnes, trois seulement avaient réussi à publier, et deux s'étaient heurtées
+à un refus d'accès. **Si ce message apparaît, dites-le tout de suite** — ça ne dépend pas de vous.
 
 ## Les deux voies, et personne ne corrigera votre choix
 
@@ -59,17 +61,17 @@ sauvegarde et publie mon travail
 **Personne ne tape de commande.** L'outil se saisit tout seul de la procédure qui est dans le
 projet — personne ne l'a installée, elle était dans le dossier qu'on vous a donné.
 
-Ce qu'il va faire : il travaille sur votre branche, il vous montre ce qu'il s'apprête à
+Ce qu'il va faire : il crée votre branche et s'y place, il vous montre ce qu'il s'apprête à
 enregistrer, **il demande votre validation et il attend**, puis il pousse et propose la mise en
 commun.
 
 **Ce que vous gardez, c'est la validation. Lisez avant de dire oui : c'est votre porte.**
 
-> **L'adresse du dépôt de destination vous sera donnée en séance.**
+> **Le dépôt de destination est déjà celui de votre projet.** Vous n'avez aucune adresse à saisir.
 
 ## Ce que vous postez dans le chat
 
-**Le nom de votre branche.** Rien d'autre.
+**Le nom de la branche que l'outil a créée.** Rien d'autre — il commence par `travail-`.
 
 C'est la trace du cas pratique : elle prouve que votre travail est parti, elle se lit en un coup
 d'œil, et elle ne demande à personne de partager son écran.
@@ -85,8 +87,8 @@ dépôt partagé.
 Reprenez ici, dans cet ordre, et rien n'est perdu :
 
 1. **Votre brique** est celle qui vous a été attribuée — redemandez-la dans le chat si vous l'avez ratée
-2. **Votre branche** porte votre prénom, elle est déjà là
+2. **Votre branche** n'est pas votre affaire : l'outil la crée au moment de publier
 3. **Ouvrez le fichier de votre brique** dans ce dossier : il contient le sujet, la demande et la preuve
-4. **Publiez** avec la phrase ci-dessus, et postez le nom de votre branche
+4. **Publiez** avec la phrase ci-dessus, et postez le nom de la branche qu'il a créée
 
 Vous n'avez besoin de rien de ce qui s'est dit pendant votre absence.

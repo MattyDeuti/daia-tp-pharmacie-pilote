@@ -31,8 +31,14 @@ aux moments clés. L'humain doit toujours pouvoir comprendre et reprendre la mai
 
 ## Déroulé type (à adapter à la demande)
 1. **Situer** : `git status` → dire sur quelle branche on est et ce qui a changé.
-2. **Isoler** : si on est sur `main`, créer une branche dédiée au nom parlant
-   (`git switch -c amelioration-xxx`) avant toute modification.
+2. **Isoler** : si on est sur `main`, créer la branche de travail avant toute modification.
+   **Son nom ne s'invente pas, il se déduit de l'identité GitHub** — c'est ce qui garantit
+   qu'il est unique et qu'on sait à qui appartient la branche.
+   - Récupérer l'identité : `gh api user --jq .login`, puis `git switch -c travail-<login>`.
+   - **Si cette commande échoue, l'utilisateur n'est pas connecté : arrête-toi là et dis-lui
+     de lancer `gh auth login`.** N'invente jamais un nom de remplacement : une branche mal
+     nommée ne se retrouve plus, et le push échouera de toute façon.
+   - Si on est déjà sur une branche autre que `main`, y rester : elle est là pour une raison.
 3. **Préparer** : `git add <fichiers>` en expliquant « on remplit le carton de ce qui ira
    dans l'instantané ».
 4. **Montrer avant de sceller** : `git diff --staged` + résumé clair → **demander la validation**.
