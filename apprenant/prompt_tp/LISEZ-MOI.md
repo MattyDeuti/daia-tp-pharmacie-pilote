@@ -6,7 +6,7 @@
 pratique, en haut à droite, sous la durée : `LES PROMPTS À COPIER`. Vous n'avez rien à deviner —
 vous recopiez ce qui est affiché.
 
-> **Le nom se lit en deux parties** : `J1-slide169-canari` = jour 1, slide 169, le canari. Le
+> **Le nom se lit en deux parties** : `J1-slide170-canari` = jour 1, slide 170, le canari. Le
 > numéro est celui de la slide qui annonce le cas pratique dans le support de la journée, et il
 > est vérifié à chaque livraison — si un jour il ne colle plus, c'est un défaut, pas une
 > approximation. Le nom du dossier est toujours affiché sur la slide : vous n'avez rien à deviner.
@@ -17,8 +17,8 @@ vous recopiez ce qui est affiché.
 |---|---|---|---|
 | `J1-slide077-trois-facons-de-demander/` | Un seul sujet, trois façons de le demander | 25 min | le coût des trois approches |
 | `J1-slide126-ask-vs-agent/` | La même demande, deux modes, et ce que chacun coûte | 20 min | vos deux coûts, et leur rapport |
-| `J1-slide169-canari/` | Écrivez une règle, et prouvez qu'elle est lue | 25 min | votre formule, et si elle est passée |
-| `J1-slide193-audit-legacy/` | Auditer la base existante, chacun depuis son rôle | 45 min | vos défauts trouvés, et combien tenaient à l'autre fichier |
+| `J1-slide170-canari/` | Écrivez une règle, et prouvez qu'elle est lue | 25 min | votre formule, et si elle est passée |
+| `J1-slide194-audit-legacy/` | Auditer la base existante, chacun depuis son rôle | 45 min | vos défauts trouvés, et combien tenaient à l'autre fichier |
 
 ### Jour 2
 

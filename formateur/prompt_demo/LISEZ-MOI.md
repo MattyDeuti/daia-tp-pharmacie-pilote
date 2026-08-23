@@ -8,7 +8,7 @@ Ce dossier ne contient **que le texte des demandes** — pas le déroulé, pas l
 Il sert pendant la séance, et il sert après : si vous voulez rejouer une démonstration chez vous,
 la demande exacte est ici.
 
-> 🔄 **Numéros de slide remis à jour le 21/08** sur les decks de journée v2 (jour 1 : 206 slides ·
+> 🔄 **Numéros de slide remis à jour le 23/08** sur les decks de journée v2 (jour 1 : 208 slides ·
 > jour 2 : 295). Les horaires ci-dessous sont ceux du conducteur v1 et **ne valent plus** : le
 > déroulé v2 a rebâti le minutage. Ils seront repris avec le conducteur v2.
 
@@ -17,7 +17,7 @@ la demande exacte est ici.
 | Slide | La démonstration | Le fichier |
 |---|---|---|
 | **J1 · 72** | Un besoin, deux outils | `J1-slide072-demo1.md` |
-| **J1 · 174** | Le legacy sous audit | `J1-slide174-demo3.md` |
+| **J1 · 175** | Le legacy sous audit | `J1-slide175-demo3.md` |
 | **J2 · 29** | Une spécification de bout en bout | `J2-slide029-demo4.md` |
 | **J2 · 95** | Mémoire et coûts, en direct | `J2-slide095-demo5.md` |
 | **J2 · 131** | La brigade — *cold open, lancé sans un mot* | `J2-slide131-demo6.md` |
