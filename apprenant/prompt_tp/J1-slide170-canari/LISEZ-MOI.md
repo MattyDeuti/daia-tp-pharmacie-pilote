@@ -19,7 +19,7 @@ qu'elle a été chargée — sans jamais demander à l'agent s'il l'a lue.
 Et c'est volontaire : **la règle est la vôtre.** Personne ne vous la donne, parce que c'est
 justement en la choisissant que vous comprenez ce qu'une charte peut porter.
 
-## Les cinq gestes
+## Les six gestes
 
 | | Quoi |
 |---|---|
@@ -28,6 +28,28 @@ justement en la choisissant que vous comprenez ce qu'une charte peut porter.
 | **3** | **Sauvegardez le fichier**, puis rechargez la fenêtre de l'éditeur |
 | **4** | Ouvrez une **conversation neuve** et posez une question quelconque |
 | **5** | Postez dans le chat **votre formule, et si elle est ressortie ou non** |
+| **6** | **Une fois la trace postée, remettez le fichier d'aplomb** — voir juste en dessous |
+
+## ⑥ Remettre `AGENTS.md` d'aplomb, et pourquoi ce n'est pas du rangement
+
+**Vous venez de vider la charte du projet. Il faut la récupérer**, et c'est une ligne :
+
+**⌨️ À TAPER DANS LE TERMINAL**
+
+```
+git checkout -- AGENTS.md
+```
+
+Le fichier retrouve les cinq sections qu'il avait avant que vous le vidiez. Votre règle, elle,
+disparaît — c'est normal, l'exercice est fini et sa trace est dans le chat.
+
+**Pourquoi ça compte pour demain :** le dernier cas pratique du jour 2 fait écrire dans la
+**section 2** et la **section 3** de cette charte. Sans ce geste, ces sections n'existent plus, et
+deux personnes sur quatre travailleront dans un fichier vide.
+
+> **Ce que vous venez d'apprendre en une ligne** : un fichier suivi par le projet se récupère
+> toujours. `git checkout -- <fichier>` annule vos modifications sur **ce fichier-là**, et
+> uniquement lui. Rien d'autre n'est touché.
 
 ## Sur la formule — deux conseils, et le second compte
 
