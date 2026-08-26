@@ -58,7 +58,10 @@ On va procéder en trois temps, et tu t'arrêtes après chacun :
 
 Fais le temps 1, et lui seul. Écris les exigences dans
 spec/exigences.md : ce que la fonctionnalité doit faire, numérotées,
-avec pour chacune ses critères d'acceptation.
+avec pour chacune ses critères d'acceptation au format EARS —
+QUAND <événement>, SI <condition> ALORS, TANT QUE <état>,
+LÀ OÙ <option>, ou une règle permanente sans condition — et chacun
+rédigé sous la forme « le système DOIT ... ».
 N'écris aucun code. Ne crée aucun autre fichier. Arrête-toi là.
 Quand une information te manque, écris [à compléter] plutôt que de
 choisir à ma place.
@@ -74,6 +77,10 @@ choisir à ma place.
   renvoyer à rien.
 - **« avec ses critères d'acceptation »** est la moitié qu'on oublie. Une exigence sans critère ne
   se recette pas.
+- **« au format EARS »**, et les cinq patrons sont recopiés juste derrière : sans eux, il rend des
+  critères en prose — *« le stock doit rester fiable »* — qui ne se testent pas et que deux
+  personnes lisent différemment. **Les patrons sont écrits en toutes lettres dans le prompt**
+  exprès : on ne parie pas sur le fait que le modèle connaisse l'acronyme.
 - **« N'écris aucun code. Arrête-toi là. »** — **c'est le point de rupture le plus probable de ce
   cas pratique.** Surveillez-le : s'il commence à écrire du Java, arrêtez-le et redemandez le
   document seul. **Notez-le**, c'est le sujet du module, pas un incident.
@@ -128,9 +135,12 @@ pas répondu : pose tes questions, puis attends.
 
 Une fois que j'aurai répondu, tu feras le temps 1 et lui seul :
 écrire les exigences dans spec/exigences.md, numérotées, avec pour
-chacune ses critères d'acceptation. N'écris aucun code, ne crée aucun
-autre fichier. Quand une information te manque, écris [à compléter]
-plutôt que de choisir à ma place.
+chacune ses critères d'acceptation au format EARS — QUAND <événement>,
+SI <condition> ALORS, TANT QUE <état>, LÀ OÙ <option>, ou une règle
+permanente sans condition — et chacun rédigé sous la forme
+« le système DOIT ... ». N'écris aucun code, ne crée aucun autre
+fichier. Quand une information te manque, écris [à compléter] plutôt
+que de choisir à ma place.
 ```
 
 **Le besoin et les trois temps ne bougent pas d'un mot.** Ce qui change, c'est la fin :
@@ -180,14 +190,37 @@ deviendra jamais une tâche, ni du code, ni un engagement.
 
 ### 🚪 La porte 1 — et ce n'est pas un bouton
 
-**Une seule question, et elle se répond en une minute :**
+**Deux questions, et elles se répondent en deux minutes.**
+
+#### ① D'où ça vient ?
 
 > **Est-ce que tout ce qui est écrit vient de ce que vous avez répondu ?**
 
 Tout ce qui n'en vient pas est une décision qu'il a reprise à son compte. Elle descend dans
 « Suggestions, hors périmètre », ou elle disparaît.
 
-**Comparez aussi les deux nombres** — ceux du premier jet, et ceux de maintenant.
+#### ② Est-ce que ça se teste ?
+
+> **Chaque critère commence-t-il par QUAND, SI, TANT QUE ou LÀ OÙ — ou bien est-il une règle
+> permanente ?**
+
+**Prenez-en trois au hasard.** Un critère qui ne rentre dans aucun des cinq patrons est une
+intention, pas un critère : *« le stock doit rester fiable »* ne se transforme en aucun cas de
+test. Faites-le réécrire :
+
+**📋 À COLLER DANS LE PANNEAU**
+
+```
+Reprends spec/exigences.md. Les critères qui ne suivent aucun des cinq
+patrons EARS, réécris-les au format. Si l'un d'eux ne peut pas
+s'écrire ainsi parce qu'il me manque une information, ne l'invente
+pas : mets [à compléter].
+```
+
+> 🎯 **Le test le plus simple d'un critère, et il ne demande aucun outil :** faites-en lire un à
+> voix haute par deux personnes différentes, et demandez si elles comprennent la même chose.
+
+**Comparez enfin les deux nombres** — ceux du premier jet, et ceux de maintenant.
 
 **📋 À COLLER DANS LE PANNEAU**
 
