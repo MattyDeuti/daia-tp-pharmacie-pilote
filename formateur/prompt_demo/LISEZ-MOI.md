@@ -20,10 +20,10 @@ la demande exacte est ici.
 | **J1 · 175** | Le legacy sous audit | `J1-slide175-demo3.md` |
 | **J2 · 29** | Une spécification de bout en bout | `J2-slide029-demo4.md` |
 | **J2 · 95** | Mémoire et coûts, en direct | `J2-slide095-demo5.md` |
-| **J2 · 131** | La brigade — *cold open, lancé sans un mot* | `J2-slide131-demo6.md` |
-| **J2 · 161** | Un déclencheur, chez Copilot — *bonus* | `J2-slide161-bonus-hook.md` |
-| **J2 · 175** | Brancher un accès, et le prouver | `J2-slide175-demo7.md` |
-| **J2 · 227** | **L'index, montré pour de vrai** | `J2-slide227-demo9.md` |
+| **J2 · 136** | La brigade — *cold open, lancé sans un mot* | `J2-slide136-demo6.md` |
+| **J2 · 166** | Un déclencheur, chez Copilot — *bonus* | `J2-slide166-bonus-hook.md` |
+| **J2 · 180** | Brancher un accès, et le prouver | `J2-slide180-demo7.md` |
+| **J2 · 232** | **L'index, montré pour de vrai** | `J2-slide232-demo9.md` |
 
 **Le bonus du déclencheur n'est pas au conducteur.** C'est deux minutes, à sortir seulement si la
 brique 4 appelle une démonstration. Il est livré désarmé et ne coûte aucun crédit.
@@ -34,10 +34,10 @@ remontés au module 6). Rien n'est supprimé.
 
 ## La dernière n'a pas la même préparation que les autres
 
-**`J2-slide227-demo9.md` demande deux gestes avant d'ouvrir la bouche** : armer le fichier, et
+**`J2-slide232-demo9.md` demande deux gestes avant d'ouvrir la bouche** : armer le fichier, et
 laisser des modifications non publiées dans le dépôt. Les deux sont expliqués dans
 `formateur/demo-index/LISEZ-MOI.md`. Le déroulé minuté, lui, vit **hors du dépôt**, côté
-formateur : `Big Training/demos/J2-slide227-DEMO09-lindex-montre-pour-de-vrai.md`.
+formateur : `Big Training/demos/J2-slide232-DEMO09-lindex-montre-pour-de-vrai.md`.
 
 C'est aussi la seule qui tourne sur un **autre modèle** — Gemini 3.5 Flash, avec Sonnet en repli.
 

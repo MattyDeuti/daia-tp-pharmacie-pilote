@@ -2,7 +2,7 @@
 
 **Ce dossier n'est pas un exercice.** Vous n'avez rien à y faire et rien à y écrire. Il contient
 le `AGENTS.md` que le formateur projette pendant la démonstration de fin de journée du jour 2,
-**DÉMO 09 · L'index, montré pour de vrai** (jour 2, slide 227).
+**DÉMO 09 · L'index, montré pour de vrai** (jour 2, slide 232).
 
 Vous pouvez l'ouvrir et le lire — c'est même le meilleur modèle du kit si vous voulez écrire le
 vôtre en rentrant. Il tient en moins de deux cents lignes, et c'est la seule chose qu'il faut
@@ -74,11 +74,11 @@ remontant le fil, dans cet ordre, pendant le temps 3.
 ### Le déroulé
 
 **Il n'est pas dans ce dépôt** : les fiches de déroulé vivent côté formateur, dans
-`Big Training/demos/`. Celle-ci est `J2-slide227-DEMO09-lindex-montre-pour-de-vrai.md`, avec les
+`Big Training/demos/`. Celle-ci est `J2-slide232-DEMO09-lindex-montre-pour-de-vrai.md`, avec les
 six temps minutés, ce qu'on montre, les cinq plans B et la liste de contrôle du drill.
 
 **Les demandes seules, prêtes à coller, sont dans le dépôt** :
-`formateur/prompt_demo/J2-slide227-demo9.md`.
+`formateur/prompt_demo/J2-slide232-demo9.md`.
 
 ### Ce que la démonstration coûte en préparation
 
