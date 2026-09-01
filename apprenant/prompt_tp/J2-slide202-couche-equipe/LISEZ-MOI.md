@@ -6,15 +6,17 @@
 pourtant chacun travaille sur son poste, avec sa propre branche. Copilot, plus le navigateur pour
 la mise en commun.*
 
-**Votre brique vous est attribuée en séance. Vous n'avez rien à choisir.**
+**Vous choisissez votre brique, et vous choisissez ce que vous mettez dedans.** Prenez celle qui
+vous servira lundi matin.
 
-C'est délibéré : les quatre doivent être prises, et surtout les sections 2 et 3 de la charte
-doivent être remplies toutes les deux — sinon la fusion à quatre ne démontre plus rien.
+Chaque fichier de ce dossier propose un sujet tout prêt. **Ce n'est pas une consigne, c'est un
+filet** : si rien ne vous vient en trente secondes, prenez celui qui est écrit et avancez. Sinon,
+le sujet est le vôtre — votre dépôt, vos contraintes, ce qui vous encombre vraiment.
 
 Aucune brique n'exige le métier qui lui a donné son nom, et **les deux dernières ne demandent pas
 une ligne de code**.
 
-| Fichier | La brique | La voie | Sa preuve |
+| Le fichier à ouvrir | La brique | La voie | Sa preuve |
 |---|---|---|---|
 | `brique-1-agent-de-revue.md` | un relecteur en lecture seule | **1** — vous voyez les champs | il relit `AGENTS.md` et **ne l'a pas modifié** |
 | `brique-2-procedure-de-tests.md` | une skill qui génère les tests | **2** — en français | **le canari** dans le fichier produit |
@@ -78,15 +80,15 @@ d'œil, et elle ne demande à personne de partager son écran.
 
 ## Le point de synchronisation
 
-**Tant que les quatre briques ne sont pas publiées, personne ne peut fusionner.** C'est la première
-fois de ces deux jours que vous dépendez les uns des autres — et c'est exactement à ça que sert un
-dépôt partagé.
+**Tant que tout le monde n'a pas publié, personne ne peut fusionner.** C'est la première fois de
+ces deux jours que vous dépendez les uns des autres — et c'est exactement à ça que sert un dépôt
+partagé.
 
 ## Si vous avez décroché dix minutes
 
 Reprenez ici, dans cet ordre, et rien n'est perdu :
 
-1. **Votre brique** est celle qui vous a été attribuée — redemandez-la dans le chat si vous l'avez ratée
+1. **Choisissez une brique** dans le tableau ci-dessus — les deux dernières sont les plus rapides à reprendre, elles ne demandent pas une ligne de code
 2. **Votre branche** n'est pas votre affaire : l'outil la crée au moment de publier
 3. **Ouvrez le fichier de votre brique** dans ce dossier : il contient le sujet, la demande et la preuve
 4. **Publiez** avec la phrase ci-dessus, et postez le nom de la branche qu'il a créée

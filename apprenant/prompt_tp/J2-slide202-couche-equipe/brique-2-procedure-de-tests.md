@@ -50,7 +50,10 @@ CANARI-<mon prénom>.
 **Tout est là sauf deux lignes.** Ce qui est imposé vous est donné — vous n'avez à inventer que ce
 que personne ne peut écrire à votre place.
 
-### Ce qui est imposé, et sur quoi vous n'avez pas le choix
+### Ce qui reste imposé, et pourquoi
+
+**Ce que la procédure fait est à vous** — générer des tests n'est qu'une proposition, et n'importe
+quelle tâche que vous répétez fait l'affaire. Ce qui suit, en revanche, ne se négocie pas.
 
 | | |
 |---|---|

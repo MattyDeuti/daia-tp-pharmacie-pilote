@@ -32,12 +32,15 @@ Termine-la exactement par : (règle métier RM-<mon prénom>)
 N'écris nulle part ailleurs que dans la section 2.
 ```
 
-### Ce qui est imposé, et sur quoi vous n'avez pas le choix
+### Un sujet tout prêt, si rien ne vous vient
+
+**Le sujet est le vôtre.** Celui-ci est là pour que personne ne reste bloqué trente secondes de
+plus — prenez-le tel quel, ou remplacez-le par une règle de votre propre métier.
 
 | | |
 |---|---|
 | **La section** | la **2**, et rien d'autre du fichier |
-| **Le sujet** | la **traçabilité des produits classés stupéfiants** |
+| **Le sujet proposé** | la **traçabilité des produits classés stupéfiants** |
 | **Ce que la règle doit exiger** | qu'**aucune écriture** concernant un stupéfiant ne se fasse **sans journal** |
 | **Ce que le journal doit nommer** | **qui, quand, quelle quantité, pour quelle ordonnance** |
 | **Votre marqueur** | `RM-<votre prénom>` à la fin de la règle |
@@ -45,8 +48,11 @@ N'écris nulle part ailleurs que dans la section 2.
 
 ### Ce que vous écrivez vous-même, et c'est là que tout se joue
 
-**La formulation.** Le sujet vous est donné ; **la phrase qui le rend applicable est votre métier**,
-et c'est la seule chose que personne dans cette salle ne peut écrire à votre place.
+**La formulation.** Quel que soit le sujet, **la phrase qui le rend applicable est votre métier**, et
+c'est la seule chose que personne dans cette salle ne peut écrire à votre place.
+
+> 🎯 **Si vous avez pris votre propre sujet, écrivez aussi la demande qui devrait s'y heurter.**
+> C'est votre piège, et c'est le seul test qui dise si votre règle est claire ou discutable.
 
 > **Une règle n'est pas un souhait.** *« Le stock doit rester fiable »* n'est pas une règle : deux
 > personnes n'en feront pas la même chose. Une règle dit **ce qui doit être fait** ou **ce qui est

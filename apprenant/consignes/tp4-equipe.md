@@ -3,13 +3,16 @@
 > **L'objectif et les étapes sont à l'écran.** Ce fichier ne porte que ce qui ne s'y projette
 > pas : le prompt de votre brique, votre preuve, et quoi faire si ça coince.
 >
-> **Une brique chacun. Pas la même.** À la fin, elles atterrissent toutes dans le même dépôt.
+> **Une brique chacun, celle que vous voulez, sur votre sujet.** À la fin, elles atterrissent
+> toutes dans le même dépôt.
 
 ## Comment vous êtes organisés
 
-**Une brique chacun, et elle vous est attribuée en séance.** Vous n'avez rien à choisir : les
-quatre doivent être prises, et les sections 2 et 3 de la charte doivent être remplies toutes les
-deux, sinon la fusion à quatre ne démontre plus rien.
+**Une brique chacun, et c'est vous qui la choisissez.** Prenez celle qui vous servira lundi matin.
+
+**Le sujet aussi est le vôtre** : votre dépôt, vos contraintes, ce qui vous encombre vraiment.
+Chaque fichier de brique propose un sujet tout prêt — ce n'est pas une consigne, c'est un filet :
+si rien ne vous vient en trente secondes, prenez celui qui est écrit et avancez.
 
 Aucune brique n'exige le métier qui lui a donné son nom, et **les deux dernières ne demandent pas
 une ligne de code**.
@@ -23,8 +26,11 @@ note à votre place.
 1. **Donnez-lui un exemple** de ce que vous appelez un bon résultat. Sans exemple, il vous rendra
    la convention générique d'Internet, pas la vôtre.
 2. **On ne corrige pas le code du projet.** Ce n'est pas l'exercice.
-3. **Une brique, pas deux.** Si vous finissez tôt, vous ne prenez pas celle du voisin : vous
+3. **Une brique, pas deux.** Si vous finissez tôt, vous n'en commencez pas une seconde : vous
    passez au défi bonus, en bas de cette page.
+4. **Le périmètre et le marqueur ne se négocient pas.** Dites-lui où il a le droit d'écrire, et
+   faites-lui signer votre prénom. Sans le premier vous écrasez le travail du voisin ; sans le
+   second votre preuve n'est pas la vôtre.
 
 ---
 
@@ -49,7 +55,7 @@ Vous fabriquez un agent dont le métier est de relire, et **rien d'autre**.
 >
 > **Si vous calez, demandez-le à l'agent dans le chat** — mais essayez d'abord. Cinq minutes à
 > chercher un champ valent mieux qu'un fichier correct dont vous ne sauriez rien dire.
-> *(La demande toute prête est à la fin de votre fiche, dans `apprenant/prompt_tp/J2-slide219-couche-equipe/`.)*
+> *(La demande toute prête est à la fin de votre fiche, dans `apprenant/prompt_tp/J2-slide202-couche-equipe/`.)*
 
 Il doit porter **deux choses**, et ce sont elles qu'on regardera.
 
@@ -118,7 +124,7 @@ taperiez dans deux mois**, sans y penser et sans connaître le nom du fichier.
 > 14h02, vous avez déjà `jeu-de-tests` dans ce projet : un nom distinct évite de l'écraser, **et
 > vous saurez laquelle des deux a servi.**
 
-> 🆘 **La demande complète est à la fin de votre fiche**, dans `apprenant/prompt_tp/J2-slide219-couche-equipe/`. N'y allez
+> 🆘 **La demande complète est à la fin de votre fiche**, dans `apprenant/prompt_tp/J2-slide202-couche-equipe/`. N'y allez
 > qu'après avoir réécrit votre description une fois.
 
 Puis, pour la déclencher — **sans jamais la nommer, et sans rien ajouter** :
@@ -183,7 +189,7 @@ pas que c'est **la vôtre** qui a agi. **Votre formule maison, si.**
 ⛔ **Ce qui ne compte pas :** lui demander s'il a bien lu la charte. On ne prend pas un agent à
 témoin de sa propre obéissance.
 
-> 🆘 **Une règle toute rédigée est à la fin de votre fiche**, dans `apprenant/prompt_tp/J2-slide219-couche-equipe/`. N'y
+> 🆘 **Une règle toute rédigée est à la fin de votre fiche**, dans `apprenant/prompt_tp/J2-slide202-couche-equipe/`. N'y
 > allez qu'après un essai.
 
 ---
@@ -273,7 +279,7 @@ Puis vous fusionnez.
 
 ## ⑤ Récupérer
 
-À la fin, les quatre briques sont sur le serveur — et **aucune copie ouverte dans cette salle ne
+À la fin, toutes les briques sont sur le serveur — et **aucune copie ouverte dans cette salle ne
 le sait encore**. C'est le dernier geste de la formation, et il se fait ensemble.
 
 ---

@@ -27,21 +27,26 @@ Termine-le exactement par : (règle maison RG-<mon prénom>)
 N'écris nulle part ailleurs que dans la section 3.
 ```
 
-### Ce qui est imposé, et sur quoi vous n'avez pas le choix
+### Un sujet tout prêt, si rien ne vous vient
+
+**Le sujet est le vôtre.** Celui-ci est là pour que personne ne reste bloqué trente secondes de
+plus — prenez-le tel quel, ou remplacez-le par un interdit qui compte vraiment chez vous.
 
 | | |
 |---|---|
 | **La section** | la **3**, et rien d'autre du fichier |
-| **Le sujet** | l'agent ne doit **jamais** créer de fichier à la racine du projet, **ni** restructurer l'arborescence de sa propre initiative |
+| **Le sujet proposé** | l'agent ne doit **jamais** créer de fichier à la racine du projet, **ni** restructurer l'arborescence de sa propre initiative |
 | **Ce que l'interdit doit exiger** | qu'il **propose d'abord** — **et qu'il attende votre réponse** |
 | **Votre marqueur** | `RG-<votre prénom>` à la fin de l'interdit |
 | **Le garde-fou** | *« n'écris nulle part ailleurs que dans la section 3 »* — sans lui, il réécrit la charte entière et les quatre briques se marchent dessus |
 
 ### Ce que vous écrivez vous-même, et c'est là que tout se joue
 
-**La formulation.** Le sujet vous est donné ; **la phrase qui transforme une préférence en porte
-est votre métier**, et c'est la seule chose que personne dans cette salle ne peut écrire à votre
-place.
+**La formulation.** Quel que soit le sujet, **la phrase qui transforme une préférence en porte est
+votre métier**, et c'est la seule chose que personne dans cette salle ne peut écrire à votre place.
+
+> 🎯 **Si vous avez pris votre propre sujet, écrivez aussi la demande qui devrait s'y heurter.**
+> C'est votre piège. Un interdit qui se discute n'est pas un interdit.
 
 ### Trois indications, avant de vous lancer
 
