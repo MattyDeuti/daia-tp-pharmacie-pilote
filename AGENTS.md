@@ -35,7 +35,6 @@ volontairement imparfait : il sert de terrain d'exercice, on ne le corrige pas �
   quelle quantité, et pour quelle ordonnance. Aucune écriture sans journal.
 
 *(Vos règles ci-dessous)*
-
 -
 
 ---
@@ -52,7 +51,7 @@ volontairement imparfait : il sert de terrain d'exercice, on ne le corrige pas �
 
 *(Vos règles ci-dessous)*
 
--
+- L'INTERDIT : Il est strictement interdit d'autoriser la suppression définitive (hard delete) d'une référence de médicament ou d'un mouvement de stock en base de données, la suppression logique avec archivage étant l'unique méthode tolérée pour garantir l'historique réglementaire (règle maison RG-Brian)
 
 ---
 
