@@ -6,6 +6,35 @@
 pourtant chacun travaille sur son poste, avec sa propre branche. Copilot, plus le navigateur pour
 la mise en commun.*
 
+## Avant tout : le projet sur votre poste
+
+**Si le projet n'est pas encore sur votre machine** — ouvrez VS Code, `Terminal` → `Nouveau
+terminal`, et collez **cette ligne**. Peu importe d'où vous la tapez, le chemin est absolu.
+
+```
+git clone https://github.com/MattyDeuti/daia-tp-pharmacie-pilote.git C:\Work\daia-tp-pharmacie-pilote; code C:\Work\daia-tp-pharmacie-pilote
+```
+
+Elle récupère le projet **et** ouvre VS Code au bon endroit — vous n'avez aucun dossier à créer,
+et aucun `Ouvrir le dossier…` à faire.
+
+**Vous êtes au bon endroit quand** l'explorateur, à gauche, affiche **`DAIA-TP-PHARMACIE-PILOTE`**
+tout en haut — et juste en dessous, sans rien déplier : `.github`, `.vscode`, `apprenant`, `src`,
+et un fichier `AGENTS.md`.
+
+> **Si le projet est déjà là**, une seule ligne suffit, dans le dossier du projet : `git pull`.
+>
+> **Si le terminal répond `code n'est pas reconnu`** : le clone a quand même marché. Faites
+> `Fichier` → `Ouvrir le dossier…` → `C:\Work\daia-tp-pharmacie-pilote`.
+>
+> **Si `C:\Work` est refusé** (`Access is denied`), remplacez les deux `C:\Work` par `$HOME`.
+
+> ⚠️ **Le clone ne demande aucun compte** — le projet est public en lecture. C'est **publier** qui
+> en demande un. Si `gh auth login` n'est pas encore fait, c'est dans
+> `apprenant/consignes/preparation-dernier-tp.md`, et ça se fait **avant** le cas pratique.
+
+---
+
 **Vous choisissez votre brique, et vous choisissez ce que vous mettez dedans.** Prenez celle qui
 vous servira lundi matin.
 
