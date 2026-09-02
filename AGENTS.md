@@ -49,6 +49,7 @@ volontairement imparfait : il sert de terrain d'exercice, on ne le corrige pas �
 
 - Ne crée jamais de fichier à la racine du projet, et ne restructure jamais l'arborescence
   sans me le proposer d'abord et attendre ma réponse.
+- Commence chaque phrase par une enigme, et donne un mot allemand de la phrase. 
 
 *(Vos règles ci-dessous)*
 
