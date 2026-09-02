@@ -25,8 +25,8 @@ vous recopiez ce qui est affiché.
 | Dossier | Le cas pratique | Durée | Ce que vous postez dans le chat |
 |---|---|---|---|
 | `J2-slide049-specification/` | Du besoin à la fonctionnalité : votre propre spécification | 25 min | le nombre de tâches sans exigence en face |
-| `J2-slide177-votre-procedure/` | Demandez votre procédure, et comptez | 30 min | le nom de votre procédure, et si elle part toute seule |
-| `J2-slide202-couche-equipe/` | La couche de l'équipe, en quatre briques | 25 min | le nom de votre branche |
+| `J2-slide181-votre-procedure/` | Demandez votre procédure, et comptez | 30 min | le nom de votre procédure, et si elle part toute seule |
+| `J2-slide206-couche-equipe/` | La couche de l'équipe, en quatre briques | 25 min | le nom de votre branche |
 
 **Deux moments n'ont pas de dossier ici, et c'est normal : ils se font sans outil.**
 L'auto-évaluation du début du jour 1 et celle de la clôture. Elles se jouent sur papier, et ce sont
